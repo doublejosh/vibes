@@ -1,0 +1,133 @@
+{
+  "presentation": {
+    "title": "Vibes Presentation",
+    "subtitle": "A 20-Slide Journey",
+    "author": "",
+    "date": "August 2025",
+    "totalSlides": 20
+  },
+  "slides": [
+    {
+      "id": 1,
+      "type": "title",
+      "title": "Welcome to Vibes",
+      "subtitle": "A 20-Slide Presentation",
+      "content": ""
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "Slide 2",
+      "content": "Content for slide 2 goes here."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "title": "Slide 3",
+      "content": "Content for slide 3 goes here."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "Slide 4",
+      "content": "Content for slide 4 goes here."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "title": "Slide 5",
+      "content": "Content for slide 5 goes here."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "title": "Slide 6",
+      "content": "Content for slide 6 goes here."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "Slide 7",
+      "content": "Content for slide 7 goes here."
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "title": "Slide 8",
+      "content": "Content for slide 8 goes here."
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "Slide 9",
+      "content": "Content for slide 9 goes here."
+    },
+    {
+      "id": 10,
+      "type": "content",
+      "title": "Slide 10",
+      "content": "Content for slide 10 goes here."
+    },
+    {
+      "id": 11,
+      "type": "content",
+      "title": "Slide 11",
+      "content": "Content for slide 11 goes here."
+    },
+    {
+      "id": 12,
+      "type": "content",
+      "title": "Slide 12",
+      "content": "Content for slide 12 goes here."
+    },
+    {
+      "id": 13,
+      "type": "content",
+      "title": "Slide 13",
+      "content": "Content for slide 13 goes here."
+    },
+    {
+      "id": 14,
+      "type": "content",
+      "title": "Slide 14",
+      "content": "Content for slide 14 goes here."
+    },
+    {
+      "id": 15,
+      "type": "content",
+      "title": "Slide 15",
+      "content": "Content for slide 15 goes here."
+    },
+    {
+      "id": 16,
+      "type": "content",
+      "title": "Slide 16",
+      "content": "Content for slide 16 goes here."
+    },
+    {
+      "id": 17,
+      "type": "content",
+      "title": "Slide 17",
+      "content": "Content for slide 17 goes here."
+    },
+    {
+      "id": 18,
+      "type": "content",
+      "title": "Slide 18",
+      "content": "Content for slide 18 goes here."
+    },
+    {
+      "id": 19,
+      "type": "content",
+      "title": "Slide 19",
+      "content": "Content for slide 19 goes here."
+    },
+    {
+      "id": 20,
+      "type": "end",
+      "title": "Thank You",
+      "subtitle": "Questions?",
+      "content": ""
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibes Presentation</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slides.css">
+</head>
+<body>
+    <div id="presentation-container">
+        <!-- Navigation -->
+        <nav id="presentation-nav">
+            <button id="prev-slide" aria-label="Previous slide">‹</button>
+            <span id="slide-counter">1 / 20</span>
+            <button id="next-slide" aria-label="Next slide">›</button>
+        </nav>
+
+        <!-- Main slide container -->
+        <main id="slide-container">
+            <div id="current-slide" class="slide">
+                <!-- Slides will be dynamically loaded here -->
+            </div>
+        </main>
+
+        <!-- Progress bar -->
+        <div id="progress-bar">
+            <div id="progress-fill"></div>
+        </div>
+    </div>
+
+    <!-- Loading indicator -->
+    <div id="loading" class="hidden">
+        Loading presentation...
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts/presentation.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script>
+        // Initialize presentation when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            PresentationApp.init();
+        });
+    </script>
+</body>
+</html>

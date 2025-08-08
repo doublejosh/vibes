@@ -1,0 +1,22 @@
+{
+  "name": "vibes-presentation",
+  "version": "1.0.0",
+  "description": "A 20-slide presentation project",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 1234",
+    "dev": "python3 -m http.server 1234"
+  },
+  "keywords": [
+    "presentation",
+    "slides",
+    "html",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doublejosh/vibes"
+  }
+}
