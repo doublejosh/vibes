@@ -48,11 +48,13 @@ const PresentationApp = {
         document.addEventListener('keydown', (e) => {
             switch(e.key) {
                 case 'ArrowRight':
+                case 'ArrowDown':
                 case ' ':
                     e.preventDefault();
                     this.nextSlide();
                     break;
                 case 'ArrowLeft':
+                case 'ArrowUp':
                     e.preventDefault();
                     this.prevSlide();
                     break;
@@ -63,6 +65,18 @@ const PresentationApp = {
                 case 'End':
                     e.preventDefault();
                     this.goToSlide(this.totalSlides);
+                    break;
+                case 'Escape':
+                    // Exit fullscreen if in fullscreen mode
+                    if (document.fullscreenElement) {
+                        document.exitFullscreen();
+                    }
+                    break;
+                case 'f':
+                case 'F':
+                    // Toggle fullscreen
+                    e.preventDefault();
+                    this.toggleFullscreen();
                     break;
             }
         });
@@ -136,7 +150,6 @@ const PresentationApp = {
         this.applySlideStyles(slide);
         
         let html = `<div class="${slideClass}" id="slide-${slide.id}">`;
-        html += `<div class="slide-number">${slide.id} / ${this.totalSlides}</div>`;
         
         if (slide.title) {
             const titleTag = slide.type === 'title' ? 'h1' : 'h2';
@@ -155,8 +168,31 @@ const PresentationApp = {
         
         container.innerHTML = html;
         
+        // Add floating animation info if custom animations exist
+        this.updateAnimationInfo(slide);
+        
         // Apply transition effects
         this.applySlideTransition(slide);
+    },
+    
+    updateAnimationInfo(slide) {
+        // Remove existing animation info
+        const existingInfo = document.getElementById('floating-animation-info');
+        if (existingInfo) {
+            existingInfo.remove();
+        }
+        
+        // Add new animation info if slide has custom animations
+        if (slide.customCSS) {
+            const animationNames = this.extractAnimationNames(slide.customCSS);
+            if (animationNames.length > 0) {
+                const animationDiv = document.createElement('div');
+                animationDiv.id = 'floating-animation-info';
+                animationDiv.className = 'floating-animation-info';
+                animationDiv.textContent = animationNames.join(', ');
+                document.body.appendChild(animationDiv);
+            }
+        }
     },
     
     updateNavigation() {
@@ -265,6 +301,31 @@ const PresentationApp = {
             slideElement.style.opacity = '1';
             slideElement.style.transform = 'translateX(0)';
         });
+    },
+    
+    toggleFullscreen() {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen().catch(err => {
+                console.log(`Error attempting to enable fullscreen: ${err.message}`);
+            });
+        } else {
+            document.exitFullscreen();
+        }
+    },
+    
+    extractAnimationNames(customCSS) {
+        if (!customCSS) return [];
+        
+        // Extract @keyframes names using regex
+        const keyframesRegex = /@keyframes\s+([a-zA-Z][a-zA-Z0-9_-]*)/g;
+        const animationNames = [];
+        let match;
+        
+        while ((match = keyframesRegex.exec(customCSS)) !== null) {
+            animationNames.push(match[1]);
+        }
+        
+        return animationNames;
     },
     
     showError(message) {

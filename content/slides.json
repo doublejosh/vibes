@@ -11,11 +11,12 @@
       "id": 1,
       "type": "title",
       "title": "Welcome to Vibes",
-      "subtitle": "A 20-Slide Presentation",
+      "subtitle": "A 20-Slide Journey",
       "content": "",
       "styles": {
-        "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-        "color": "#ffffff"
+        "background": "#ffffff",
+        "color": "#2c3e50",
+        "fontFamily": "'Georgia', serif"
       }
     },
     {
@@ -24,8 +25,9 @@
       "title": "Slide 2",
       "content": "Content for slide 2 goes here.",
       "styles": {
-        "background": "#f8f9fa",
-        "color": "#343a40"
+        "background": "#fafafa",
+        "color": "#34495e",
+        "fontFamily": "'Georgia', serif"
       }
     },
     {
@@ -34,106 +36,213 @@
       "title": "Slide 3",
       "content": "Content for slide 3 goes here.",
       "styles": {
-        "background": "linear-gradient(45deg, #ff6b6b, #feca57)",
-        "color": "#ffffff",
-        "textAlign": "center"
+        "background": "#f8f9fa",
+        "color": "#2c3e50",
+        "fontFamily": "'Helvetica Neue', sans-serif"
       }
     },
     {
       "id": 4,
       "type": "content",
       "title": "Slide 4",
-      "content": "Content for slide 4 goes here."
+      "content": "Content for slide 4 goes here.",
+      "styles": {
+        "background": "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+        "color": "#2c3e50"
+      }
     },
     {
       "id": 5,
       "type": "content",
       "title": "Slide 5",
-      "content": "Content for slide 5 goes here."
+      "content": "Content for slide 5 goes here.",
+      "styles": {
+        "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "color": "#ffffff"
+      }
     },
     {
       "id": 6,
       "type": "content",
       "title": "Slide 6",
-      "content": "Content for slide 6 goes here."
+      "content": "Content for slide 6 goes here.",
+      "styles": {
+        "background": "linear-gradient(45deg, #ff9a9e 0%, #fecfef 100%)",
+        "color": "#2c3e50"
+      }
     },
     {
       "id": 7,
       "type": "content",
       "title": "Slide 7",
-      "content": "Content for slide 7 goes here."
+      "content": "Content for slide 7 goes here.",
+      "styles": {
+        "background": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+        "color": "#2c3e50",
+        "textShadow": "0 1px 3px rgba(0,0,0,0.2)"
+      }
     },
     {
       "id": 8,
       "type": "content",
       "title": "Slide 8",
-      "content": "Content for slide 8 goes here."
+      "content": "Content for slide 8 goes here.",
+      "styles": {
+        "background": "linear-gradient(45deg, #ff6b6b, #feca57, #48cae4)",
+        "color": "#ffffff",
+        "textShadow": "0 2px 4px rgba(0,0,0,0.5)"
+      }
     },
     {
       "id": 9,
       "type": "content",
       "title": "Slide 9",
-      "content": "Content for slide 9 goes here."
+      "content": "Content for slide 9 goes here.",
+      "styles": {
+        "background": "linear-gradient(45deg, #f093fb 0%, #f5576c 100%)",
+        "color": "#ffffff",
+        "animation": "pulse 2s infinite"
+      },
+      "customCSS": "@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.02); } }"
     },
     {
       "id": 10,
       "type": "content",
       "title": "Slide 10",
-      "content": "Content for slide 10 goes here."
+      "content": "Content for slide 10 goes here.",
+      "styles": {
+        "background": "linear-gradient(45deg, #ff0099, #493240, #ff0099, #493240)",
+        "backgroundSize": "400% 400%",
+        "color": "#ffffff",
+        "animation": "gradientShift 3s ease infinite",
+        "textShadow": "0 0 20px rgba(255,255,255,0.8)"
+      },
+      "customCSS": "@keyframes gradientShift { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }"
     },
     {
       "id": 11,
       "type": "content",
       "title": "Slide 11",
-      "content": "Content for slide 11 goes here."
+      "content": "Content for slide 11 goes here.",
+      "styles": {
+        "background": "radial-gradient(circle, #ff006e, #8338ec, #3a86ff)",
+        "color": "#ffffff",
+        "animation": "rotate 10s linear infinite",
+        "textShadow": "0 0 30px rgba(255,255,255,0.8), 0 0 60px rgba(255,0,110,0.6)"
+      },
+      "customCSS": "@keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }"
     },
     {
       "id": 12,
       "type": "content",
       "title": "Slide 12",
-      "content": "Content for slide 12 goes here."
+      "content": "Content for slide 12 goes here.",
+      "styles": {
+        "background": "conic-gradient(from 180deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e)",
+        "color": "#ffffff",
+        "animation": "spin 8s linear infinite, colorCycle 4s ease-in-out infinite",
+        "textShadow": "0 0 40px rgba(255,255,255,1)"
+      },
+      "customCSS": "@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } } @keyframes colorCycle { 0%, 100% { filter: hue-rotate(0deg); } 50% { filter: hue-rotate(180deg); } }"
     },
     {
       "id": 13,
       "type": "content",
       "title": "Slide 13",
-      "content": "Content for slide 13 goes here."
+      "content": "Content for slide 13 goes here.",
+      "styles": {
+        "background": "repeating-linear-gradient(45deg, #ff006e 0px, #8338ec 10px, #3a86ff 20px, #06ffa5 30px, #ffbe0b 40px)",
+        "color": "#ffffff",
+        "animation": "stripeMove 2s linear infinite, textBounce 1s ease-in-out infinite alternate",
+        "textShadow": "0 0 50px rgba(255,255,255,1), 0 0 100px rgba(255,0,110,0.8)"
+      },
+      "customCSS": "@keyframes stripeMove { from { background-position: 0 0; } to { background-position: 50px 0; } } @keyframes textBounce { from { transform: translateY(0); } to { transform: translateY(-20px); } }"
     },
     {
       "id": 14,
       "type": "content",
       "title": "Slide 14",
-      "content": "Content for slide 14 goes here."
+      "content": "Content for slide 14 goes here.",
+      "styles": {
+        "background": "radial-gradient(circle at 20% 20%, #ff006e 0%, transparent 50%), radial-gradient(circle at 80% 80%, #8338ec 0%, transparent 50%), radial-gradient(circle at 40% 40%, #3a86ff 0%, transparent 50%), linear-gradient(45deg, #06ffa5, #ffbe0b)",
+        "color": "#ffffff",
+        "animation": "psychedelic 6s ease-in-out infinite, textGlow 2s ease-in-out infinite alternate",
+        "textShadow": "0 0 20px #ff006e, 0 0 40px #8338ec, 0 0 60px #3a86ff"
+      },
+      "customCSS": "@keyframes psychedelic { 0%, 100% { filter: hue-rotate(0deg) saturate(1) brightness(1); } 25% { filter: hue-rotate(90deg) saturate(2) brightness(1.2); } 50% { filter: hue-rotate(180deg) saturate(3) brightness(0.8); } 75% { filter: hue-rotate(270deg) saturate(2) brightness(1.5); } } @keyframes textGlow { from { text-shadow: 0 0 20px #ff006e, 0 0 40px #8338ec, 0 0 60px #3a86ff; } to { text-shadow: 0 0 40px #ff006e, 0 0 80px #8338ec, 0 0 120px #3a86ff; } }"
     },
     {
       "id": 15,
       "type": "content",
       "title": "Slide 15",
-      "content": "Content for slide 15 goes here."
+      "content": "Content for slide 15 goes here.",
+      "styles": {
+        "background": "conic-gradient(from 0deg at 50% 50%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px)",
+        "backgroundSize": "100% 100%, 20px 20px",
+        "color": "#ffffff",
+        "animation": "megaSpin 4s linear infinite, megaPulse 2s ease-in-out infinite, megaShake 0.5s ease-in-out infinite",
+        "textShadow": "0 0 30px #ff006e, 0 0 60px #8338ec, 0 0 90px #3a86ff, 0 0 120px #06ffa5"
+      },
+      "customCSS": "@keyframes megaSpin { from { transform: rotate(0deg) scale(1); } to { transform: rotate(360deg) scale(1); } } @keyframes megaPulse { 0%, 100% { filter: brightness(1) contrast(1); } 50% { filter: brightness(2) contrast(2); } } @keyframes megaShake { 0%, 100% { transform: translateX(0) rotate(0deg); } 25% { transform: translateX(-5px) rotate(-2deg); } 75% { transform: translateX(5px) rotate(2deg); } }"
     },
     {
       "id": 16,
       "type": "content",
       "title": "Slide 16",
-      "content": "Content for slide 16 goes here."
+      "content": "Content for slide 16 goes here.",
+      "styles": {
+        "background": "repeating-conic-gradient(from 0deg, #ff006e 0deg 30deg, #8338ec 30deg 60deg, #3a86ff 60deg 90deg, #06ffa5 90deg 120deg, #ffbe0b 120deg 150deg, #fb8500 150deg 180deg)",
+        "color": "#ffffff",
+        "animation": "ultraSpin 2s linear infinite, ultraGlow 1s ease-in-out infinite alternate, ultraBounce 3s ease-in-out infinite",
+        "textShadow": "0 0 20px #ff006e, 0 0 40px #8338ec, 0 0 60px #3a86ff, 0 0 80px #06ffa5, 0 0 100px #ffbe0b",
+        "filter": "brightness(1.5) contrast(2) saturate(3)"
+      },
+      "customCSS": "@keyframes ultraSpin { from { transform: rotate(0deg) scale(1); } to { transform: rotate(-360deg) scale(1.1); } } @keyframes ultraGlow { from { filter: brightness(1.5) contrast(2) saturate(3) hue-rotate(0deg); } to { filter: brightness(3) contrast(4) saturate(5) hue-rotate(180deg); } } @keyframes ultraBounce { 0%, 100% { transform: scale(1) rotate(0deg); } 33% { transform: scale(1.2) rotate(120deg); } 66% { transform: scale(0.8) rotate(240deg); } }"
     },
     {
       "id": 17,
       "type": "content",
       "title": "Slide 17",
-      "content": "Content for slide 17 goes here."
+      "content": "Content for slide 17 goes here.",
+      "styles": {
+        "background": "linear-gradient(45deg, #ff006e, #8338ec, #3a86ff, #06ffa5)",
+        "backgroundSize": "400% 400%",
+        "color": "#ffffff",
+        "animation": "moderateShift 4s ease-in-out infinite",
+        "textShadow": "0 2px 10px rgba(0,0,0,0.8), 0 0 30px rgba(255,255,255,0.3)",
+        "fontSize": "1.1em"
+      },
+      "customCSS": "@keyframes moderateShift { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }"
     },
     {
       "id": 18,
       "type": "content",
       "title": "Slide 18",
-      "content": "Content for slide 18 goes here."
+      "content": "Content for slide 18 goes here.",
+      "styles": {
+        "background": "radial-gradient(circle at 50% 50%, #ff006e 0%, #8338ec 25%, #3a86ff 50%, #06ffa5 75%, #ffbe0b 100%)",
+        "color": "#ffffff",
+        "animation": "gentleGlow 3s ease-in-out infinite alternate",
+        "textShadow": "0 3px 15px rgba(0,0,0,0.9), 0 0 40px rgba(255,255,255,0.4)",
+        "fontSize": "1.1em",
+        "fontWeight": "600"
+      },
+      "customCSS": "@keyframes gentleGlow { from { filter: brightness(1.2) contrast(1.1); } to { filter: brightness(1.8) contrast(1.4); } }"
     },
     {
       "id": 19,
       "type": "content",
       "title": "Slide 19",
-      "content": "Content for slide 19 goes here."
+      "content": "Content for slide 19 goes here.",
+      "styles": {
+        "background": "conic-gradient(from 45deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e)",
+        "color": "#ffffff",
+        "animation": "slowSpin 8s linear infinite",
+        "textShadow": "0 4px 20px rgba(0,0,0,1), 0 0 50px rgba(255,255,255,0.5)",
+        "fontSize": "1.2em",
+        "fontWeight": "bold"
+      },
+      "customCSS": "@keyframes slowSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }"
     },
     {
       "id": 20,
@@ -142,10 +251,15 @@
       "subtitle": "Questions?",
       "content": "",
       "styles": {
-        "background": "linear-gradient(135deg, #2c3e50 0%, #34495e 100%)",
-        "color": "#ecf0f1",
+        "background": "radial-gradient(circle at 50% 50%, #ff006e 0%, #8338ec 30%, #3a86ff 60%, #06ffa5 80%, #ffbe0b 100%)",
+        "color": "#ffffff",
+        "animation": "finalGlow 5s ease-in-out infinite alternate",
+        "textShadow": "0 5px 25px rgba(0,0,0,1), 0 0 60px rgba(255,255,255,0.6)",
+        "fontSize": "1.3em",
+        "fontWeight": "bold",
         "textAlign": "center"
-      }
+      },
+      "customCSS": "@keyframes finalGlow { from { filter: brightness(1.3) contrast(1.2) saturate(1.5); } to { filter: brightness(2) contrast(1.8) saturate(2.5); } }"
     }
   ]
 }

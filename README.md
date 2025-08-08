@@ -1,6 +1,6 @@
 # Vibes Presentation
 
-A 20-slide presentation project built with HTML, CSS, and JavaScript.
+A 20-slide presentation project built with HTML, CSS, and JavaScript... and Claude Sonnet 4.
 
 ## Getting Started
 

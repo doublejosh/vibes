@@ -2,25 +2,32 @@
 #slide-container {
     flex: 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
+    align-items: stretch;
+    justify-content: stretch;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .slide {
     background: white;
-    border-radius: 15px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-    padding: 60px;
-    max-width: 900px;
-    width: 100%;
-    min-height: 500px;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     position: relative;
     animation: slideIn 0.5s ease-out;
+    overflow: hidden;
 }
 
 @keyframes slideIn {
@@ -118,37 +125,47 @@
     color: #444;
 }
 
-/* Slide number indicator */
-.slide-number {
-    position: absolute;
-    top: 20px;
+/* Slide number indicator - REMOVED */
+
+/* Floating animation info indicator */
+.floating-animation-info {
+    position: fixed;
+    bottom: 20px;
     right: 20px;
-    background: rgba(102, 126, 234, 0.1);
-    color: #667eea;
-    padding: 5px 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #00ff00;
+    padding: 8px 16px;
     border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Courier New', monospace;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 255, 0, 0.4);
+    max-width: 250px;
+    word-wrap: break-word;
+    z-index: 999;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Responsive design for slides */
 @media (max-width: 768px) {
     .slide {
-        padding: 30px 20px;
-        min-height: 400px;
-        margin: 20px;
+        padding: 0;
     }
     
     .slide h1 {
         font-size: 2.2em;
+        padding: 0 20px;
     }
     
     .slide h2 {
         font-size: 1.8em;
+        padding: 0 20px;
     }
     
     .slide p {
         font-size: 1.1em;
+        padding: 0 20px;
     }
     
     .slide.title-slide h1 {
@@ -158,24 +175,37 @@
     .slide.title-slide .subtitle {
         font-size: 1.4em;
     }
+    
+    .floating-animation-info {
+        bottom: 80px;
+        right: 15px;
+        padding: 6px 12px;
+        font-size: 10px;
+        max-width: 180px;
+    }
 }
 
 @media (max-width: 480px) {
-    #slide-container {
-        padding: 20px 10px;
-    }
-    
     .slide {
-        padding: 20px 15px;
-        margin: 10px;
+        padding: 0;
     }
     
     .slide h1 {
         font-size: 1.8em;
+        padding: 0 15px;
     }
     
     .slide h2 {
         font-size: 1.5em;
+        padding: 0 15px;
+    }
+    
+    .floating-animation-info {
+        bottom: 75px;
+        right: 10px;
+        padding: 4px 8px;
+        font-size: 9px;
+        max-width: 150px;
     }
 }
 
