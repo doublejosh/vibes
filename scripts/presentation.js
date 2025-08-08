@@ -3,9 +3,11 @@ const PresentationApp = {
     currentSlide: 1,
     totalSlides: 20,
     slides: [],
+    styleSheet: null,
     
     async init() {
         try {
+            this.createDynamicStyleSheet();
             await this.loadSlides();
             this.setupEventListeners();
             this.showSlide(1);
@@ -14,6 +16,13 @@ const PresentationApp = {
             console.error('Failed to initialize presentation:', error);
             this.showError('Failed to load presentation content.');
         }
+    },
+    
+    createDynamicStyleSheet() {
+        // Create a dedicated stylesheet for slide-specific styles
+        this.styleSheet = document.createElement('style');
+        this.styleSheet.id = 'slide-dynamic-styles';
+        document.head.appendChild(this.styleSheet);
     },
     
     async loadSlides() {
@@ -123,7 +132,10 @@ const PresentationApp = {
                 slideClass += ' content-slide';
         }
         
-        let html = `<div class="${slideClass}">`;
+        // Apply custom styles if they exist
+        this.applySlideStyles(slide);
+        
+        let html = `<div class="${slideClass}" id="slide-${slide.id}">`;
         html += `<div class="slide-number">${slide.id} / ${this.totalSlides}</div>`;
         
         if (slide.title) {
@@ -142,6 +154,9 @@ const PresentationApp = {
         html += '</div>';
         
         container.innerHTML = html;
+        
+        // Apply transition effects
+        this.applySlideTransition(slide);
     },
     
     updateNavigation() {
@@ -174,6 +189,82 @@ const PresentationApp = {
     
     goToSlide(slideNumber) {
         this.showSlide(slideNumber);
+    },
+    
+    applySlideStyles(slide) {
+        if (!slide.styles || !this.styleSheet) return;
+        
+        // Clear previous slide styles
+        this.styleSheet.textContent = '';
+        
+        // Convert styles object to CSS
+        let cssRules = '';
+        const slideSelector = `#slide-${slide.id}`;
+        
+        // Build CSS rule from styles object
+        let styleDeclarations = '';
+        for (const [property, value] of Object.entries(slide.styles)) {
+            // Convert camelCase to kebab-case
+            const cssProperty = property.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
+            styleDeclarations += `  ${cssProperty}: ${value};\n`;
+        }
+        
+        if (styleDeclarations) {
+            cssRules += `${slideSelector} {\n${styleDeclarations}}\n`;
+        }
+        
+        // Add any custom CSS classes if defined
+        if (slide.customCSS) {
+            cssRules += `\n${slide.customCSS}\n`;
+        }
+        
+        // Apply the styles
+        this.styleSheet.textContent = cssRules;
+        
+        // Apply progressive styles (styles that accumulate)
+        this.applyProgressiveStyles(slide);
+    },
+    
+    applyProgressiveStyles(slide) {
+        // Progressive styles that build up over time
+        const body = document.body;
+        
+        // Add slide-specific body class
+        body.className = body.className.replace(/slide-\d+/g, '');
+        body.classList.add(`slide-${slide.id}`);
+        
+        // Apply theme evolution based on slide progression
+        const progressPercentage = (slide.id / this.totalSlides) * 100;
+        
+        if (progressPercentage < 25) {
+            body.classList.add('theme-intro');
+            body.classList.remove('theme-development', 'theme-climax', 'theme-conclusion');
+        } else if (progressPercentage < 50) {
+            body.classList.add('theme-development');
+            body.classList.remove('theme-intro', 'theme-climax', 'theme-conclusion');
+        } else if (progressPercentage < 75) {
+            body.classList.add('theme-climax');
+            body.classList.remove('theme-intro', 'theme-development', 'theme-conclusion');
+        } else {
+            body.classList.add('theme-conclusion');
+            body.classList.remove('theme-intro', 'theme-development', 'theme-climax');
+        }
+    },
+    
+    applySlideTransition(slide) {
+        const slideElement = document.querySelector(`#slide-${slide.id}`);
+        if (!slideElement) return;
+        
+        // Add entrance animation
+        slideElement.style.opacity = '0';
+        slideElement.style.transform = 'translateX(50px)';
+        
+        // Trigger animation
+        requestAnimationFrame(() => {
+            slideElement.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            slideElement.style.opacity = '1';
+            slideElement.style.transform = 'translateX(0)';
+        });
     },
     
     showError(message) {

@@ -12,19 +12,32 @@
       "type": "title",
       "title": "Welcome to Vibes",
       "subtitle": "A 20-Slide Presentation",
-      "content": ""
+      "content": "",
+      "styles": {
+        "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "color": "#ffffff"
+      }
     },
     {
       "id": 2,
       "type": "content",
       "title": "Slide 2",
-      "content": "Content for slide 2 goes here."
+      "content": "Content for slide 2 goes here.",
+      "styles": {
+        "background": "#f8f9fa",
+        "color": "#343a40"
+      }
     },
     {
       "id": 3,
       "type": "content",
       "title": "Slide 3",
-      "content": "Content for slide 3 goes here."
+      "content": "Content for slide 3 goes here.",
+      "styles": {
+        "background": "linear-gradient(45deg, #ff6b6b, #feca57)",
+        "color": "#ffffff",
+        "textAlign": "center"
+      }
     },
     {
       "id": 4,
@@ -127,7 +140,12 @@
       "type": "end",
       "title": "Thank You",
       "subtitle": "Questions?",
-      "content": ""
+      "content": "",
+      "styles": {
+        "background": "linear-gradient(135deg, #2c3e50 0%, #34495e 100%)",
+        "color": "#ecf0f1",
+        "textAlign": "center"
+      }
     }
   ]
 }

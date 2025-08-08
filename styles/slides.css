@@ -178,3 +178,60 @@
         font-size: 1.5em;
     }
 }
+
+/* Progressive theme classes for body */
+body.theme-intro {
+    --primary-color: #3498db;
+    --secondary-color: #2980b9;
+    --accent-color: #e74c3c;
+}
+
+body.theme-development {
+    --primary-color: #2ecc71;
+    --secondary-color: #27ae60;
+    --accent-color: #f39c12;
+}
+
+body.theme-climax {
+    --primary-color: #e74c3c;
+    --secondary-color: #c0392b;
+    --accent-color: #f1c40f;
+}
+
+body.theme-conclusion {
+    --primary-color: #9b59b6;
+    --secondary-color: #8e44ad;
+    --accent-color: #1abc9c;
+}
+
+/* Slide-specific overrides */
+body.slide-1 .slide {
+    animation: slideInFromLeft 0.8s ease;
+}
+
+body.slide-20 .slide {
+    animation: slideInFromRight 0.8s ease;
+}
+
+/* Animation keyframes */
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
