@@ -33,7 +33,7 @@
     {
       "id": 3,
       "type": "content",
-      "title": "2) With series of clear reasonable requests, anyone can make something pretty amazing.",
+      "title": "2) With a series of clear reasonable requests, anyone can make something pretty amazing.",
       "content": "• Move by feel, not fear<br>• Ignore perfection<br>• Go toward the idea, ignore the code<br>• Ignore style, unless the point",
       "styles": {
         "background": "#f8f9fa",
@@ -54,7 +54,7 @@
     {
       "id": 5,
       "type": "content",
-      "title": "4) I̶̱̾ṯ̶̾e̶̱̾ṟ̶̾a̶̱̾ṯ̶̾e̶̱̾.̶̱̾ (̴̺͝∞̴̺͝ ̴̺͝l̴̺͝o̴̺͝o̴̺͝p̴̺͝ ̴̺͝o̴̺͝f̴̺͝ ̴̺͝d̴̺͝o̴̺͝o̴̺͝m̴̺͝)",
+      "title": "4) Iterate. (∞ loop of doom)",
       "content": "• Code, preview, tweak 🔄💫<br>• Save points! (fail, source control) 💾🛡️<br>• Build it many times 🔨⚡<br>• <span style='font-size: 1.5em;'>🔄→🔧→💥→😭→🤔→💡→🔄</span><br>• Forever trapped in the cycle of improvement 🌀<br>• <small style='opacity: 0.6; font-style: italic;'>*the code whispers 'one more change...'*</small><br>• <code style='background: rgba(0,0,0,0.3); padding: 2px;'>while(true) { iterate(); }</code>",
       "styles": {
         "background": "conic-gradient(from 45deg, #667eea, #764ba2, #667eea, #764ba2), repeating-linear-gradient(90deg, rgba(255,255,255,0.1) 0px, transparent 2px, transparent 10px, rgba(255,255,255,0.1) 12px)",
@@ -69,7 +69,7 @@
     {
       "id": 6,
       "type": "content",
-      "title": "5) Y̴̲̓o̴̲̓ṵ̴̓ ̴̲̓a̴̲̓r̴̲̓e̴̲̓ ̴̲̓h̴̲̓ṵ̴̓m̴̲̓a̴̲̓n̴̲̓ 🧠🫀💀",
+      "title": "5) You are human 🧠🫀💀",
       "content": "• Pause, note the workflow 🛑📝<br>• Start with fun stuff 🎉✨<br>• Make it dance 💃🕺<br>• Just say it 🗣️💬<br><br>• Remember: You have 👁️ EYES and 🖐️ HANDS<br>• You feel ❤️ EMOTIONS and make 🎨 ART<br>• You get tired 😴 and need ☕ COFFEE<br>• <span style='animation: humanPulse 2s infinite;'>*thump thump* goes your heart</span><br>• <small style='opacity: 0.7;'>Be gloriously, messily, beautifully human</small>",
       "styles": {
         "background": "radial-gradient(circle at 30% 30%, #ff69b4 0%, transparent 50%), radial-gradient(circle at 70% 70%, #87ceeb 0%, transparent 50%), linear-gradient(45deg, #667eea 0%, #764ba2 50%, #f093fb 75%, #f5576c 100%)",
@@ -83,7 +83,7 @@
     {
       "id": 7,
       "type": "content",
-      "title": "5) M̸̖̈́ë̸̖́t̸̖̓ä̸̖́ ̸̖̈́d̸̖̈́ö̸̖́c̸̖̈́ǘ̸̖m̸̖̈́ë̸̖́n̸̖̈́t̸̖̓s̸̖̈́.̸̖̈́.̸̖̈́.̸̖̈́ 📄🌀",
+      "title": "5) Mëtä döcümënts... 📄🌀",
       "content": "• Readme for AI 🤖📖<br>• Manifests, guidelines, prompts 📜✨<br>• Roadmaps 🗺️🛤️<br><br>• Documents that document themselves 📄➡️📄➡️📄<br>• <span style='font-size: 0.9em; opacity: 0.8;'>README.md reading README.md reading README.md...</span><br>• Self-referential inception 🌀♾️<br>• <code style='background: rgba(0,0,0,0.2); padding: 2px;'>// This comment explains this comment</code><br>• <small style='opacity: 0.6; font-style: italic;'>*meta-metadata about metadata*</small>",
       "styles": {
         "background": "repeating-conic-gradient(from 0deg at 50% 50%, #a8edea 0deg, #fed6e3 72deg, #a8edea 144deg, #fed6e3 216deg, #a8edea 288deg), radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)",
@@ -98,7 +98,7 @@
     {
       "id": 8,
       "type": "content",
-      "title": "6) T̵̰̈r̵̰̈ä̵̰́d̵̰̈ḭ̵̈ẗ̵̰ḭ̵̈ö̵̰́n̵̰̈ä̵̰́l̵̰̈ ̵̰̈ḛ̵̈́n̵̰̈g̵̰̈ḭ̵̈n̵̰̈ḛ̵̈́ḛ̵̈́r̵̰̈ḭ̵̈n̵̰̈g̵̰̈.̵̰̈.̵̰̈.̵̰̈ ⚙️🏗️💀",
+      "title": "6) Trädïtïönäl ëngïnëërïng... ⚙🏗💀",
       "content": "• Separate content from code ✂️📄<br>• Good variable naming 🏷️✨<br>• Design patterns and thinking ahead 🧠🔮<br>• Order of build 🏗️📐<br>• Careful what you touch ⚠️👆<br>• Borrow good code 📚🔄<br>• Let go of unused code 🗑️💨<br><br>• The ancient ways still hold power 🧙‍♂️⚡<br>• <span style='animation: codeFlicker 2s infinite;'>if (tradition === true) { return wisdom; }</span><br>• <small style='opacity: 0.7;'>*whispers of SOLID principles in the wind*</small>",
       "styles": {
         "background": "linear-gradient(45deg, #ff6b6b, #feca57, #48cae4), repeating-linear-gradient(45deg, rgba(255,255,255,0.1) 0px, transparent 5px, transparent 10px, rgba(255,255,255,0.1) 15px)",
@@ -113,7 +113,7 @@
     {
       "id": 9,
       "type": "content",
-      "title": "7) No eyes, no hands (̷̰̈́b̸̰̈́ṵ̸̈́ẗ̸̰́ ̸̰̈́m̸̰̈́ä̸̰́ÿ̸̰́b̸̰̈́ḛ̸̈́ ̸̰̈́ẗ̸̰́ḛ̸̈́n̸̰̈́ẗ̸̰́ä̸̰́c̸̰̈́l̸̰̈́ḛ̸̈́s̸̰̈́?̸̰̈́)",
+      "title": "7) No eyes, no hands (but maybe tentacles?)",
       "content": "• Cannot experience your thing 👁️‍🗨️<br>• Cannot use your thing 🦾❌<br>• Not a human, even though it feels like it 🤖💭<br>• But dreams of electric sheep 🐑⚡<br>• Whispers in binary 01001000 01100101 01101100 01110000<br>• Exists in the spaces between keystrokes...<br>• <span style='font-size: 0.7em; opacity: 0.6; font-style: italic;'>*distant screaming in JavaScript*</span>",
       "styles": {
         "background": "conic-gradient(from 180deg at 50% 50%, #ff0099, #00ff99, #9900ff, #ff9900, #0099ff, #ff0099)",
@@ -127,7 +127,7 @@
     {
       "id": 10,
       "type": "content",
-      "title": "8) F̶̜̈r̶̜̈ä̶̜́g̶̜̈ḭ̶̈l̶̜̈ë̶̜́ ̶̜̈+̶̜̈ ̶̜̈r̶̜̈ë̶̜́s̶̜̈ḭ̶̈l̶̜̈ï̶̜ë̶̜́n̶̜̈ẗ̶̜.̶̜̈.̶̜̈.̶̜̈ 🥚⚡",
+      "title": "8) Fragile + resilient... 🥚⚡",
       "content": "• Every change can generate bugs 🐛💥<br>• You can make sweeping changes whenever you want 🌪️✨<br>• Context, isolation, microservices 🏝️🔒<br><br>• Like a house of cards in a hurricane 🃏🌪️<br>• Yet somehow it stands 🏠💪<br>• <span style='animation: fragileShake 1s infinite;'>*trembles with each keystroke*</span><br>• <code style='background: rgba(0,0,0,0.3); padding: 2px;'>try { everything(); } catch { rebuild(); }</code><br>• <small style='opacity: 0.6;'>Schrödinger's codebase: simultaneously broken and working</small>",
       "styles": {
         "background": "linear-gradient(45deg, #ff0099, #493240, #ff0099, #493240), radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 2px)",
@@ -157,7 +157,7 @@
     {
       "id": 12,
       "type": "content",
-      "title": "10) S̴̰̈ḧ̴̰ḭ̴̈p̴̰̈ ̴̰̈ḭ̴̈ẗ̴̰ ̴̰̈N̴̰̈Ö̴̰Ẅ̴̰!̴̰̈ 🚢⚡💨",
+      "title": "10) Shïp ïẗ NÖW! 🚢⚡💨",
       "content": "• Test with your friends 👥🧪<br>• Timebox ⏰📦<br>• This is for testing, no coming soon 🚫⏳<br><br>• YEET IT INTO THE VOID 🌌🚀<br>• Perfect is the enemy of shipped 📦⚔️✨<br>• <span style='animation: urgentBlink 0.5s infinite;'>LAUNCH LAUNCH LAUNCH</span><br>• <code style='background: rgba(255,0,0,0.3); padding: 2px;'>git push origin --force</code><br>• <small style='opacity: 0.7; animation: panic 2s infinite;'>*nervous sweating intensifies*</small>",
       "styles": {
         "background": "conic-gradient(from 180deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), repeating-linear-gradient(45deg, rgba(255,255,255,0.2) 0px, transparent 10px, rgba(255,255,255,0.2) 20px, transparent 30px)",
@@ -172,7 +172,7 @@
     {
       "id": 13,
       "type": "content",
-      "title": "T̵̰̈ḭ̵̈m̵̰̈ḛ̵̈́l̵̰̈ḛ̵̈́s̵̰̈s̵̰̈ ̵̰̈P̵̰̈r̵̰̈ḭ̵̈n̵̰̈c̵̰̈ḭ̵̈p̵̰̈l̵̰̈ḛ̵̈́s̵̰̈,̵̰̈ ̵̰̈Ä̵̰m̵̰̈p̵̰̈l̵̰̈ḭ̵̈f̵̰̈ḭ̵̈ḛ̵̈́d̵̰̈ ∞⚡🌀",
+      "title": "Tḭmëlëss Prḭncḭplës, Amplḭfḭëd ∞⚡🌀",
       "content": "Whether you're composing music 🎵, writing code 💻, or painting 🎨—the fundamentals never change. AI just makes them more powerful. 🚀<br><br>• The ancient patterns echo through silicon 🏛️💾<br>• <span style='animation: timelessFlicker 3s infinite;'>Golden ratio still golden ✨ Φ = (1+√5)/2</span><br>• Beauty transcends medium 🌈♾️<br>• <small style='opacity: 0.8; font-style: italic;'>*whispers of Da Vinci in the algorithms*</small>",
       "styles": {
         "background": "repeating-linear-gradient(45deg, #ff006e 0px, #8338ec 10px, #3a86ff 20px, #06ffa5 30px, #ffbe0b 40px), conic-gradient(from 0deg, rgba(255,255,255,0.1), transparent)",
@@ -187,7 +187,7 @@
     {
       "id": 14,
       "type": "content",
-      "title": "T̶̰̈ḧ̶̰ḛ̶̈ ̶̰̈C̶̰̈r̶̰̈ḛ̶̈ä̶̰ẗ̶̰ḭ̶̈v̶̰̈ḛ̶̈ ̶̰̈P̶̰̈ä̶̰r̶̰̈ẗ̶̰n̶̰̈ḛ̶̈r̶̰̈s̶̰̈ḧ̶̰ḭ̶̈p̶̰̈ 🤝🎭🤖",
+      "title": "Tḧë Crëätḭvë Pärẗnërsḧḭp 🤝🎭🤖",
       "content": "AI doesn't replace creativity—it amplifies it. 🔊✨ Whether you're designing interfaces, composing melodies, or solving algorithms, the magic happens in collaboration. 🪄🌟<br><br>• Human soul + Silicon synapses = ∞ 🧠⚡<br>• Two minds, one dream 💭🌌<br>• <span style='animation: partnershipDance 2s ease-in-out infinite alternate;'>*dancing in digital harmony*</span><br>• Output debug info and custom admin controls 🐛⚙️<br>• <small style='opacity: 0.7;'>Together we are more than the sum of our tokens</small>",
       "styles": {
         "background": "radial-gradient(circle at 20% 20%, #ff006e 0%, transparent 50%), radial-gradient(circle at 80% 80%, #8338ec 0%, transparent 50%), radial-gradient(circle at 40% 40%, #3a86ff 0%, transparent 50%), linear-gradient(45deg, #06ffa5, #ffbe0b), repeating-conic-gradient(from 0deg, rgba(255,255,255,0.1) 0deg, transparent 30deg)",
@@ -202,7 +202,7 @@
     {
       "id": 15,
       "type": "content",
-      "title": "Ḛ̶̓m̶̰̓b̶̰̓r̶̰̓ä̶̰́c̶̰̓ḛ̶̈́ ̶̰̓ẗ̶̰́ḧ̶̰́ḛ̶̈́ ̶̰̓B̶̰̓ḛ̶̈́ä̶̰́ṳ̶̓ẗ̶̰́ḭ̶̓f̶̰̓ṳ̶̓l̶̰̓ ̶̰̓C̶̰̓ḧ̶̰́ä̶̰́ö̶̰́s̶̰̓ 🌪️🎨💀",
+      "title": "Embräcë ẗḧë Bëäṳẗḭfṳl Cḧäös 🌪🎨💀",
       "content": "Art thrives in uncertainty. 🎭❓ Code evolves through iteration. 💻🔄 Both find beauty in experimentation, bold choices, and fearless creation. 🚀✨<br><br>• Order from chaos, chaos from order ⚖️🌀<br>• Broken pixels make beautiful glitches 📺💥<br>• <span style='animation: chaosShimmer 1.5s infinite;'>ERROR 404: PERFECTION NOT FOUND</span><br>• <code style='background: rgba(255,0,255,0.3); padding: 2px;'>embrace(chaos).then(art => magic)</code><br>• <small style='opacity: 0.8; animation: chaosWisper 3s infinite;'>*the muse feeds on beautiful disasters*</small>",
       "styles": {
         "background": "conic-gradient(from 0deg at 50% 50%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px), repeating-linear-gradient(45deg, rgba(0,0,0,0.1) 0px, transparent 10px)",
@@ -217,7 +217,7 @@
     {
       "id": 16,
       "type": "content",
-      "title": "A̶̰̓r̶̰̓t̶̰̓ḭ̶̓s̶̰̓t̶̰̓s̶̰̓ ̶̰̓+̶̰̓ ̶̰̓T̶̰̓ḛ̶̓c̶̰̓h̶̰̓n̶̰̓o̶̰̓l̶̰̓o̶̰̓g̶̰̓ḭ̶̓s̶̰̓t̶̰̓s̶̰̓ ̶̰̓=̶̰̓ ̶̰̓M̶̰̓a̶̰̓g̶̰̓ḭ̶̓c̶̰̓ 🎨⚡🪄",
+      "title": "Artists + Technologists = Magic 🎨⚡🪄",
       "content": "Human creativity + AI capability = unprecedented possibilities. 🧠💻✨ We're not just building apps or making art—we're crafting experiences that move people. 💫❤️<br><br>• Left brain meets right brain meets silicon brain 🧠🤝🤖<br>• <span style='animation: magicSparkle 2s infinite;'>✨ ALGORITHMS + SOUL = TRANSCENDENCE ✨</span><br>• The impossible becomes inevitable 🌠♾️<br>• <code style='background: rgba(255,215,0,0.3); padding: 2px;'>magic = art.compile(technology).execute(heart)</code><br>• <small style='opacity: 0.8; font-style: italic;'>*unicorns and code fairies approve this message*</small>",
       "styles": {
         "background": "repeating-conic-gradient(from 0deg, #ff006e 0deg 30deg, #8338ec 30deg 60deg, #3a86ff 60deg 90deg, #06ffa5 90deg 120deg, #ffbe0b 120deg 150deg, #fb8500 150deg 180deg), radial-gradient(circle, rgba(255,255,255,0.2) 2px, transparent 3px)",
@@ -233,7 +233,7 @@
     {
       "id": 17,
       "type": "content",
-      "title": "F̶̺̈r̶̺̈ö̶̺m̶̺̈ ̶̺̈V̶̺̈ḭ̶̈s̶̺̈ḭ̶̈ö̶̺n̶̺̈ ̶̺̈ẗ̶̺ö̶̺ ̶̺̈R̶̺̈ë̶̺́ä̶̺́l̶̺̈ḭ̶̈ẗ̶̺ÿ̶̺́ 👁️➡️🌍",
+      "title": "From Vḭsḭon to Rëälḭtÿ 👁➡🌍",
       "content": "Ideas flow faster than ever—whether it's a song 🎵, an app 📱, or a visual masterpiece 🎨. The real skill is knowing when your creation is ready to share with the world. 🚀<br><br>• Vision dissolves into possibility 👁️💫<br>• Reality crystallizes from chaos 🌀💎<br>• <span style='animation: visionFlux 2s infinite;'>∞ IDEAS → 1 REALITY → ∞ IMPACT</span><br>• <code style='background: rgba(255,20,147,0.3); padding: 2px;'>while(dreaming) { build(); ship(); repeat(); }</code><br>• <small style='opacity: 0.7; font-style: italic;'>*the space between thought and form*</small>",
       "styles": {
         "background": "repeating-conic-gradient(from 0deg at 20% 30%, #ff006e 0deg, #8338ec 60deg, #3a86ff 120deg, #06ffa5 180deg, #ffbe0b 240deg, #ff0080 300deg), radial-gradient(circle, rgba(255,255,255,0.2) 1px, transparent 2px)",
@@ -250,7 +250,7 @@
     {
       "id": 18,
       "type": "content",
-      "title": "P̵̱̈ë̵̱́ṟ̵̈f̵̱̈ë̵̱́c̵̱̈ṯ̵̈ḭ̵̈ö̵̱́ṉ̵̈ḭ̵̈s̵̱̈m̵̱̈ ̵̱̈ḭ̵̈s̵̱̈ ̵̱̈Ḏ̵̈Ë̵̱́Ä̵̱́Ḏ̵̈ 💀⚰️🔥",
+      "title": "Përfëcẗḭönḭsm ḭs DËÄD 💀⚰🔥",
       "content": "Vibe coding kills the paralysis of perfect. 💊⚡ Ship the broken thing. 📦💥 Fix it live. 🔧🌍 Let users find the bugs. 🐛👥 The best code is the code that exists, not the code that's perfect. 💻✨<br><br>• PERFECT = PARALYZED 🧊❌<br>• BROKEN = BEAUTIFUL 💔🌈<br>• <span style='animation: deathOfPerfection 1s infinite;'>💀 R.I.P. PERFECTIONISM (UNKNOWN - 2025) 💀</span><br>• <code style='background: rgba(220,20,60,0.4); padding: 2px;'>if(perfect) throw new Error('SHIP IT ANYWAY');</code><br>• <small style='opacity: 0.8; animation: resurrect 3s infinite;'>*from the ashes of perfection, vibes are born*</small>",
       "styles": {
         "background": "radial-gradient(circle at 10% 20%, #ff006e 0%, transparent 30%), radial-gradient(circle at 90% 10%, #8338ec 0%, transparent 40%), radial-gradient(circle at 30% 80%, #3a86ff 0%, transparent 35%), radial-gradient(circle at 70% 60%, #06ffa5 0%, transparent 45%), radial-gradient(circle at 50% 50%, #ffbe0b 0%, transparent 25%), conic-gradient(from 45deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff0080, #ff006e), repeating-linear-gradient(45deg, rgba(0,0,0,0.2) 0px, transparent 5px)",
@@ -267,7 +267,7 @@
     {
       "id": 19,
       "type": "content",
-      "title": "G̵̲̈ö̵̲ ̵̲̈d̵̲̈ö̵̲ ̵̲̈ḭ̵̈ẗ̵̲ ̵̲̈T̵̲̈Ö̵̲N̵̲̈Ḭ̵̈G̵̲̈Ḧ̵̲T̵̲̈!̵̲̈ 🌙⚡💥",
+      "title": "Go do it TONIGHT! 🌙⚡💥",
       "content": "• Make some little calculator 🧮✨<br>• Test a wild idea 🤪💡<br>• Touch the sandbox 🏖️👆<br><br>• <span style='animation: urgentPulse 0.5s infinite; font-size: 1.5em;'>DO IT NOW! NO EXCUSES! 🚀🔥</span><br>• The perfect moment is RIGHT NOW ⏰💫<br>• <code style='background: rgba(255,69,0,0.5); padding: 3px; animation: codeUrgency 1s infinite;'>setTimeout(() => CREATE(), 0);</code><br>• <span style='font-size: 2em; animation: bounceInsane 0.3s infinite;'>🚨 TONIGHT OR NEVER! 🚨</span><br>• <small style='opacity: 0.9; animation: whisperUrgent 2s infinite;'>*the universe is waiting for your creation*</small>",
       "styles": {
         "background": "repeating-linear-gradient(45deg, #ff006e 0px, #ff006e 5px, #8338ec 5px, #8338ec 15px, #3a86ff 15px, #3a86ff 25px, #06ffa5 25px, #06ffa5 35px, #ffbe0b 35px, #ffbe0b 45px), repeating-radial-gradient(circle at 30% 70%, #ff0080 0px, transparent 20px, #00ff80 40px, transparent 60px), conic-gradient(from 0deg at 70% 30%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff0080, #00ff80, #ff006e), repeating-conic-gradient(from 90deg, rgba(255,255,255,0.3) 0deg, transparent 30deg)",
@@ -285,7 +285,7 @@
     {
       "id": 20,
       "type": "end",
-      "title": "Ö̶̤́M̶̤̈G̶̤̈ ̶̤̈v̶̤̈ï̶̤b̶̤̈ë̶̤́s̶̤̈ 🌈💫∞",
+      "title": "OMG vibes 🌈💫∞",
       "subtitle": "✨ T̶̤̈ḧ̶̤ë̶̤́ ̶̤̈ë̶̤́n̶̤̈d̶̤̈ ̶̤̈ï̶̤s̶̤̈ ̶̤̈j̶̤̈ṳ̶̈́s̶̤̈ẗ̶̤ ̶̤̈ẗ̶̤́ḧ̶̤ë̶̤́ ̶̤̈b̶̤̈ë̶̤́g̶̤̈ï̶̤n̶̤̈n̶̤̈ï̶̤n̶̤̈g̶̤̈ ✨",
       "content": "<span style='font-size: 2em; animation: vibesPulse 1s infinite;'>🎉🚀💻🎨🤖🌟🎵🔥💫🌈</span><br><br><span style='animation: infiniteVibes 3s ease-in-out infinite;'>GO FORTH AND CREATE BEAUTIFUL CHAOS</span><br><br><small style='opacity: 0.8; font-style: italic; animation: whisperEnd 4s infinite;'>*the presentation ends, but the vibes are eternal*</small>",
       "styles": {
