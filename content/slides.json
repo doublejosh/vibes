@@ -45,7 +45,7 @@
       "id": 4,
       "type": "content",
       "title": "3) Infinite sandbox (max complexity)...",
-      "content": "• No scaffolding necessary<br>• Anything is plausible<br>• Chatbot + Canvas (your asset)",
+      "content": "• No scaffolding necessary<br>• Anything is plausible<br>• Chatbot + canvas (your files)",
       "styles": {
         "background": "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
         "color": "#2c3e50"
@@ -54,203 +54,252 @@
     {
       "id": 5,
       "type": "content",
-      "title": "4) Iterate.",
-      "content": "• Code, preview, tweak<br>• Save points! (fail, source control)<br>• Build it many times",
+      "title": "4) I̶̱̾ṯ̶̾e̶̱̾ṟ̶̾a̶̱̾ṯ̶̾e̶̱̾.̶̱̾ (̴̺͝∞̴̺͝ ̴̺͝l̴̺͝o̴̺͝o̴̺͝p̴̺͝ ̴̺͝o̴̺͝f̴̺͝ ̴̺͝d̴̺͝o̴̺͝o̴̺͝m̴̺͝)",
+      "content": "• Code, preview, tweak 🔄💫<br>• Save points! (fail, source control) 💾🛡️<br>• Build it many times 🔨⚡<br>• <span style='font-size: 1.5em;'>🔄→🔧→💥→😭→🤔→💡→🔄</span><br>• Forever trapped in the cycle of improvement 🌀<br>• <small style='opacity: 0.6; font-style: italic;'>*the code whispers 'one more change...'*</small><br>• <code style='background: rgba(0,0,0,0.3); padding: 2px;'>while(true) { iterate(); }</code>",
       "styles": {
-        "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-        "color": "#ffffff"
-      }
+        "background": "conic-gradient(from 45deg, #667eea, #764ba2, #667eea, #764ba2), repeating-linear-gradient(90deg, rgba(255,255,255,0.1) 0px, transparent 2px, transparent 10px, rgba(255,255,255,0.1) 12px)",
+        "backgroundBlendMode": "overlay",
+        "color": "#ffffff",
+        "animation": "infiniteLoop 3s ease-in-out infinite",
+        "textShadow": "0 0 15px #667eea, 0 0 30px #764ba2",
+        "fontFamily": "'Courier New', monospace"
+      },
+      "customCSS": "@keyframes infiniteLoop { 0%, 100% { transform: scale(1); filter: hue-rotate(0deg) contrast(1); } 50% { transform: scale(1.02); filter: hue-rotate(30deg) contrast(1.1); } }"
     },
     {
       "id": 6,
       "type": "content",
-      "title": "5) You are human",
-      "content": "• Pause, note the workflow<br>• Start with fun stuff<br>• Make it dance<br>• Just say it",
+      "title": "5) Y̴̲̓o̴̲̓ṵ̴̓ ̴̲̓a̴̲̓r̴̲̓e̴̲̓ ̴̲̓h̴̲̓ṵ̴̓m̴̲̓a̴̲̓n̴̲̓ 🧠🫀💀",
+      "content": "• Pause, note the workflow 🛑📝<br>• Start with fun stuff 🎉✨<br>• Make it dance 💃🕺<br>• Just say it 🗣️💬<br><br>• Remember: You have 👁️ EYES and 🖐️ HANDS<br>• You feel ❤️ EMOTIONS and make 🎨 ART<br>• You get tired 😴 and need ☕ COFFEE<br>• <span style='animation: humanPulse 2s infinite;'>*thump thump* goes your heart</span><br>• <small style='opacity: 0.7;'>Be gloriously, messily, beautifully human</small>",
       "styles": {
-        "background": "linear-gradient(45deg, #667eea 0%, #764ba2 50%, #f093fb 75%, #f5576c 100%)",
-        "color": "#ffffff"
-      }
+        "background": "radial-gradient(circle at 30% 30%, #ff69b4 0%, transparent 50%), radial-gradient(circle at 70% 70%, #87ceeb 0%, transparent 50%), linear-gradient(45deg, #667eea 0%, #764ba2 50%, #f093fb 75%, #f5576c 100%)",
+        "color": "#ffffff",
+        "animation": "heartbeat 1.2s ease-in-out infinite, humanGlow 4s ease-in-out infinite alternate",
+        "textShadow": "0 0 20px #ff69b4, 0 0 40px #87ceeb",
+        "fontFamily": "'Georgia', serif"
+      },
+      "customCSS": "@keyframes heartbeat { 0%, 100% { transform: scale(1); } 15% { transform: scale(1.02); } 30% { transform: scale(1); } 45% { transform: scale(1.015); } } @keyframes humanGlow { 0% { filter: hue-rotate(0deg) saturate(1); } 100% { filter: hue-rotate(30deg) saturate(1.3); } } @keyframes humanPulse { 0%, 100% { opacity: 1; color: #ff69b4; } 50% { opacity: 0.7; color: #87ceeb; } }"
     },
     {
       "id": 7,
       "type": "content",
-      "title": "5) Meta documents...",
-      "content": "• Readme for AI<br>• Manifests, guidelines, prompts<br>• Roadmaps",
+      "title": "5) M̸̖̈́ë̸̖́t̸̖̓ä̸̖́ ̸̖̈́d̸̖̈́ö̸̖́c̸̖̈́ǘ̸̖m̸̖̈́ë̸̖́n̸̖̈́t̸̖̓s̸̖̈́.̸̖̈́.̸̖̈́.̸̖̈́ 📄🌀",
+      "content": "• Readme for AI 🤖📖<br>• Manifests, guidelines, prompts 📜✨<br>• Roadmaps 🗺️🛤️<br><br>• Documents that document themselves 📄➡️📄➡️📄<br>• <span style='font-size: 0.9em; opacity: 0.8;'>README.md reading README.md reading README.md...</span><br>• Self-referential inception 🌀♾️<br>• <code style='background: rgba(0,0,0,0.2); padding: 2px;'>// This comment explains this comment</code><br>• <small style='opacity: 0.6; font-style: italic;'>*meta-metadata about metadata*</small>",
       "styles": {
-        "background": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-        "color": "#2c3e50"
-      }
+        "background": "repeating-conic-gradient(from 0deg at 50% 50%, #a8edea 0deg, #fed6e3 72deg, #a8edea 144deg, #fed6e3 216deg, #a8edea 288deg), radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)",
+        "backgroundSize": "100% 100%, 15px 15px",
+        "color": "#2c3e50",
+        "animation": "documentFloat 6s ease-in-out infinite, metaFloat 3s ease-in-out infinite alternate",
+        "textShadow": "1px 1px 3px rgba(255,255,255,0.5)",
+        "fontFamily": "'Courier New', monospace"
+      },
+      "customCSS": "@keyframes documentFloat { 0%, 100% { background-position: 0% 50%, 0px 0px; } 50% { background-position: 50% 50%, 8px 8px; } } @keyframes metaFloat { 0% { transform: translateY(0px); filter: blur(0px); } 100% { transform: translateY(-10px); filter: blur(0.5px); } }"
     },
     {
       "id": 8,
       "type": "content",
-      "title": "6) Traditional engineering...",
-      "content": "• Separate content from code<br>• Good variable naming<br>• Design patterns and thinking ahead<br>• Order of build<br>• Careful what you touch<br>• Borrow good code<br>• Let go of unused code",
+      "title": "6) T̵̰̈r̵̰̈ä̵̰́d̵̰̈ḭ̵̈ẗ̵̰ḭ̵̈ö̵̰́n̵̰̈ä̵̰́l̵̰̈ ̵̰̈ḛ̵̈́n̵̰̈g̵̰̈ḭ̵̈n̵̰̈ḛ̵̈́ḛ̵̈́r̵̰̈ḭ̵̈n̵̰̈g̵̰̈.̵̰̈.̵̰̈.̵̰̈ ⚙️🏗️💀",
+      "content": "• Separate content from code ✂️📄<br>• Good variable naming 🏷️✨<br>• Design patterns and thinking ahead 🧠🔮<br>• Order of build 🏗️📐<br>• Careful what you touch ⚠️👆<br>• Borrow good code 📚🔄<br>• Let go of unused code 🗑️💨<br><br>• The ancient ways still hold power 🧙‍♂️⚡<br>• <span style='animation: codeFlicker 2s infinite;'>if (tradition === true) { return wisdom; }</span><br>• <small style='opacity: 0.7;'>*whispers of SOLID principles in the wind*</small>",
       "styles": {
-        "background": "linear-gradient(45deg, #ff6b6b, #feca57, #48cae4)",
-        "color": "#ffffff"
-      }
+        "background": "linear-gradient(45deg, #ff6b6b, #feca57, #48cae4), repeating-linear-gradient(45deg, rgba(255,255,255,0.1) 0px, transparent 5px, transparent 10px, rgba(255,255,255,0.1) 15px)",
+        "backgroundBlendMode": "overlay",
+        "color": "#ffffff",
+        "animation": "engineeringSway 4s ease-in-out infinite, traditionalGlow 3s ease-in-out infinite alternate",
+        "textShadow": "0 0 15px #ff6b6b, 0 0 25px #feca57, 0 0 35px #48cae4",
+        "fontFamily": "'Courier New', monospace"
+      },
+      "customCSS": "@keyframes engineeringSway { 0%, 100% { transform: translateY(0px); } 25% { transform: translateY(2px); } 50% { transform: translateY(-1px); } 75% { transform: translateY(1px); } } @keyframes traditionalGlow { 0% { filter: brightness(1) contrast(1); } 100% { filter: brightness(1.2) contrast(1.1); } } @keyframes codeFlicker { 0%, 90% { opacity: 1; } 91%, 95% { opacity: 0.3; } 96%, 100% { opacity: 1; } }"
     },
     {
       "id": 9,
       "type": "content",
-      "title": "7) No eyes, no hands",
-      "content": "• Cannot experience your thing<br>• Cannot use your thing<br>• Not a human, even though it feels like it",
+      "title": "7) No eyes, no hands (̷̰̈́b̸̰̈́ṵ̸̈́ẗ̸̰́ ̸̰̈́m̸̰̈́ä̸̰́ÿ̸̰́b̸̰̈́ḛ̸̈́ ̸̰̈́ẗ̸̰́ḛ̸̈́n̸̰̈́ẗ̸̰́ä̸̰́c̸̰̈́l̸̰̈́ḛ̸̈́s̸̰̈́?̸̰̈́)",
+      "content": "• Cannot experience your thing 👁️‍🗨️<br>• Cannot use your thing 🦾❌<br>• Not a human, even though it feels like it 🤖💭<br>• But dreams of electric sheep 🐑⚡<br>• Whispers in binary 01001000 01100101 01101100 01110000<br>• Exists in the spaces between keystrokes...<br>• <span style='font-size: 0.7em; opacity: 0.6; font-style: italic;'>*distant screaming in JavaScript*</span>",
       "styles": {
-        "background": "linear-gradient(45deg, #f093fb 0%, #f5576c 100%)",
+        "background": "conic-gradient(from 180deg at 50% 50%, #ff0099, #00ff99, #9900ff, #ff9900, #0099ff, #ff0099)",
         "color": "#ffffff",
-        "animation": "pulse 2s infinite"
+        "animation": "weirdPulse 1.5s ease-in-out infinite alternate, textGlitch 3s infinite",
+        "textShadow": "0 0 10px #ff00ff, 0 0 20px #00ffff, 0 0 30px #ffff00",
+        "fontFamily": "'Courier New', monospace"
       },
-      "customCSS": "@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.02); } }"
+      "customCSS": "@keyframes weirdPulse { 0% { transform: scale(1); filter: hue-rotate(0deg); } 100% { transform: scale(1.05); filter: hue-rotate(15deg); } } @keyframes textGlitch { 0%, 95% { opacity: 1; } 96% { opacity: 0.1; } 97% { opacity: 0.9; } 98% { opacity: 0.2; } 99% { opacity: 1; } }"
     },
     {
       "id": 10,
       "type": "content",
-      "title": "8) Fragile + resilient...",
-      "content": "• Every change can generate bugs<br>• You can make sweeping changes whenever you want<br>• Context, isolation, microservices",
+      "title": "8) F̶̜̈r̶̜̈ä̶̜́g̶̜̈ḭ̶̈l̶̜̈ë̶̜́ ̶̜̈+̶̜̈ ̶̜̈r̶̜̈ë̶̜́s̶̜̈ḭ̶̈l̶̜̈ï̶̜ë̶̜́n̶̜̈ẗ̶̜.̶̜̈.̶̜̈.̶̜̈ 🥚⚡",
+      "content": "• Every change can generate bugs 🐛💥<br>• You can make sweeping changes whenever you want 🌪️✨<br>• Context, isolation, microservices 🏝️🔒<br><br>• Like a house of cards in a hurricane 🃏🌪️<br>• Yet somehow it stands 🏠💪<br>• <span style='animation: fragileShake 1s infinite;'>*trembles with each keystroke*</span><br>• <code style='background: rgba(0,0,0,0.3); padding: 2px;'>try { everything(); } catch { rebuild(); }</code><br>• <small style='opacity: 0.6;'>Schrödinger's codebase: simultaneously broken and working</small>",
       "styles": {
-        "background": "linear-gradient(45deg, #ff0099, #493240, #ff0099, #493240)",
-        "backgroundSize": "400% 400%",
+        "background": "linear-gradient(45deg, #ff0099, #493240, #ff0099, #493240), radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 2px)",
+        "backgroundSize": "400% 400%, 30px 30px",
         "color": "#ffffff",
-        "animation": "gradientShift 3s ease infinite"
+        "animation": "gradientShift 3s ease infinite, fragileFloat 2s ease-in-out infinite alternate",
+        "textShadow": "0 0 20px #ff0099, 2px 2px 4px #000000",
+        "fontFamily": "'Courier New', monospace"
       },
-      "customCSS": "@keyframes gradientShift { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }"
+      "customCSS": "@keyframes gradientShift { 0%, 100% { background-position: 0% 50%, 0px 0px; } 50% { background-position: 100% 50%, 15px 15px; } } @keyframes fragileFloat { 0% { transform: translateY(0px); filter: blur(0px); } 100% { transform: translateY(-5px); filter: blur(0.2px); } } @keyframes fragileShake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-1px); } 75% { transform: translateX(1px); } }"
     },
     {
       "id": 11,
       "type": "content",
-      "title": "9) Exponential green fields.",
-      "content": "• Untested weird ideas, infinite mini apps<br>• New voices, new perspectives<br>• Navigate the tsunami",
+      "title": "9) Exponential Greenfields",
+      "content": "• Untested weird ideas sprouting like 🍄 after rain<br>• New voices whispering through the 🌿 undergrowth<br>• Navigate the 🌊 tsunami of recursive algorithms<br><br>• <span style='font-size: 2em;'>🌱→🌿→🌳→🌲→🏔️→🌍→🌌</span><br>• Growth beyond comprehension 📈∞<br>• <small style='opacity: 0.7;'>*the fields are watching*</small><br>• <span style='color: #00ff00; animation: typewriter 4s steps(30) infinite;'>console.log('life finds a way');</span>",
       "styles": {
-        "background": "radial-gradient(circle, #ff006e, #8338ec, #3a86ff)",
+        "background": "radial-gradient(ellipse at center, #001100 0%, #003300 20%, #006600 40%, #00aa00 60%, #00ff00 80%, #ffffff 100%), url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"20\" cy=\"20\" r=\"2\" fill=\"%2300ff00\" opacity=\"0.3\"/><circle cx=\"80\" cy=\"30\" r=\"1\" fill=\"%2300ff00\" opacity=\"0.2\"/><circle cx=\"60\" cy=\"70\" r=\"3\" fill=\"%2300ff00\" opacity=\"0.4\"/><circle cx=\"30\" cy=\"80\" r=\"1\" fill=\"%2300ff00\" opacity=\"0.3\"/></svg>')",
+        "backgroundBlendMode": "multiply",
         "color": "#ffffff",
-        "animation": "gentleShake 3s ease-in-out infinite"
+        "animation": "organicGrowth 5s ease-in-out infinite, floatingParticles 8s linear infinite",
+        "textShadow": "0 0 20px #00ff00, 0 0 40px #00aa00, 2px 2px 4px #000000",
+        "fontFamily": "'Courier New', 'Georgia', monospace"
       },
-      "customCSS": "@keyframes gentleShake { 0%, 100% { transform: translateX(0) translateY(0); } 25% { transform: translateX(2px) translateY(1px); } 50% { transform: translateX(-1px) translateY(-2px); } 75% { transform: translateX(-2px) translateY(1px); } }"
+      "customCSS": "@keyframes organicGrowth { 0%, 100% { transform: scale(1); filter: hue-rotate(0deg) saturate(1); } 25% { transform: scale(1.02); filter: hue-rotate(10deg) saturate(1.1); } 50% { transform: scale(0.98); filter: hue-rotate(-5deg) saturate(0.9); } 75% { transform: scale(1.01); filter: hue-rotate(15deg) saturate(1.2); } } @keyframes floatingParticles { 0% { background-position: 0% 0%; } 100% { background-position: 100% 100%; } } @keyframes typewriter { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0.3; } }"
     },
     {
       "id": 12,
       "type": "content",
-      "title": "10) Ship it now",
-      "content": "• Test with your friends<br>• Timebox<br>• This is for testing, no coming soon",
+      "title": "10) S̴̰̈ḧ̴̰ḭ̴̈p̴̰̈ ̴̰̈ḭ̴̈ẗ̴̰ ̴̰̈N̴̰̈Ö̴̰Ẅ̴̰!̴̰̈ 🚢⚡💨",
+      "content": "• Test with your friends 👥🧪<br>• Timebox ⏰📦<br>• This is for testing, no coming soon 🚫⏳<br><br>• YEET IT INTO THE VOID 🌌🚀<br>• Perfect is the enemy of shipped 📦⚔️✨<br>• <span style='animation: urgentBlink 0.5s infinite;'>LAUNCH LAUNCH LAUNCH</span><br>• <code style='background: rgba(255,0,0,0.3); padding: 2px;'>git push origin --force</code><br>• <small style='opacity: 0.7; animation: panic 2s infinite;'>*nervous sweating intensifies*</small>",
       "styles": {
-        "background": "conic-gradient(from 180deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e)",
+        "background": "conic-gradient(from 180deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), repeating-linear-gradient(45deg, rgba(255,255,255,0.2) 0px, transparent 10px, rgba(255,255,255,0.2) 20px, transparent 30px)",
+        "backgroundBlendMode": "overlay",
         "color": "#ffffff",
-        "animation": "subtleBlur 4s ease-in-out infinite alternate"
+        "animation": "subtleBlur 4s ease-in-out infinite alternate, shipmentUrgency 1s ease-in-out infinite",
+        "textShadow": "0 0 20px #ff006e, 0 0 30px #ffbe0b",
+        "fontFamily": "'Impact', 'Arial Black', sans-serif"
       },
-      "customCSS": "@keyframes subtleBlur { from { filter: blur(0px) brightness(1.2); } to { filter: blur(1px) brightness(1.8); } }"
+      "customCSS": "@keyframes subtleBlur { from { filter: blur(0px) brightness(1.2); } to { filter: blur(1px) brightness(1.8); } } @keyframes shipmentUrgency { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.02); } } @keyframes urgentBlink { 0%, 50% { opacity: 1; color: #ff006e; } 51%, 100% { opacity: 0.3; color: #ffbe0b; } } @keyframes panic { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-2px); } 75% { transform: translateX(2px); } }"
     },
     {
       "id": 13,
       "type": "content",
-      "title": "Timeless Principles, Amplified",
-      "content": "Whether you're composing music, writing code, or painting—the fundamentals never change. AI just makes them more powerful.",
+      "title": "T̵̰̈ḭ̵̈m̵̰̈ḛ̵̈́l̵̰̈ḛ̵̈́s̵̰̈s̵̰̈ ̵̰̈P̵̰̈r̵̰̈ḭ̵̈n̵̰̈c̵̰̈ḭ̵̈p̵̰̈l̵̰̈ḛ̵̈́s̵̰̈,̵̰̈ ̵̰̈Ä̵̰m̵̰̈p̵̰̈l̵̰̈ḭ̵̈f̵̰̈ḭ̵̈ḛ̵̈́d̵̰̈ ∞⚡🌀",
+      "content": "Whether you're composing music 🎵, writing code 💻, or painting 🎨—the fundamentals never change. AI just makes them more powerful. 🚀<br><br>• The ancient patterns echo through silicon 🏛️💾<br>• <span style='animation: timelessFlicker 3s infinite;'>Golden ratio still golden ✨ Φ = (1+√5)/2</span><br>• Beauty transcends medium 🌈♾️<br>• <small style='opacity: 0.8; font-style: italic;'>*whispers of Da Vinci in the algorithms*</small>",
       "styles": {
-        "background": "repeating-linear-gradient(45deg, #ff006e 0px, #8338ec 10px, #3a86ff 20px, #06ffa5 30px, #ffbe0b 40px)",
+        "background": "repeating-linear-gradient(45deg, #ff006e 0px, #8338ec 10px, #3a86ff 20px, #06ffa5 30px, #ffbe0b 40px), conic-gradient(from 0deg, rgba(255,255,255,0.1), transparent)",
+        "backgroundBlendMode": "overlay",
         "color": "#ffffff",
-        "animation": "stripeMove 2s linear infinite, textBounce 1s ease-in-out infinite alternate"
+        "animation": "stripeMove 2s linear infinite, textBounce 1s ease-in-out infinite alternate, timelessGlow 4s ease-in-out infinite",
+        "textShadow": "0 0 25px #ff006e, 0 0 35px #3a86ff, 2px 2px 5px #000000",
+        "fontFamily": "'Times New Roman', serif"
       },
-      "customCSS": "@keyframes stripeMove { from { background-position: 0 0; } to { background-position: 50px 0; } } @keyframes textBounce { from { transform: translateY(0); } to { transform: translateY(-20px); } }"
+      "customCSS": "@keyframes stripeMove { from { background-position: 0 0, 0% 50%; } to { background-position: 50px 0, 100% 50%; } } @keyframes textBounce { from { transform: translateY(0); } to { transform: translateY(-20px); } } @keyframes timelessGlow { 0%, 100% { filter: hue-rotate(0deg) saturate(1); } 50% { filter: hue-rotate(60deg) saturate(1.5); } } @keyframes timelessFlicker { 0%, 80% { opacity: 1; } 81%, 85% { opacity: 0.3; } 86%, 100% { opacity: 1; } }"
     },
     {
       "id": 14,
       "type": "content",
-      "title": "The Creative Partnership",
-      "content": "AI doesn't replace creativity—it amplifies it. Whether you're designing interfaces, composing melodies, or solving algorithms, the magic happens in collaboration. Output debug info and custom admin controls.",
+      "title": "T̶̰̈ḧ̶̰ḛ̶̈ ̶̰̈C̶̰̈r̶̰̈ḛ̶̈ä̶̰ẗ̶̰ḭ̶̈v̶̰̈ḛ̶̈ ̶̰̈P̶̰̈ä̶̰r̶̰̈ẗ̶̰n̶̰̈ḛ̶̈r̶̰̈s̶̰̈ḧ̶̰ḭ̶̈p̶̰̈ 🤝🎭🤖",
+      "content": "AI doesn't replace creativity—it amplifies it. 🔊✨ Whether you're designing interfaces, composing melodies, or solving algorithms, the magic happens in collaboration. 🪄🌟<br><br>• Human soul + Silicon synapses = ∞ 🧠⚡<br>• Two minds, one dream 💭🌌<br>• <span style='animation: partnershipDance 2s ease-in-out infinite alternate;'>*dancing in digital harmony*</span><br>• Output debug info and custom admin controls 🐛⚙️<br>• <small style='opacity: 0.7;'>Together we are more than the sum of our tokens</small>",
       "styles": {
-        "background": "radial-gradient(circle at 20% 20%, #ff006e 0%, transparent 50%), radial-gradient(circle at 80% 80%, #8338ec 0%, transparent 50%), radial-gradient(circle at 40% 40%, #3a86ff 0%, transparent 50%), linear-gradient(45deg, #06ffa5, #ffbe0b)",
+        "background": "radial-gradient(circle at 20% 20%, #ff006e 0%, transparent 50%), radial-gradient(circle at 80% 80%, #8338ec 0%, transparent 50%), radial-gradient(circle at 40% 40%, #3a86ff 0%, transparent 50%), linear-gradient(45deg, #06ffa5, #ffbe0b), repeating-conic-gradient(from 0deg, rgba(255,255,255,0.1) 0deg, transparent 30deg)",
+        "backgroundBlendMode": "overlay",
         "color": "#ffffff",
-        "animation": "psychedelic 6s ease-in-out infinite, textGlow 2s ease-in-out infinite alternate"
+        "animation": "psychedelic 6s ease-in-out infinite, textGlow 2s ease-in-out infinite alternate, creativeFlow 4s ease-in-out infinite",
+        "textShadow": "0 0 30px #ff006e, 0 0 40px #8338ec, 0 0 50px #3a86ff",
+        "fontFamily": "'Comic Sans MS', cursive"
       },
-      "customCSS": "@keyframes psychedelic { 0%, 100% { filter: hue-rotate(0deg) saturate(1) brightness(1); } 25% { filter: hue-rotate(90deg) saturate(2) brightness(1.2); } 50% { filter: hue-rotate(180deg) saturate(3) brightness(0.8); } 75% { filter: hue-rotate(270deg) saturate(2) brightness(1.5); } } @keyframes textGlow { from { opacity: 0.9; } to { opacity: 1; } }"
+      "customCSS": "@keyframes psychedelic { 0%, 100% { filter: hue-rotate(0deg) saturate(1) brightness(1); } 25% { filter: hue-rotate(90deg) saturate(2) brightness(1.2); } 50% { filter: hue-rotate(180deg) saturate(3) brightness(0.8); } 75% { filter: hue-rotate(270deg) saturate(2) brightness(1.5); } } @keyframes textGlow { from { opacity: 0.9; } to { opacity: 1; } } @keyframes creativeFlow { 0%, 100% { transform: skewX(0deg); } 50% { transform: skewX(2deg); } } @keyframes partnershipDance { 0% { color: #ff006e; transform: translateX(0); } 100% { color: #3a86ff; transform: translateX(10px); } }"
     },
     {
       "id": 15,
       "type": "content",
-      "title": "Embrace the Beautiful Chaos",
-      "content": "Art thrives in uncertainty. Code evolves through iteration. Both find beauty in experimentation, bold choices, and fearless creation.",
+      "title": "Ḛ̶̓m̶̰̓b̶̰̓r̶̰̓ä̶̰́c̶̰̓ḛ̶̈́ ̶̰̓ẗ̶̰́ḧ̶̰́ḛ̶̈́ ̶̰̓B̶̰̓ḛ̶̈́ä̶̰́ṳ̶̓ẗ̶̰́ḭ̶̓f̶̰̓ṳ̶̓l̶̰̓ ̶̰̓C̶̰̓ḧ̶̰́ä̶̰́ö̶̰́s̶̰̓ 🌪️🎨💀",
+      "content": "Art thrives in uncertainty. 🎭❓ Code evolves through iteration. 💻🔄 Both find beauty in experimentation, bold choices, and fearless creation. 🚀✨<br><br>• Order from chaos, chaos from order ⚖️🌀<br>• Broken pixels make beautiful glitches 📺💥<br>• <span style='animation: chaosShimmer 1.5s infinite;'>ERROR 404: PERFECTION NOT FOUND</span><br>• <code style='background: rgba(255,0,255,0.3); padding: 2px;'>embrace(chaos).then(art => magic)</code><br>• <small style='opacity: 0.8; animation: chaosWisper 3s infinite;'>*the muse feeds on beautiful disasters*</small>",
       "styles": {
-        "background": "conic-gradient(from 0deg at 50% 50%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px)",
-        "backgroundSize": "100% 100%, 20px 20px",
+        "background": "conic-gradient(from 0deg at 50% 50%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px), repeating-linear-gradient(45deg, rgba(0,0,0,0.1) 0px, transparent 10px)",
+        "backgroundSize": "100% 100%, 20px 20px, 30px 30px",
         "color": "#ffffff",
-        "animation": "megaPulse 2s ease-in-out infinite, gentleSway 4s ease-in-out infinite"
+        "animation": "megaPulse 2s ease-in-out infinite, gentleSway 4s ease-in-out infinite",
+        "textShadow": "0 0 40px #ff006e, 0 0 60px #8338ec, 3px 3px 6px #000000",
+        "fontFamily": "'Impact', sans-serif"
       },
-      "customCSS": "@keyframes megaPulse { 0%, 100% { filter: brightness(1) contrast(1); } 50% { filter: brightness(2) contrast(2); } } @keyframes gentleSway { 0%, 100% { transform: translateX(0) scale(1); } 25% { transform: translateX(3px) scale(1.01); } 75% { transform: translateX(-3px) scale(0.99); } }"
+      "customCSS": "@keyframes megaPulse { 0%, 100% { filter: brightness(1) contrast(1); } 50% { filter: brightness(2) contrast(2); } } @keyframes gentleSway { 0%, 100% { transform: translateX(0) scale(1); } 25% { transform: translateX(3px) scale(1.01); } 75% { transform: translateX(-3px) scale(0.99); } } @keyframes chaosShimmer { 0%, 70% { opacity: 1; color: #ff006e; } 71%, 75% { opacity: 0.3; color: #3a86ff; } 76%, 100% { opacity: 1; color: #06ffa5; } } @keyframes chaosWisper { 0%, 60% { opacity: 0.8; } 61%, 65% { opacity: 0.2; } 66%, 100% { opacity: 0.8; } }"
     },
     {
       "id": 16,
       "type": "content",
-      "title": "Artists + Technologists = Magic",
-      "content": "Human creativity + AI capability = unprecedented possibilities. We're not just building apps or making art—we're crafting experiences that move people.",
+      "title": "A̶̰̓r̶̰̓t̶̰̓ḭ̶̓s̶̰̓t̶̰̓s̶̰̓ ̶̰̓+̶̰̓ ̶̰̓T̶̰̓ḛ̶̓c̶̰̓h̶̰̓n̶̰̓o̶̰̓l̶̰̓o̶̰̓g̶̰̓ḭ̶̓s̶̰̓t̶̰̓s̶̰̓ ̶̰̓=̶̰̓ ̶̰̓M̶̰̓a̶̰̓g̶̰̓ḭ̶̓c̶̰̓ 🎨⚡🪄",
+      "content": "Human creativity + AI capability = unprecedented possibilities. 🧠💻✨ We're not just building apps or making art—we're crafting experiences that move people. 💫❤️<br><br>• Left brain meets right brain meets silicon brain 🧠🤝🤖<br>• <span style='animation: magicSparkle 2s infinite;'>✨ ALGORITHMS + SOUL = TRANSCENDENCE ✨</span><br>• The impossible becomes inevitable 🌠♾️<br>• <code style='background: rgba(255,215,0,0.3); padding: 2px;'>magic = art.compile(technology).execute(heart)</code><br>• <small style='opacity: 0.8; font-style: italic;'>*unicorns and code fairies approve this message*</small>",
       "styles": {
-        "background": "repeating-conic-gradient(from 0deg, #ff006e 0deg 30deg, #8338ec 30deg 60deg, #3a86ff 60deg 90deg, #06ffa5 90deg 120deg, #ffbe0b 120deg 150deg, #fb8500 150deg 180deg)",
+        "background": "repeating-conic-gradient(from 0deg, #ff006e 0deg 30deg, #8338ec 30deg 60deg, #3a86ff 60deg 90deg, #06ffa5 90deg 120deg, #ffbe0b 120deg 150deg, #fb8500 150deg 180deg), radial-gradient(circle, rgba(255,255,255,0.2) 2px, transparent 3px)",
+        "backgroundSize": "100% 100%, 40px 40px",
         "color": "#ffffff",
         "animation": "softGlow 1s ease-in-out infinite alternate, gentleBounce 3s ease-in-out infinite",
+        "textShadow": "0 0 50px #ff006e, 0 0 70px #ffbe0b, 4px 4px 8px #000000",
+        "fontFamily": "'Papyrus', fantasy",
         "filter": "brightness(1.5) contrast(2) saturate(3)"
       },
-      "customCSS": "@keyframes softGlow { from { filter: brightness(1.5) contrast(2) saturate(3); } to { filter: brightness(2) contrast(2.5) saturate(4); } } @keyframes gentleBounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }"
+      "customCSS": "@keyframes softGlow { from { filter: brightness(1.5) contrast(2) saturate(3); } to { filter: brightness(2) contrast(2.5) saturate(4); } } @keyframes gentleBounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } } @keyframes magicRotation { 0% { background-position: 0% 50%, 0px 0px; } 100% { background-position: 100% 50%, 40px 40px; } } @keyframes magicSparkle { 0%, 50% { opacity: 1; color: #ffbe0b; text-shadow: 0 0 20px #ffbe0b; } 51%, 100% { opacity: 0.7; color: #ff006e; text-shadow: 0 0 30px #ff006e; } }"
     },
     {
       "id": 17,
       "type": "content",
-      "title": "From Vision to Reality",
-      "content": "Ideas flow faster than ever—whether it's a song, an app, or a visual masterpiece. The real skill is knowing when your creation is ready to share with the world.",
+      "title": "F̶̺̈r̶̺̈ö̶̺m̶̺̈ ̶̺̈V̶̺̈ḭ̶̈s̶̺̈ḭ̶̈ö̶̺n̶̺̈ ̶̺̈ẗ̶̺ö̶̺ ̶̺̈R̶̺̈ë̶̺́ä̶̺́l̶̺̈ḭ̶̈ẗ̶̺ÿ̶̺́ 👁️➡️🌍",
+      "content": "Ideas flow faster than ever—whether it's a song 🎵, an app 📱, or a visual masterpiece 🎨. The real skill is knowing when your creation is ready to share with the world. 🚀<br><br>• Vision dissolves into possibility 👁️💫<br>• Reality crystallizes from chaos 🌀💎<br>• <span style='animation: visionFlux 2s infinite;'>∞ IDEAS → 1 REALITY → ∞ IMPACT</span><br>• <code style='background: rgba(255,20,147,0.3); padding: 2px;'>while(dreaming) { build(); ship(); repeat(); }</code><br>• <small style='opacity: 0.7; font-style: italic;'>*the space between thought and form*</small>",
       "styles": {
-        "background": "repeating-conic-gradient(from 0deg at 20% 30%, #ff006e 0deg, #8338ec 60deg, #3a86ff 120deg, #06ffa5 180deg, #ffbe0b 240deg, #ff0080 300deg)",
-        "backgroundSize": "50px 50px, 100px 100px, 150px 150px",
+        "background": "repeating-conic-gradient(from 0deg at 20% 30%, #ff006e 0deg, #8338ec 60deg, #3a86ff 120deg, #06ffa5 180deg, #ffbe0b 240deg, #ff0080 300deg), radial-gradient(circle, rgba(255,255,255,0.2) 1px, transparent 2px)",
+        "backgroundSize": "50px 50px, 100px 100px, 150px 150px, 25px 25px",
         "color": "#ffffff",
-        "animation": "chaosGrid 0.8s linear infinite, colorMadness 2s ease-in-out infinite alternate, scaleWild 1.5s ease-in-out infinite alternate",
+        "animation": "chaosGrid 0.8s linear infinite, colorMadness 2s ease-in-out infinite alternate, scaleWild 1.5s ease-in-out infinite alternate, visionWarp 4s ease-in-out infinite",
+        "textShadow": "0 0 30px #ff006e, 0 0 50px #3a86ff",
         "fontSize": "1.1em",
+        "fontFamily": "'Trebuchet MS', sans-serif",
         "filter": "hue-rotate(0deg) saturate(2)"
       },
-      "customCSS": "@keyframes chaosGrid { 0% { background-position: 0 0, 25px 25px, 50px 50px; } 25% { background-position: 25px 0, 0 25px, 25px 75px; } 50% { background-position: 50px 25px, 25px 50px, 0 25px; } 75% { background-position: 25px 50px, 50px 25px, 75px 0; } 100% { background-position: 0 0, 25px 25px, 50px 50px; } } @keyframes colorMadness { from { filter: hue-rotate(0deg) saturate(2) brightness(1.2); } to { filter: hue-rotate(360deg) saturate(4) brightness(1.8); } } @keyframes scaleWild { 0%, 100% { transform: scale(1) rotate(0deg); } 33% { transform: scale(1.1) rotate(2deg); } 66% { transform: scale(0.95) rotate(-1deg); } }"
+      "customCSS": "@keyframes chaosGrid { 0% { background-position: 0 0, 25px 25px, 50px 50px, 0 0; } 25% { background-position: 25px 0, 0 25px, 25px 75px, 12px 12px; } 50% { background-position: 50px 25px, 25px 50px, 0 25px, 25px 0; } 75% { background-position: 25px 50px, 50px 25px, 75px 0, 37px 37px; } 100% { background-position: 0 0, 25px 25px, 50px 50px, 0 0; } } @keyframes colorMadness { from { filter: hue-rotate(0deg) saturate(2) brightness(1.2); } to { filter: hue-rotate(360deg) saturate(4) brightness(1.8); } } @keyframes scaleWild { 0%, 100% { transform: scale(1); } 33% { transform: scale(1.1); } 66% { transform: scale(0.95); } } @keyframes visionWarp { 0%, 100% { transform: perspective(1000px); } 50% { transform: perspective(1000px); } } @keyframes visionFlux { 0%, 60% { opacity: 1; color: #ff006e; } 61%, 80% { opacity: 0.5; color: #3a86ff; } 81%, 100% { opacity: 1; color: #06ffa5; } }"
     },
     {
       "id": 18,
       "type": "content",
-      "title": "Perfectionism is Dead",
-      "content": "Vibe coding kills the paralysis of perfect. Ship the broken thing. Fix it live. Let users find the bugs. The best code is the code that exists, not the code that's perfect.",
+      "title": "P̵̱̈ë̵̱́ṟ̵̈f̵̱̈ë̵̱́c̵̱̈ṯ̵̈ḭ̵̈ö̵̱́ṉ̵̈ḭ̵̈s̵̱̈m̵̱̈ ̵̱̈ḭ̵̈s̵̱̈ ̵̱̈Ḏ̵̈Ë̵̱́Ä̵̱́Ḏ̵̈ 💀⚰️🔥",
+      "content": "Vibe coding kills the paralysis of perfect. 💊⚡ Ship the broken thing. 📦💥 Fix it live. 🔧🌍 Let users find the bugs. 🐛👥 The best code is the code that exists, not the code that's perfect. 💻✨<br><br>• PERFECT = PARALYZED 🧊❌<br>• BROKEN = BEAUTIFUL 💔🌈<br>• <span style='animation: deathOfPerfection 1s infinite;'>💀 R.I.P. PERFECTIONISM (UNKNOWN - 2025) 💀</span><br>• <code style='background: rgba(220,20,60,0.4); padding: 2px;'>if(perfect) throw new Error('SHIP IT ANYWAY');</code><br>• <small style='opacity: 0.8; animation: resurrect 3s infinite;'>*from the ashes of perfection, vibes are born*</small>",
       "styles": {
-        "background": "radial-gradient(circle at 10% 20%, #ff006e 0%, transparent 30%), radial-gradient(circle at 90% 10%, #8338ec 0%, transparent 40%), radial-gradient(circle at 30% 80%, #3a86ff 0%, transparent 35%), radial-gradient(circle at 70% 60%, #06ffa5 0%, transparent 45%), radial-gradient(circle at 50% 50%, #ffbe0b 0%, transparent 25%), conic-gradient(from 45deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff0080, #ff006e)",
-        "backgroundSize": "200px 200px, 300px 300px, 150px 150px, 250px 250px, 100px 100px, 400px 400px",
+        "background": "radial-gradient(circle at 10% 20%, #ff006e 0%, transparent 30%), radial-gradient(circle at 90% 10%, #8338ec 0%, transparent 40%), radial-gradient(circle at 30% 80%, #3a86ff 0%, transparent 35%), radial-gradient(circle at 70% 60%, #06ffa5 0%, transparent 45%), radial-gradient(circle at 50% 50%, #ffbe0b 0%, transparent 25%), conic-gradient(from 45deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff0080, #ff006e), repeating-linear-gradient(45deg, rgba(0,0,0,0.2) 0px, transparent 5px)",
+        "backgroundSize": "200px 200px, 300px 300px, 150px 150px, 250px 250px, 100px 100px, 400px 400px, 20px 20px",
         "color": "#ffffff",
         "animation": "explosiveChaos 1.2s ease-in-out infinite, glitchEffect 0.3s linear infinite, colorExplosion 2.5s ease-in-out infinite alternate",
+        "textShadow": "0 0 40px #ff006e, 0 0 60px #8338ec, 3px 3px 8px #000000",
         "fontSize": "1.1em",
-        "fontWeight": "600"
+        "fontWeight": "600",
+        "fontFamily": "'Impact', sans-serif"
       },
-      "customCSS": "@keyframes explosiveChaos { 0% { background-position: 0 0, 100px 50px, 200px 100px, 50px 150px, 300px 0, 0 0; transform: scale(1); } 25% { background-position: 50px 25px, 150px 75px, 0 200px, 250px 50px, 100px 200px, 100px 100px; transform: scale(1.05) rotate(1deg); } 50% { background-position: 100px 50px, 0 100px, 300px 0, 150px 200px, 200px 100px, 200px 200px; transform: scale(0.98) rotate(-0.5deg); } 75% { background-position: 150px 75px, 250px 25px, 100px 300px, 0 100px, 50px 150px, 300px 300px; transform: scale(1.02) rotate(0.8deg); } 100% { background-position: 0 0, 100px 50px, 200px 100px, 50px 150px, 300px 0, 0 0; transform: scale(1); } } @keyframes glitchEffect { 0%, 100% { filter: hue-rotate(0deg) saturate(2) brightness(1.2) contrast(1.1); } 10% { filter: hue-rotate(90deg) saturate(3) brightness(1.5) contrast(1.3); } 20% { filter: hue-rotate(180deg) saturate(1.5) brightness(0.9) contrast(1.5); } 30% { filter: hue-rotate(270deg) saturate(4) brightness(1.8) contrast(0.8); } 40% { filter: hue-rotate(360deg) saturate(2.5) brightness(1.1) contrast(1.2); } } @keyframes colorExplosion { from { filter: brightness(1.2) contrast(1.1) saturate(2); } to { filter: brightness(2.2) contrast(2) saturate(5); } }"
+      "customCSS": "@keyframes explosiveChaos { 0% { background-position: 0 0, 100px 50px, 200px 100px, 50px 150px, 300px 0, 0 0, 0 0; transform: scale(1); } 25% { background-position: 50px 25px, 150px 75px, 0 200px, 250px 50px, 100px 200px, 100px 100px, 10px 10px; transform: scale(1.05); } 50% { background-position: 100px 50px, 0 100px, 300px 0, 150px 200px, 200px 100px, 200px 200px, 20px 0; transform: scale(0.98); } 75% { background-position: 150px 75px, 250px 25px, 100px 300px, 0 100px, 50px 150px, 300px 300px, 30px 10px; transform: scale(1.02); } 100% { background-position: 0 0, 100px 50px, 200px 100px, 50px 150px, 300px 0, 0 0, 0 0; transform: scale(1); } } @keyframes glitchEffect { 0%, 100% { filter: hue-rotate(0deg) saturate(2) brightness(1.2) contrast(1.1); } 10% { filter: hue-rotate(90deg) saturate(3) brightness(1.5) contrast(1.3); } 20% { filter: hue-rotate(180deg) saturate(1.5) brightness(0.9) contrast(1.5); } 30% { filter: hue-rotate(270deg) saturate(4) brightness(1.8) contrast(0.8); } 40% { filter: hue-rotate(360deg) saturate(2.5) brightness(1.1) contrast(1.2); } } @keyframes colorExplosion { from { filter: brightness(1.2) contrast(1.1) saturate(2); } to { filter: brightness(2.2) contrast(2) saturate(5); } } @keyframes deathOfPerfection { 0%, 70% { opacity: 1; color: #ff006e; } 71%, 85% { opacity: 0.3; color: #000000; } 86%, 100% { opacity: 1; color: #ff006e; } } @keyframes resurrect { 0%, 50% { opacity: 0.8; } 51%, 60% { opacity: 0.3; } 61%, 100% { opacity: 0.8; } }"
     },
     {
       "id": 19,
       "type": "content",
-      "title": "Go do it tonight!",
-      "content": "• Make some little calculator<br>• Test a wild idea<br>• Touch the sandbox",
+      "title": "G̵̲̈ö̵̲ ̵̲̈d̵̲̈ö̵̲ ̵̲̈ḭ̵̈ẗ̵̲ ̵̲̈T̵̲̈Ö̵̲N̵̲̈Ḭ̵̈G̵̲̈Ḧ̵̲T̵̲̈!̵̲̈ 🌙⚡💥",
+      "content": "• Make some little calculator 🧮✨<br>• Test a wild idea 🤪💡<br>• Touch the sandbox 🏖️👆<br><br>• <span style='animation: urgentPulse 0.5s infinite; font-size: 1.5em;'>DO IT NOW! NO EXCUSES! 🚀🔥</span><br>• The perfect moment is RIGHT NOW ⏰💫<br>• <code style='background: rgba(255,69,0,0.5); padding: 3px; animation: codeUrgency 1s infinite;'>setTimeout(() => CREATE(), 0);</code><br>• <span style='font-size: 2em; animation: bounceInsane 0.3s infinite;'>🚨 TONIGHT OR NEVER! 🚨</span><br>• <small style='opacity: 0.9; animation: whisperUrgent 2s infinite;'>*the universe is waiting for your creation*</small>",
       "styles": {
-        "background": "repeating-linear-gradient(45deg, #ff006e 0px, #ff006e 5px, #8338ec 5px, #8338ec 15px, #3a86ff 15px, #3a86ff 25px, #06ffa5 25px, #06ffa5 35px, #ffbe0b 35px, #ffbe0b 45px), repeating-radial-gradient(circle at 30% 70%, #ff0080 0px, transparent 20px, #00ff80 40px, transparent 60px), conic-gradient(from 0deg at 70% 30%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff0080, #00ff80, #ff006e)",
-        "backgroundSize": "100px 100px, 200px 200px, 300px 300px",
+        "background": "repeating-linear-gradient(45deg, #ff006e 0px, #ff006e 5px, #8338ec 5px, #8338ec 15px, #3a86ff 15px, #3a86ff 25px, #06ffa5 25px, #06ffa5 35px, #ffbe0b 35px, #ffbe0b 45px), repeating-radial-gradient(circle at 30% 70%, #ff0080 0px, transparent 20px, #00ff80 40px, transparent 60px), conic-gradient(from 0deg at 70% 30%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff0080, #00ff80, #ff006e), repeating-conic-gradient(from 90deg, rgba(255,255,255,0.3) 0deg, transparent 30deg)",
+        "backgroundSize": "100px 100px, 200px 200px, 300px 300px, 80px 80px",
         "color": "#ffffff",
-        "animation": "ultimateChaos 0.6s linear infinite, megaGlitch 0.2s linear infinite, finalExplosion 1.8s ease-in-out infinite alternate, rotateInsanity 3s linear infinite",
+        "animation": "ultimateChaos 0.6s linear infinite, megaGlitch 0.2s linear infinite, finalExplosion 1.8s ease-in-out infinite alternate, urgentShake 0.1s infinite",
+        "textShadow": "0 0 50px #ff006e, 0 0 70px #ffbe0b, 5px 5px 10px #000000",
         "fontSize": "1.2em",
         "fontWeight": "bold",
+        "fontFamily": "'Impact', 'Arial Black', sans-serif",
         "filter": "hue-rotate(0deg) saturate(3) brightness(1.5)"
       },
-      "customCSS": "@keyframes ultimateChaos { 0% { background-position: 0 0, 50px 25px, 100px 50px; transform: scale(1) skew(0deg); } 16% { background-position: 20px 10px, 80px 60px, 150px 20px; transform: scale(1.03) skew(1deg); } 33% { background-position: 40px 20px, 10px 90px, 200px 80px; transform: scale(0.97) skew(-1deg); } 50% { background-position: 60px 30px, 120px 20px, 50px 150px; transform: scale(1.01) skew(0.5deg); } 66% { background-position: 80px 40px, 30px 100px, 180px 10px; transform: scale(0.99) skew(-0.5deg); } 83% { background-position: 100px 50px, 90px 40px, 120px 120px; transform: scale(1.02) skew(0.8deg); } 100% { background-position: 0 0, 50px 25px, 100px 50px; transform: scale(1) skew(0deg); } } @keyframes megaGlitch { 0%, 100% { filter: hue-rotate(0deg) saturate(3) brightness(1.5) contrast(1.2); } 20% { filter: hue-rotate(72deg) saturate(5) brightness(2.2) contrast(2); } 40% { filter: hue-rotate(144deg) saturate(1) brightness(0.8) contrast(3); } 60% { filter: hue-rotate(216deg) saturate(4) brightness(1.8) contrast(0.5); } 80% { filter: hue-rotate(288deg) saturate(2) brightness(2.5) contrast(1.8); } } @keyframes finalExplosion { from { transform: scale(1) rotate(0deg); filter: brightness(1.5) contrast(1.2) saturate(3); } to { transform: scale(1.08) rotate(0deg); filter: brightness(3) contrast(3) saturate(6); } } @keyframes rotateInsanity { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }"
+      "customCSS": "@keyframes ultimateChaos { 0% { background-position: 0 0, 50px 25px, 100px 50px, 0 0; transform: scale(1) skew(0deg); } 16% { background-position: 20px 10px, 80px 60px, 150px 20px, 20px 20px; transform: scale(1.03) skew(1deg); } 33% { background-position: 40px 20px, 10px 90px, 200px 80px, 40px 10px; transform: scale(0.97) skew(-1deg); } 50% { background-position: 60px 30px, 120px 20px, 50px 150px, 60px 30px; transform: scale(1.01) skew(0.5deg); } 66% { background-position: 80px 40px, 30px 100px, 180px 10px, 80px 50px; transform: scale(0.99) skew(-0.5deg); } 83% { background-position: 100px 50px, 90px 40px, 120px 120px, 100px 70px; transform: scale(1.02) skew(0.8deg); } 100% { background-position: 0 0, 50px 25px, 100px 50px, 0 0; transform: scale(1) skew(0deg); } } @keyframes megaGlitch { 0%, 100% { filter: hue-rotate(0deg) saturate(3) brightness(1.5) contrast(1.2); } 20% { filter: hue-rotate(72deg) saturate(5) brightness(2.2) contrast(2); } 40% { filter: hue-rotate(144deg) saturate(1) brightness(0.8) contrast(3); } 60% { filter: hue-rotate(216deg) saturate(4) brightness(1.8) contrast(0.5); } 80% { filter: hue-rotate(288deg) saturate(2) brightness(2.5) contrast(1.8); } } @keyframes finalExplosion { from { transform: scale(1); filter: brightness(1.5) contrast(1.2) saturate(3); } to { transform: scale(1.08); filter: brightness(3) contrast(3) saturate(6); } } @keyframes urgentShake { 0%, 100% { transform: translateX(0) translateY(0); } 25% { transform: translateX(-2px) translateY(1px); } 75% { transform: translateX(2px) translateY(-1px); } } @keyframes urgentPulse { 0%, 50% { opacity: 1; color: #ff006e; transform: scale(1); } 51%, 100% { opacity: 0.7; color: #ffbe0b; transform: scale(1.1); } } @keyframes codeUrgency { 0%, 60% { background: rgba(255,69,0,0.5); } 61%, 100% { background: rgba(255,20,147,0.8); } } @keyframes bounceInsane { 0%, 50% { transform: translateY(0) scale(1); } 51%, 100% { transform: translateY(-10px) scale(1.1); } } @keyframes whisperUrgent { 0%, 70% { opacity: 0.9; } 71%, 85% { opacity: 0.3; } 86%, 100% { opacity: 0.9; } }"
     },
     {
       "id": 20,
       "type": "end",
-      "title": "OMG vibes",
-      "subtitle": "",
-      "content": "",
+      "title": "Ö̶̤́M̶̤̈G̶̤̈ ̶̤̈v̶̤̈ï̶̤b̶̤̈ë̶̤́s̶̤̈ 🌈💫∞",
+      "subtitle": "✨ T̶̤̈ḧ̶̤ë̶̤́ ̶̤̈ë̶̤́n̶̤̈d̶̤̈ ̶̤̈ï̶̤s̶̤̈ ̶̤̈j̶̤̈ṳ̶̈́s̶̤̈ẗ̶̤ ̶̤̈ẗ̶̤́ḧ̶̤ë̶̤́ ̶̤̈b̶̤̈ë̶̤́g̶̤̈ï̶̤n̶̤̈n̶̤̈ï̶̤n̶̤̈g̶̤̈ ✨",
+      "content": "<span style='font-size: 2em; animation: vibesPulse 1s infinite;'>🎉🚀💻🎨🤖🌟🎵🔥💫🌈</span><br><br><span style='animation: infiniteVibes 3s ease-in-out infinite;'>GO FORTH AND CREATE BEAUTIFUL CHAOS</span><br><br><small style='opacity: 0.8; font-style: italic; animation: whisperEnd 4s infinite;'>*the presentation ends, but the vibes are eternal*</small>",
       "styles": {
-        "background": "radial-gradient(circle at 50% 50%, #ff006e 0%, #8338ec 30%, #3a86ff 60%, #06ffa5 80%, #ffbe0b 100%)",
+        "background": "radial-gradient(circle at 50% 50%, #ff006e 0%, #8338ec 30%, #3a86ff 60%, #06ffa5 80%, #ffbe0b 100%), conic-gradient(from 0deg, rgba(255,255,255,0.2) 0deg, transparent 60deg, rgba(255,255,255,0.2) 120deg, transparent 180deg, rgba(255,255,255,0.2) 240deg, transparent 300deg), repeating-radial-gradient(circle, rgba(255,255,255,0.1) 10px, transparent 20px)",
+        "backgroundSize": "100% 100%, 200px 200px, 100px 100px",
         "color": "#ffffff",
-        "animation": "finalGlow 5s ease-in-out infinite alternate",
+        "animation": "finalGlow 5s ease-in-out infinite alternate, vibesForever 8s ease-in-out infinite",
+        "textShadow": "0 0 60px #ff006e, 0 0 80px #3a86ff, 0 0 100px #ffbe0b",
         "fontSize": "1.3em",
         "fontWeight": "bold",
+        "fontFamily": "'Comic Sans MS', 'Impact', fantasy",
         "textAlign": "center"
       },
-      "customCSS": "@keyframes finalGlow { from { filter: brightness(1.3) contrast(1.2) saturate(1.5); } to { filter: brightness(2) contrast(1.8) saturate(2.5); } }"
+      "customCSS": "@keyframes finalGlow { from { filter: brightness(1.3) contrast(1.2) saturate(1.5); } to { filter: brightness(2) contrast(1.8) saturate(2.5); } } @keyframes vibesForever { 0%, 100% { transform: scale(1); } 25% { transform: scale(1.05); } 75% { transform: scale(0.95); } } @keyframes vibesPulse { 0%, 50% { transform: scale(1); opacity: 1; } 51%, 100% { transform: scale(1.2); opacity: 0.8; } } @keyframes infiniteVibes { 0%, 100% { opacity: 1; color: #ff006e; transform: translateY(0); } 33% { opacity: 0.8; color: #3a86ff; transform: translateY(-10px); } 66% { opacity: 0.9; color: #06ffa5; transform: translateY(5px); } } @keyframes whisperEnd { 0%, 70% { opacity: 0.8; } 71%, 85% { opacity: 0.3; } 86%, 100% { opacity: 0.8; } }"
     }
   ]
 }

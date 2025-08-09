@@ -21,11 +21,27 @@
             <button id="prev-slide" aria-label="Previous slide">‹</button>
             <span id="slide-counter">1 / 20</span>
             <button id="next-slide" aria-label="Next slide">›</button>
+            <button id="prompts-btn" aria-label="View prompts">prompts</button>
         </nav>
 
         <!-- Progress bar -->
         <div id="progress-bar">
             <div id="progress-fill"></div>
+        </div>
+
+        <!-- Prompts Modal -->
+        <div id="prompts-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Project Prompts History</h2>
+                    <button id="close-modal" class="close-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="prompts-list">
+                        <!-- Prompts will be loaded here -->
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -37,6 +53,7 @@
     <!-- Scripts -->
     <script src="scripts/presentation.js"></script>
     <script src="scripts/navigation.js"></script>
+    <script src="scripts/prompts-modal.js"></script>
     <script>
         // Initialize presentation when page loads
         document.addEventListener('DOMContentLoaded', function() {

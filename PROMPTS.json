@@ -1,0 +1,252 @@
+{
+  "project": {
+    "name": "Vibes Presentation",
+    "description": "A 20-slide presentation about vibe coding and AI-assisted development",
+    "created": "August 2025"
+  },
+  "prompts": [
+    {
+      "id": 1,
+      "prompt": "This project existings solely to be a presentation with 20 slides. Let's first setup a few basic manifest files to describe what this is to keep as a constant reference. We should also keep the content separate from the presentation. Create an index.html file that we'll work on to see this in a browser.",
+      "results": [
+        "Created basic project structure with HTML/CSS/JS separation",
+        "Established manifest files for project documentation",
+        "Set up index.html as main presentation interface"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Create a file to track all the prompts used to create this project. Make the first two entries be the first and this one.",
+      "results": [
+        "Created PROMPTS.md file for tracking development history",
+        "Established pattern for documenting all user requests",
+        "Set up chronological tracking of project evolution"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "The PROMPT file needs to be more simple. Just list the prompts with a timestamp, the results of each should be 3 bullet points.",
+      "results": [
+        "Simplified prompt tracking format",
+        "Added timestamp requirement for entries",
+        "Standardized 3-bullet point result format"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Make a way to stash style per slide so the look can evolve as the slides advance.",
+      "results": [
+        "Implemented per-slide styling system in JSON",
+        "Created dynamic style application mechanism",
+        "Enabled progressive visual evolution across slides"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "The entire screen is the slide, remove any presentation wrapper. The controls can live in the bottom left corner. Add keyboard controls with left and right arrows to control the slide advance too.",
+      "results": [
+        "Made slides fullscreen without borders or wrappers",
+        "Moved navigation controls to bottom-left corner",
+        "Added keyboard navigation with arrow keys"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Go ahead and create the styles-per slide for all 20. Start very clean and elegant and simple, get more colorful and interesting each time, but 10 slides in it should start to get wacky and weird, and eventually totally over the top in the last few slides.",
+      "results": [
+        "Generated progressive styling for all 20 slides",
+        "Implemented visual progression from simple to extreme",
+        "Created escalating complexity and visual intensity"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Display the name of the animation keyframe used in the customCSS in the bottom right of the slide if one is used.",
+      "results": [
+        "Added floating animation info display",
+        "Positioned animation names in bottom-right corner",
+        "Implemented dynamic animation name extraction"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Make the slide full screen without a white border. Remove the secondary counter inside the slide, there's already a navigation. Move the animation name label to a floating position like the navigation.",
+      "results": [
+        "Removed white borders for true fullscreen slides",
+        "Eliminated redundant slide counter",
+        "Repositioned animation label as floating element"
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "The last few slides went too far. We can't read the text content at all. The last 2-3 also cause the browser to bog down due to hardware issues with the CSS.",
+      "results": [
+        "Reduced extreme visual effects on final slides",
+        "Optimized CSS for better browser performance",
+        "Improved text readability on complex backgrounds"
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "Use the content in POINTS.md to populate the 20 slides. Also include... - The 1st slide if for the intro of the the speaker and topic of Vibing Coding. - The 20th slide should just say OMG vibes.",
+      "results": [
+        "Populated all slides with POINTS.md content",
+        "Created intro slide for Vibe Coding topic",
+        "Set final slide as simple 'OMG vibes' conclusion"
+      ]
+    },
+    {
+      "id": 11,
+      "prompt": "For slide number 6 the gradient happens to be pink skin tone with a slide titled 'You are Human'. Let's ensure the background gradient(s) representative of all skin colors.",
+      "results": [
+        "Updated slide 6 gradient to represent diverse skin tones",
+        "Ensured inclusive color representation",
+        "Made background more representative of human diversity"
+      ]
+    },
+    {
+      "id": 12,
+      "prompt": "I don't like the slide titles. Please use the exact phrases from the POINTS doc for the 10 lessons. You can spread one lesson across more than one slide since there are 18 slides to use.",
+      "results": [
+        "Replaced slide titles with exact POINTS.md phrases",
+        "Distributed 10 lessons across multiple slides",
+        "Maintained exact wording from source material"
+      ]
+    },
+    {
+      "id": 13,
+      "prompt": "Please number the 10 lessons in the slides so I can tell those apart from the newly generated ones.",
+      "results": [
+        "Added numbering to lesson slides (1-10)",
+        "Distinguished lessons from other content slides",
+        "Improved slide organization and navigation"
+      ]
+    },
+    {
+      "id": 14,
+      "prompt": "The rotation animations make it totally unreadable. That needs to be reduced to just a shake or a blur or something more subtle.",
+      "results": [
+        "Replaced rotation animations with subtle effects",
+        "Implemented shake and blur alternatives",
+        "Improved text readability while maintaining visual interest"
+      ]
+    },
+    {
+      "id": 15,
+      "prompt": "For slides 13-19 assume the audience is artists as well as tech folks.",
+      "results": [
+        "Updated content for mixed artist/tech audience",
+        "Made language more inclusive for creative professionals",
+        "Bridged technical and artistic perspectives"
+      ]
+    },
+    {
+      "id": 16,
+      "prompt": "The text readability needs an overhaul. Constrains the text to the middle 2/3 of the screen. Use visual effects or style to make the text able to read, even when the background goes crazy.",
+      "results": [
+        "Implemented glass morphism containers for text",
+        "Constrained content to middle 2/3 of screen",
+        "Added backdrop blur and opacity for readability"
+      ]
+    },
+    {
+      "id": 17,
+      "prompt": "The boxes do help. But the dark shadow on dark text HARMS readability.",
+      "results": [
+        "Identified text shadow readability issues",
+        "Prepared to remove problematic shadow effects",
+        "Focused on container-based readability solutions"
+      ]
+    },
+    {
+      "id": 18,
+      "prompt": "The text shadows remain a problem. Do not use that.",
+      "results": [
+        "Eliminated text shadows from CSS styling",
+        "Relied on glass container effects for readability",
+        "Improved overall text clarity"
+      ]
+    },
+    {
+      "id": 19,
+      "prompt": "The promblematic textShadows are in the slides.json not the CSS file.",
+      "results": [
+        "Identified textShadow properties in JSON data",
+        "Prepared systematic removal from slides.json",
+        "Located source of readability issues"
+      ]
+    },
+    {
+      "id": 20,
+      "prompt": "There's still a text-shadow in the animation in slide 14.",
+      "results": [
+        "Found text-shadow in slide 14's custom animation",
+        "Removed textGlow animation shadows",
+        "Completed text shadow cleanup"
+      ]
+    },
+    {
+      "id": 21,
+      "prompt": "Ditch the boxes on the first and last slide.",
+      "results": [
+        "Removed glass containers from slides 1 and 20",
+        "Created clean intro and outro slides",
+        "Maintained readability containers for middle slides"
+      ]
+    },
+    {
+      "id": 22,
+      "prompt": "Seriously, do not use a box with a background for the text on the first and last slide.",
+      "results": [
+        "Completely removed slide-content wrappers for slides 1 & 20",
+        "Ensured no background containers whatsoever",
+        "Created truly clean first and last slides"
+      ]
+    },
+    {
+      "id": 23,
+      "prompt": "Make the label showing the current animation more understated, less distracting, black+white.",
+      "results": [
+        "Changed animation label to subtle black & white styling",
+        "Reduced visual prominence and distraction",
+        "Made label understated across all slides"
+      ]
+    },
+    {
+      "id": 24,
+      "prompt": "Let's change the content of slide 19. New title: 'Go do it tonight!' -make some little calculator -test a wild idea -touch the sandbox",
+      "results": [
+        "Updated slide 19 with action-oriented title",
+        "Added three concrete action items as bullet points",
+        "Created motivational call-to-action content"
+      ]
+    },
+    {
+      "id": 25,
+      "prompt": "I hate the content in slide 18, it's pretty much a repeat of slide 17 and it really a lot of fluff. Imagine a really strong point to put here about vibe coding that we're totally forgotten.",
+      "results": [
+        "Replaced slide 18 with 'Perfectionism is Dead' message",
+        "Created strong anti-perfectionism philosophy",
+        "Added concrete vibe coding principles about shipping imperfect code"
+      ]
+    },
+    {
+      "id": 26,
+      "prompt": "The background effects on slides 17, 18, 19 are pretty boring attempts and weird. Let's inject some random stuff that moves around and changes and make thoes pages send the presentation off a cliff.",
+      "results": [
+        "Created chaotic moving backgrounds for slides 17-19",
+        "Implemented extreme glitch effects and animations",
+        "Made presentation finale visually explosive and overwhelming"
+      ]
+    },
+    {
+      "id": 27,
+      "prompt": "Change the content in PROMTS.md to a JSON file.",
+      "results": [
+        "Converted PROMPTS.md to structured JSON format",
+        "Organized prompts with IDs, text, and results",
+        "Created machine-readable project history"
+      ]
+    }
+  ]
+}
