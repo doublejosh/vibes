@@ -149,7 +149,14 @@ const PresentationApp = {
         // Apply custom styles if they exist
         this.applySlideStyles(slide);
         
-        let html = `<div class="${slideClass}" id="slide-${slide.id}">`;
+        let html = `<div class="${slideClass}" id="slide-${slide.id}" data-slide-id="${slide.id}">`;
+        
+        // Don't wrap content in slide-content div for first and last slides
+        const useContentWrapper = slide.id !== 1 && slide.id !== 20;
+        
+        if (useContentWrapper) {
+            html += `<div class="slide-content">`;
+        }
         
         if (slide.title) {
             const titleTag = slide.type === 'title' ? 'h1' : 'h2';
@@ -164,9 +171,14 @@ const PresentationApp = {
             html += `<div class="content">${slide.content}</div>`;
         }
         
-        html += '</div>';
+        if (useContentWrapper) {
+            html += '</div>'; // Close slide-content
+        }
+        html += '</div>'; // Close slide
         
+        console.log('Generated HTML:', html); // Debug log
         container.innerHTML = html;
+        console.log('Container after setting innerHTML:', container.innerHTML); // Debug log
         
         // Add floating animation info if custom animations exist
         this.updateAnimationInfo(slide);

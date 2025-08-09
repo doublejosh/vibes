@@ -10,9 +10,9 @@
     {
       "id": 1,
       "type": "title",
-      "title": "Welcome to Vibes",
-      "subtitle": "A 20-Slide Journey",
-      "content": "",
+      "title": "Vibe Coding: AI-assisted development",
+      "subtitle": "Building with code, creativity, and Claude",
+      "content": "A journey through modern development workflows",
       "styles": {
         "background": "#ffffff",
         "color": "#2c3e50",
@@ -22,8 +22,8 @@
     {
       "id": 2,
       "type": "content",
-      "title": "Slide 2",
-      "content": "Content for slide 2 goes here.",
+      "title": "1) This entire endeavor is steeped with baggage...",
+      "content": "• Climate concerns<br>• Security, ethical access, biases<br>• Bro idiots gone wild",
       "styles": {
         "background": "#fafafa",
         "color": "#34495e",
@@ -33,8 +33,8 @@
     {
       "id": 3,
       "type": "content",
-      "title": "Slide 3",
-      "content": "Content for slide 3 goes here.",
+      "title": "2) With series of clear reasonable requests, anyone can make something pretty amazing.",
+      "content": "• Move by feel, not fear<br>• Ignore perfection<br>• Go toward the idea, ignore the code<br>• Ignore style, unless the point",
       "styles": {
         "background": "#f8f9fa",
         "color": "#2c3e50",
@@ -44,8 +44,8 @@
     {
       "id": 4,
       "type": "content",
-      "title": "Slide 4",
-      "content": "Content for slide 4 goes here.",
+      "title": "3) Infinite sandbox (max complexity)...",
+      "content": "• No scaffolding necessary<br>• Anything is plausible<br>• Chatbot + Canvas (your asset)",
       "styles": {
         "background": "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
         "color": "#2c3e50"
@@ -54,8 +54,8 @@
     {
       "id": 5,
       "type": "content",
-      "title": "Slide 5",
-      "content": "Content for slide 5 goes here.",
+      "title": "4) Iterate.",
+      "content": "• Code, preview, tweak<br>• Save points! (fail, source control)<br>• Build it many times",
       "styles": {
         "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "color": "#ffffff"
@@ -64,40 +64,38 @@
     {
       "id": 6,
       "type": "content",
-      "title": "Slide 6",
-      "content": "Content for slide 6 goes here.",
+      "title": "5) You are human",
+      "content": "• Pause, note the workflow<br>• Start with fun stuff<br>• Make it dance<br>• Just say it",
       "styles": {
-        "background": "linear-gradient(45deg, #ff9a9e 0%, #fecfef 100%)",
-        "color": "#2c3e50"
+        "background": "linear-gradient(45deg, #667eea 0%, #764ba2 50%, #f093fb 75%, #f5576c 100%)",
+        "color": "#ffffff"
       }
     },
     {
       "id": 7,
       "type": "content",
-      "title": "Slide 7",
-      "content": "Content for slide 7 goes here.",
+      "title": "5) Meta documents...",
+      "content": "• Readme for AI<br>• Manifests, guidelines, prompts<br>• Roadmaps",
       "styles": {
         "background": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-        "color": "#2c3e50",
-        "textShadow": "0 1px 3px rgba(0,0,0,0.2)"
+        "color": "#2c3e50"
       }
     },
     {
       "id": 8,
       "type": "content",
-      "title": "Slide 8",
-      "content": "Content for slide 8 goes here.",
+      "title": "6) Traditional engineering...",
+      "content": "• Separate content from code<br>• Good variable naming<br>• Design patterns and thinking ahead<br>• Order of build<br>• Careful what you touch<br>• Borrow good code<br>• Let go of unused code",
       "styles": {
         "background": "linear-gradient(45deg, #ff6b6b, #feca57, #48cae4)",
-        "color": "#ffffff",
-        "textShadow": "0 2px 4px rgba(0,0,0,0.5)"
+        "color": "#ffffff"
       }
     },
     {
       "id": 9,
       "type": "content",
-      "title": "Slide 9",
-      "content": "Content for slide 9 goes here.",
+      "title": "7) No eyes, no hands",
+      "content": "• Cannot experience your thing<br>• Cannot use your thing<br>• Not a human, even though it feels like it",
       "styles": {
         "background": "linear-gradient(45deg, #f093fb 0%, #f5576c 100%)",
         "color": "#ffffff",
@@ -108,153 +106,146 @@
     {
       "id": 10,
       "type": "content",
-      "title": "Slide 10",
-      "content": "Content for slide 10 goes here.",
+      "title": "8) Fragile + resilient...",
+      "content": "• Every change can generate bugs<br>• You can make sweeping changes whenever you want<br>• Context, isolation, microservices",
       "styles": {
         "background": "linear-gradient(45deg, #ff0099, #493240, #ff0099, #493240)",
         "backgroundSize": "400% 400%",
         "color": "#ffffff",
-        "animation": "gradientShift 3s ease infinite",
-        "textShadow": "0 0 20px rgba(255,255,255,0.8)"
+        "animation": "gradientShift 3s ease infinite"
       },
       "customCSS": "@keyframes gradientShift { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }"
     },
     {
       "id": 11,
       "type": "content",
-      "title": "Slide 11",
-      "content": "Content for slide 11 goes here.",
+      "title": "9) Exponential green fields.",
+      "content": "• Untested weird ideas, infinite mini apps<br>• New voices, new perspectives<br>• Navigate the tsunami",
       "styles": {
         "background": "radial-gradient(circle, #ff006e, #8338ec, #3a86ff)",
         "color": "#ffffff",
-        "animation": "rotate 10s linear infinite",
-        "textShadow": "0 0 30px rgba(255,255,255,0.8), 0 0 60px rgba(255,0,110,0.6)"
+        "animation": "gentleShake 3s ease-in-out infinite"
       },
-      "customCSS": "@keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }"
+      "customCSS": "@keyframes gentleShake { 0%, 100% { transform: translateX(0) translateY(0); } 25% { transform: translateX(2px) translateY(1px); } 50% { transform: translateX(-1px) translateY(-2px); } 75% { transform: translateX(-2px) translateY(1px); } }"
     },
     {
       "id": 12,
       "type": "content",
-      "title": "Slide 12",
-      "content": "Content for slide 12 goes here.",
+      "title": "10) Ship it now",
+      "content": "• Test with your friends<br>• Timebox<br>• This is for testing, no coming soon",
       "styles": {
         "background": "conic-gradient(from 180deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e)",
         "color": "#ffffff",
-        "animation": "spin 8s linear infinite, colorCycle 4s ease-in-out infinite",
-        "textShadow": "0 0 40px rgba(255,255,255,1)"
+        "animation": "subtleBlur 4s ease-in-out infinite alternate"
       },
-      "customCSS": "@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } } @keyframes colorCycle { 0%, 100% { filter: hue-rotate(0deg); } 50% { filter: hue-rotate(180deg); } }"
+      "customCSS": "@keyframes subtleBlur { from { filter: blur(0px) brightness(1.2); } to { filter: blur(1px) brightness(1.8); } }"
     },
     {
       "id": 13,
       "type": "content",
-      "title": "Slide 13",
-      "content": "Content for slide 13 goes here.",
+      "title": "Timeless Principles, Amplified",
+      "content": "Whether you're composing music, writing code, or painting—the fundamentals never change. AI just makes them more powerful.",
       "styles": {
         "background": "repeating-linear-gradient(45deg, #ff006e 0px, #8338ec 10px, #3a86ff 20px, #06ffa5 30px, #ffbe0b 40px)",
         "color": "#ffffff",
-        "animation": "stripeMove 2s linear infinite, textBounce 1s ease-in-out infinite alternate",
-        "textShadow": "0 0 50px rgba(255,255,255,1), 0 0 100px rgba(255,0,110,0.8)"
+        "animation": "stripeMove 2s linear infinite, textBounce 1s ease-in-out infinite alternate"
       },
       "customCSS": "@keyframes stripeMove { from { background-position: 0 0; } to { background-position: 50px 0; } } @keyframes textBounce { from { transform: translateY(0); } to { transform: translateY(-20px); } }"
     },
     {
       "id": 14,
       "type": "content",
-      "title": "Slide 14",
-      "content": "Content for slide 14 goes here.",
+      "title": "The Creative Partnership",
+      "content": "AI doesn't replace creativity—it amplifies it. Whether you're designing interfaces, composing melodies, or solving algorithms, the magic happens in collaboration. Output debug info and custom admin controls.",
       "styles": {
         "background": "radial-gradient(circle at 20% 20%, #ff006e 0%, transparent 50%), radial-gradient(circle at 80% 80%, #8338ec 0%, transparent 50%), radial-gradient(circle at 40% 40%, #3a86ff 0%, transparent 50%), linear-gradient(45deg, #06ffa5, #ffbe0b)",
         "color": "#ffffff",
-        "animation": "psychedelic 6s ease-in-out infinite, textGlow 2s ease-in-out infinite alternate",
-        "textShadow": "0 0 20px #ff006e, 0 0 40px #8338ec, 0 0 60px #3a86ff"
+        "animation": "psychedelic 6s ease-in-out infinite, textGlow 2s ease-in-out infinite alternate"
       },
-      "customCSS": "@keyframes psychedelic { 0%, 100% { filter: hue-rotate(0deg) saturate(1) brightness(1); } 25% { filter: hue-rotate(90deg) saturate(2) brightness(1.2); } 50% { filter: hue-rotate(180deg) saturate(3) brightness(0.8); } 75% { filter: hue-rotate(270deg) saturate(2) brightness(1.5); } } @keyframes textGlow { from { text-shadow: 0 0 20px #ff006e, 0 0 40px #8338ec, 0 0 60px #3a86ff; } to { text-shadow: 0 0 40px #ff006e, 0 0 80px #8338ec, 0 0 120px #3a86ff; } }"
+      "customCSS": "@keyframes psychedelic { 0%, 100% { filter: hue-rotate(0deg) saturate(1) brightness(1); } 25% { filter: hue-rotate(90deg) saturate(2) brightness(1.2); } 50% { filter: hue-rotate(180deg) saturate(3) brightness(0.8); } 75% { filter: hue-rotate(270deg) saturate(2) brightness(1.5); } } @keyframes textGlow { from { opacity: 0.9; } to { opacity: 1; } }"
     },
     {
       "id": 15,
       "type": "content",
-      "title": "Slide 15",
-      "content": "Content for slide 15 goes here.",
+      "title": "Embrace the Beautiful Chaos",
+      "content": "Art thrives in uncertainty. Code evolves through iteration. Both find beauty in experimentation, bold choices, and fearless creation.",
       "styles": {
         "background": "conic-gradient(from 0deg at 50% 50%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px)",
         "backgroundSize": "100% 100%, 20px 20px",
         "color": "#ffffff",
-        "animation": "megaSpin 4s linear infinite, megaPulse 2s ease-in-out infinite, megaShake 0.5s ease-in-out infinite",
-        "textShadow": "0 0 30px #ff006e, 0 0 60px #8338ec, 0 0 90px #3a86ff, 0 0 120px #06ffa5"
+        "animation": "megaPulse 2s ease-in-out infinite, gentleSway 4s ease-in-out infinite"
       },
-      "customCSS": "@keyframes megaSpin { from { transform: rotate(0deg) scale(1); } to { transform: rotate(360deg) scale(1); } } @keyframes megaPulse { 0%, 100% { filter: brightness(1) contrast(1); } 50% { filter: brightness(2) contrast(2); } } @keyframes megaShake { 0%, 100% { transform: translateX(0) rotate(0deg); } 25% { transform: translateX(-5px) rotate(-2deg); } 75% { transform: translateX(5px) rotate(2deg); } }"
+      "customCSS": "@keyframes megaPulse { 0%, 100% { filter: brightness(1) contrast(1); } 50% { filter: brightness(2) contrast(2); } } @keyframes gentleSway { 0%, 100% { transform: translateX(0) scale(1); } 25% { transform: translateX(3px) scale(1.01); } 75% { transform: translateX(-3px) scale(0.99); } }"
     },
     {
       "id": 16,
       "type": "content",
-      "title": "Slide 16",
-      "content": "Content for slide 16 goes here.",
+      "title": "Artists + Technologists = Magic",
+      "content": "Human creativity + AI capability = unprecedented possibilities. We're not just building apps or making art—we're crafting experiences that move people.",
       "styles": {
         "background": "repeating-conic-gradient(from 0deg, #ff006e 0deg 30deg, #8338ec 30deg 60deg, #3a86ff 60deg 90deg, #06ffa5 90deg 120deg, #ffbe0b 120deg 150deg, #fb8500 150deg 180deg)",
         "color": "#ffffff",
-        "animation": "ultraSpin 2s linear infinite, ultraGlow 1s ease-in-out infinite alternate, ultraBounce 3s ease-in-out infinite",
-        "textShadow": "0 0 20px #ff006e, 0 0 40px #8338ec, 0 0 60px #3a86ff, 0 0 80px #06ffa5, 0 0 100px #ffbe0b",
+        "animation": "softGlow 1s ease-in-out infinite alternate, gentleBounce 3s ease-in-out infinite",
         "filter": "brightness(1.5) contrast(2) saturate(3)"
       },
-      "customCSS": "@keyframes ultraSpin { from { transform: rotate(0deg) scale(1); } to { transform: rotate(-360deg) scale(1.1); } } @keyframes ultraGlow { from { filter: brightness(1.5) contrast(2) saturate(3) hue-rotate(0deg); } to { filter: brightness(3) contrast(4) saturate(5) hue-rotate(180deg); } } @keyframes ultraBounce { 0%, 100% { transform: scale(1) rotate(0deg); } 33% { transform: scale(1.2) rotate(120deg); } 66% { transform: scale(0.8) rotate(240deg); } }"
+      "customCSS": "@keyframes softGlow { from { filter: brightness(1.5) contrast(2) saturate(3); } to { filter: brightness(2) contrast(2.5) saturate(4); } } @keyframes gentleBounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }"
     },
     {
       "id": 17,
       "type": "content",
-      "title": "Slide 17",
-      "content": "Content for slide 17 goes here.",
+      "title": "From Vision to Reality",
+      "content": "Ideas flow faster than ever—whether it's a song, an app, or a visual masterpiece. The real skill is knowing when your creation is ready to share with the world.",
       "styles": {
-        "background": "linear-gradient(45deg, #ff006e, #8338ec, #3a86ff, #06ffa5)",
-        "backgroundSize": "400% 400%",
+        "background": "repeating-conic-gradient(from 0deg at 20% 30%, #ff006e 0deg, #8338ec 60deg, #3a86ff 120deg, #06ffa5 180deg, #ffbe0b 240deg, #ff0080 300deg)",
+        "backgroundSize": "50px 50px, 100px 100px, 150px 150px",
         "color": "#ffffff",
-        "animation": "moderateShift 4s ease-in-out infinite",
-        "textShadow": "0 2px 10px rgba(0,0,0,0.8), 0 0 30px rgba(255,255,255,0.3)",
-        "fontSize": "1.1em"
+        "animation": "chaosGrid 0.8s linear infinite, colorMadness 2s ease-in-out infinite alternate, scaleWild 1.5s ease-in-out infinite alternate",
+        "fontSize": "1.1em",
+        "filter": "hue-rotate(0deg) saturate(2)"
       },
-      "customCSS": "@keyframes moderateShift { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }"
+      "customCSS": "@keyframes chaosGrid { 0% { background-position: 0 0, 25px 25px, 50px 50px; } 25% { background-position: 25px 0, 0 25px, 25px 75px; } 50% { background-position: 50px 25px, 25px 50px, 0 25px; } 75% { background-position: 25px 50px, 50px 25px, 75px 0; } 100% { background-position: 0 0, 25px 25px, 50px 50px; } } @keyframes colorMadness { from { filter: hue-rotate(0deg) saturate(2) brightness(1.2); } to { filter: hue-rotate(360deg) saturate(4) brightness(1.8); } } @keyframes scaleWild { 0%, 100% { transform: scale(1) rotate(0deg); } 33% { transform: scale(1.1) rotate(2deg); } 66% { transform: scale(0.95) rotate(-1deg); } }"
     },
     {
       "id": 18,
       "type": "content",
-      "title": "Slide 18",
-      "content": "Content for slide 18 goes here.",
+      "title": "Perfectionism is Dead",
+      "content": "Vibe coding kills the paralysis of perfect. Ship the broken thing. Fix it live. Let users find the bugs. The best code is the code that exists, not the code that's perfect.",
       "styles": {
-        "background": "radial-gradient(circle at 50% 50%, #ff006e 0%, #8338ec 25%, #3a86ff 50%, #06ffa5 75%, #ffbe0b 100%)",
+        "background": "radial-gradient(circle at 10% 20%, #ff006e 0%, transparent 30%), radial-gradient(circle at 90% 10%, #8338ec 0%, transparent 40%), radial-gradient(circle at 30% 80%, #3a86ff 0%, transparent 35%), radial-gradient(circle at 70% 60%, #06ffa5 0%, transparent 45%), radial-gradient(circle at 50% 50%, #ffbe0b 0%, transparent 25%), conic-gradient(from 45deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff0080, #ff006e)",
+        "backgroundSize": "200px 200px, 300px 300px, 150px 150px, 250px 250px, 100px 100px, 400px 400px",
         "color": "#ffffff",
-        "animation": "gentleGlow 3s ease-in-out infinite alternate",
-        "textShadow": "0 3px 15px rgba(0,0,0,0.9), 0 0 40px rgba(255,255,255,0.4)",
+        "animation": "explosiveChaos 1.2s ease-in-out infinite, glitchEffect 0.3s linear infinite, colorExplosion 2.5s ease-in-out infinite alternate",
         "fontSize": "1.1em",
         "fontWeight": "600"
       },
-      "customCSS": "@keyframes gentleGlow { from { filter: brightness(1.2) contrast(1.1); } to { filter: brightness(1.8) contrast(1.4); } }"
+      "customCSS": "@keyframes explosiveChaos { 0% { background-position: 0 0, 100px 50px, 200px 100px, 50px 150px, 300px 0, 0 0; transform: scale(1); } 25% { background-position: 50px 25px, 150px 75px, 0 200px, 250px 50px, 100px 200px, 100px 100px; transform: scale(1.05) rotate(1deg); } 50% { background-position: 100px 50px, 0 100px, 300px 0, 150px 200px, 200px 100px, 200px 200px; transform: scale(0.98) rotate(-0.5deg); } 75% { background-position: 150px 75px, 250px 25px, 100px 300px, 0 100px, 50px 150px, 300px 300px; transform: scale(1.02) rotate(0.8deg); } 100% { background-position: 0 0, 100px 50px, 200px 100px, 50px 150px, 300px 0, 0 0; transform: scale(1); } } @keyframes glitchEffect { 0%, 100% { filter: hue-rotate(0deg) saturate(2) brightness(1.2) contrast(1.1); } 10% { filter: hue-rotate(90deg) saturate(3) brightness(1.5) contrast(1.3); } 20% { filter: hue-rotate(180deg) saturate(1.5) brightness(0.9) contrast(1.5); } 30% { filter: hue-rotate(270deg) saturate(4) brightness(1.8) contrast(0.8); } 40% { filter: hue-rotate(360deg) saturate(2.5) brightness(1.1) contrast(1.2); } } @keyframes colorExplosion { from { filter: brightness(1.2) contrast(1.1) saturate(2); } to { filter: brightness(2.2) contrast(2) saturate(5); } }"
     },
     {
       "id": 19,
       "type": "content",
-      "title": "Slide 19",
-      "content": "Content for slide 19 goes here.",
+      "title": "Go do it tonight!",
+      "content": "• Make some little calculator<br>• Test a wild idea<br>• Touch the sandbox",
       "styles": {
-        "background": "conic-gradient(from 45deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e)",
+        "background": "repeating-linear-gradient(45deg, #ff006e 0px, #ff006e 5px, #8338ec 5px, #8338ec 15px, #3a86ff 15px, #3a86ff 25px, #06ffa5 25px, #06ffa5 35px, #ffbe0b 35px, #ffbe0b 45px), repeating-radial-gradient(circle at 30% 70%, #ff0080 0px, transparent 20px, #00ff80 40px, transparent 60px), conic-gradient(from 0deg at 70% 30%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff0080, #00ff80, #ff006e)",
+        "backgroundSize": "100px 100px, 200px 200px, 300px 300px",
         "color": "#ffffff",
-        "animation": "slowSpin 8s linear infinite",
-        "textShadow": "0 4px 20px rgba(0,0,0,1), 0 0 50px rgba(255,255,255,0.5)",
+        "animation": "ultimateChaos 0.6s linear infinite, megaGlitch 0.2s linear infinite, finalExplosion 1.8s ease-in-out infinite alternate, rotateInsanity 3s linear infinite",
         "fontSize": "1.2em",
-        "fontWeight": "bold"
+        "fontWeight": "bold",
+        "filter": "hue-rotate(0deg) saturate(3) brightness(1.5)"
       },
-      "customCSS": "@keyframes slowSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }"
+      "customCSS": "@keyframes ultimateChaos { 0% { background-position: 0 0, 50px 25px, 100px 50px; transform: scale(1) skew(0deg); } 16% { background-position: 20px 10px, 80px 60px, 150px 20px; transform: scale(1.03) skew(1deg); } 33% { background-position: 40px 20px, 10px 90px, 200px 80px; transform: scale(0.97) skew(-1deg); } 50% { background-position: 60px 30px, 120px 20px, 50px 150px; transform: scale(1.01) skew(0.5deg); } 66% { background-position: 80px 40px, 30px 100px, 180px 10px; transform: scale(0.99) skew(-0.5deg); } 83% { background-position: 100px 50px, 90px 40px, 120px 120px; transform: scale(1.02) skew(0.8deg); } 100% { background-position: 0 0, 50px 25px, 100px 50px; transform: scale(1) skew(0deg); } } @keyframes megaGlitch { 0%, 100% { filter: hue-rotate(0deg) saturate(3) brightness(1.5) contrast(1.2); } 20% { filter: hue-rotate(72deg) saturate(5) brightness(2.2) contrast(2); } 40% { filter: hue-rotate(144deg) saturate(1) brightness(0.8) contrast(3); } 60% { filter: hue-rotate(216deg) saturate(4) brightness(1.8) contrast(0.5); } 80% { filter: hue-rotate(288deg) saturate(2) brightness(2.5) contrast(1.8); } } @keyframes finalExplosion { from { transform: scale(1) rotate(0deg); filter: brightness(1.5) contrast(1.2) saturate(3); } to { transform: scale(1.08) rotate(0deg); filter: brightness(3) contrast(3) saturate(6); } } @keyframes rotateInsanity { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }"
     },
     {
       "id": 20,
       "type": "end",
-      "title": "Thank You",
-      "subtitle": "Questions?",
+      "title": "OMG vibes",
+      "subtitle": "",
       "content": "",
       "styles": {
         "background": "radial-gradient(circle at 50% 50%, #ff006e 0%, #8338ec 30%, #3a86ff 60%, #06ffa5 80%, #ffbe0b 100%)",
         "color": "#ffffff",
         "animation": "finalGlow 5s ease-in-out infinite alternate",
-        "textShadow": "0 5px 25px rgba(0,0,0,1), 0 0 60px rgba(255,255,255,0.6)",
         "fontSize": "1.3em",
         "fontWeight": "bold",
         "textAlign": "center"
