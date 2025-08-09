@@ -313,7 +313,7 @@
     },
     {
       "id": 36,
-      "prompt": "Remove all text-shadows from everywhere. Lots of slides have textShadow properties. Those are not suppose to be there.",
+      "prompt": "Remove all text-shadows from everywhere. Lots of slides have textShadow styles properties. Those are not suppose to be there.",
       "results": [
         "Eliminated all text-shadow properties from CSS",
         "Removed webkit-text-stroke effects from responsive styles",
@@ -336,6 +336,16 @@
         "Implemented toggle switch for custom slide styles",
         "Positioned toggle at top-center of screen",
         "Created ability to enable/disable enhanced visual effects"
+      ]
+    },
+    {
+      "id": 39,
+      "prompt": "The text in slide 16 is very hard to read. The title opacity keeps fading in and out. Make this slide more readable. Slide 20 has lots of doublebyte type characters that do not work in the browser. Just use text or emojis there.",
+      "results": [
+        "Fixed slide 16 opacity animation - removed fading text effects",
+        "Removed textShadow from slide 16 for better readability",
+        "Fixed slide 20 subtitle - replaced zalgo text with readable characters",
+        "Replaced problematic Unicode characters with browser-compatible text and emojis"
       ]
     }
   ]
