@@ -347,6 +347,15 @@
         "Fixed slide 20 subtitle - replaced zalgo text with readable characters",
         "Replaced problematic Unicode characters with browser-compatible text and emojis"
       ]
+    },
+    {
+      "id": 40,
+      "prompt": "Lots of \"customCSS\" uses keyframes with \"opacity\" ...this makes text unreadable. Fix that and avoid fading text in-and-out. There are slides with text in them with colors like #ffffff that also pulse with saturation and are totally unreadable, fix that.",
+      "results": [
+        "Systematically removed all opacity-based animations from keyframes across all slides",
+        "Fixed extreme saturation and brightness filter effects that made white text unreadable",
+        "Replaced problematic animations with safer color changes and transform effects"
+      ]
     }
   ]
 }

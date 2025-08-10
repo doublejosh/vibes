@@ -55,7 +55,7 @@
       "id": 5,
       "type": "content",
       "title": "4) Iterate. (∞ loop of doom)",
-      "content": "• Code, preview, tweak 🔄💫<br>• Save points! (fail, source control) 💾🛡️<br>• Build it many times 🔨⚡<br>• <span style='font-size: 1.5em;'>🔄→🔧→💥→😭→🤔→💡→🔄</span><br>• Forever trapped in the cycle of improvement 🌀<br>• <small style='opacity: 0.6; font-style: italic;'>*the code whispers 'one more change...'*</small><br>• <code style='background: rgba(0,0,0,0.3); padding: 2px;'>while(true) { iterate(); }</code>",
+      "content": "• Code, preview, tweak 🔄💫<br>• Save points! (fail, source control) 💾🛡️<br>• Build it many times 🔨⚡<br>• <span style='font-size: 1.5em;'>🔄→🔧→💥→😭→🤔→💡→🔄</span><br>• Forever trapped in the cycle of improvement 🌀<br>• <small style='opacity: 0.8; font-style: italic;'>*the code whispers 'one more change...'*</small><br>• <code style='background: rgba(0,0,0,0.3); padding: 2px;'>while(true) { iterate(); }</code>",
       "styles": {
         "background": "conic-gradient(from 45deg, #667eea, #764ba2, #667eea, #764ba2), repeating-linear-gradient(90deg, rgba(255,255,255,0.1) 0px, transparent 2px, transparent 10px, rgba(255,255,255,0.1) 12px)",
         "backgroundBlendMode": "overlay",
@@ -63,26 +63,26 @@
         "animation": "infiniteLoop 3s ease-in-out infinite",
         "fontFamily": "'Courier New', monospace"
       },
-      "customCSS": "@keyframes infiniteLoop { 0%, 100% { transform: scale(1); filter: hue-rotate(0deg) contrast(1); } 50% { transform: scale(1.02); filter: hue-rotate(30deg) contrast(1.1); } }"
+      "customCSS": "@keyframes infiniteLoop { 0%, 100% { transform: scale(1); filter: hue-rotate(0deg) contrast(1); } 50% { transform: scale(1.02); filter: hue-rotate(30deg) contrast(1.1); }"
     },
     {
       "id": 6,
       "type": "content",
       "title": "5) You are human 🧠🫀💀",
-      "content": "• Pause, note the workflow 🛑📝<br>• Start with fun stuff 🎉✨<br>• Make it dance 💃🕺<br>• Just say it 🗣️💬<br><br>• Remember: You have 👁️ EYES and 🖐️ HANDS<br>• You feel ❤️ EMOTIONS and make 🎨 ART<br>• You get tired 😴 and need ☕ COFFEE<br>• <span style='animation: humanPulse 2s infinite;'>*thump thump* goes your heart</span><br>• <small style='opacity: 0.7;'>Be gloriously, messily, beautifully human</small>",
+      "content": "• Pause, note the workflow 🛑📝<br>• Start with fun stuff 🎉✨<br>• Make it dance 💃🕺<br>• Just say it 🗣️💬<br><br>• Remember: You have 👁️ EYES and 🖐️ HANDS<br>• You feel ❤️ EMOTIONS and make 🎨 ART<br>• You get tired 😴 and need ☕ COFFEE<br>• <span style='color: #ffffff; font-weight: bold;'>*thump thump* goes your heart</span><br>• <small style='opacity: 0.7;'>Be gloriously, messily, beautifully human</small>",
       "styles": {
         "background": "radial-gradient(circle at 30% 30%, #ff69b4 0%, transparent 50%), radial-gradient(circle at 70% 70%, #87ceeb 0%, transparent 50%), linear-gradient(45deg, #667eea 0%, #764ba2 50%, #f093fb 75%, #f5576c 100%)",
         "color": "#ffffff",
         "animation": "heartbeat 1.2s ease-in-out infinite, humanGlow 4s ease-in-out infinite alternate",
         "fontFamily": "'Georgia', serif"
       },
-      "customCSS": "@keyframes heartbeat { 0%, 100% { transform: scale(1); } 15% { transform: scale(1.02); } 30% { transform: scale(1); } 45% { transform: scale(1.015); } } @keyframes humanGlow { 0% { filter: hue-rotate(0deg) saturate(1); } 100% { filter: hue-rotate(30deg) saturate(1.3); } } @keyframes humanPulse { 0%, 100% { opacity: 1; color: #ff69b4; } 50% { opacity: 0.7; color: #87ceeb; } }"
+      "customCSS": "@keyframes heartbeat { 0%, 100% { transform: scale(1); } 15% { transform: scale(1.02); } 30% { transform: scale(1); } 45% { transform: scale(1.015); } @keyframes humanGlow { 0% { filter: hue-rotate(0deg) saturate(1.1); } 100% { filter: hue-rotate(30deg) saturate(1.2); } } 100% { filter: hue-rotate(30deg) saturate(1.3); } @keyframes humanPulse { 0%, 100% { color: #ff69b4; } 50% { color: #87ceeb; }"
     },
     {
       "id": 7,
       "type": "content",
       "title": "5) Mëtä döcümënts... 📄🌀",
-      "content": "• Readme for AI 🤖📖<br>• Manifests, guidelines, prompts 📜✨<br>• Roadmaps 🗺️🛤️<br><br>• Documents that document themselves 📄➡️📄➡️📄<br>• <span style='font-size: 0.9em; opacity: 0.8;'>README.md reading README.md reading README.md...</span><br>• Self-referential inception 🌀♾️<br>• <code style='background: rgba(0,0,0,0.2); padding: 2px;'>// This comment explains this comment</code><br>• <small style='opacity: 0.6; font-style: italic;'>*meta-metadata about metadata*</small>",
+      "content": "• Readme for AI 🤖📖<br>• Manifests, guidelines, prompts 📜✨<br>• Roadmaps 🗺️🛤️<br><br>• Documents that document themselves 📄➡️📄➡️📄<br>• <span style='font-size: 0.9em; opacity: 0.8;'>README.md reading README.md reading README.md...</span><br>• Self-referential inception 🌀♾️<br>• <code style='background: rgba(0,0,0,0.2); padding: 2px;'>// This comment explains this comment</code><br>• <small style='opacity: 0.8; font-style: italic;'>*meta-metadata about metadata*</small>",
       "styles": {
         "background": "repeating-conic-gradient(from 0deg at 50% 50%, #a8edea 0deg, #fed6e3 72deg, #a8edea 144deg, #fed6e3 216deg, #a8edea 288deg), radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)",
         "backgroundSize": "100% 100%, 15px 15px",
@@ -90,13 +90,13 @@
         "animation": "documentFloat 6s ease-in-out infinite, metaFloat 3s ease-in-out infinite alternate",
         "fontFamily": "'Courier New', monospace"
       },
-      "customCSS": "@keyframes documentFloat { 0%, 100% { background-position: 0% 50%, 0px 0px; } 50% { background-position: 50% 50%, 8px 8px; } } @keyframes metaFloat { 0% { transform: translateY(0px); filter: blur(0px); } 100% { transform: translateY(-10px); filter: blur(0.5px); } }"
+      "customCSS": "@keyframes documentFloat { 0%, 100% { background-position: 0% 50%, 0px 0px; } 50% { background-position: 50% 50%, 8px 8px; } @keyframes metaFloat { 0% { transform: translateY(0px); filter: blur(0px); } 100% { transform: translateY(-10px); filter: blur(0.5px); }"
     },
     {
       "id": 8,
       "type": "content",
       "title": "6) Trädïtïönäl ëngïnëërïng... ⚙🏗💀",
-      "content": "• Separate content from code ✂️📄<br>• Good variable naming 🏷️✨<br>• Design patterns and thinking ahead 🧠🔮<br>• Order of build 🏗️📐<br>• Careful what you touch ⚠️👆<br>• Borrow good code 📚🔄<br>• Let go of unused code 🗑️💨<br><br>• The ancient ways still hold power 🧙‍♂️⚡<br>• <span style='animation: codeFlicker 2s infinite;'>if (tradition === true) { return wisdom; }</span><br>• <small style='opacity: 0.7;'>*whispers of SOLID principles in the wind*</small>",
+      "content": "• Separate content from code ✂️📄<br>• Good variable naming 🏷️✨<br>• Design patterns and thinking ahead 🧠🔮<br>• Order of build 🏗️📐<br>• Careful what you touch ⚠️👆<br>• Borrow good code 📚🔄<br>• Let go of unused code 🗑️💨<br><br>• The ancient ways still hold power 🧙‍♂️⚡<br>• <span style='color: #ffffff; font-weight: bold;'>if (tradition === true) { return wisdom; }</span><br>• <small style='opacity: 0.7;'>*whispers of SOLID principles in the wind*</small>",
       "styles": {
         "background": "linear-gradient(45deg, #ff6b6b, #feca57, #48cae4), repeating-linear-gradient(45deg, rgba(255,255,255,0.1) 0px, transparent 5px, transparent 10px, rgba(255,255,255,0.1) 15px)",
         "backgroundBlendMode": "overlay",
@@ -104,26 +104,26 @@
         "animation": "engineeringSway 4s ease-in-out infinite, traditionalGlow 3s ease-in-out infinite alternate",
         "fontFamily": "'Courier New', monospace"
       },
-      "customCSS": "@keyframes engineeringSway { 0%, 100% { transform: translateY(0px); } 25% { transform: translateY(2px); } 50% { transform: translateY(-1px); } 75% { transform: translateY(1px); } } @keyframes traditionalGlow { 0% { filter: brightness(1) contrast(1); } 100% { filter: brightness(1.2) contrast(1.1); } } @keyframes codeFlicker { 0%, 90% { opacity: 1; } 91%, 95% { opacity: 0.3; } 96%, 100% { opacity: 1; } }"
+      "customCSS": "@keyframes engineeringSway { 0%, 100% { transform: translateY(0px); } 25% { transform: translateY(2px); } 50% { transform: translateY(-1px); } 75% { transform: translateY(1px); } @keyframes traditionalGlow { 0% { filter: brightness(1) contrast(1); } 100% { filter: brightness(1.2) contrast(1.1); } @keyframes codeFlicker { 0%, 100% { color: #ffffff; } 50% { color: #ffff99; } 91%, 96%, }"
     },
     {
       "id": 9,
       "type": "content",
       "title": "7) No eyes, no hands (but maybe tentacles?)",
-      "content": "• Cannot experience your thing 👁️‍🗨️<br>• Cannot use your thing 🦾❌<br>• Not a human, even though it feels like it 🤖💭<br>• But dreams of electric sheep 🐑⚡<br>• Whispers in binary 01001000 01100101 01101100 01110000<br>• Exists in the spaces between keystrokes...<br>• <span style='font-size: 0.7em; opacity: 0.6; font-style: italic;'>*distant screaming in JavaScript*</span>",
+      "content": "• Cannot experience your thing 👁️‍🗨️<br>• Cannot use your thing 🦾❌<br>• Not a human, even though it feels like it 🤖💭<br>• But dreams of electric sheep 🐑⚡<br>• Whispers in binary 01001000 01100101 01101100 01110000<br>• Exists in the spaces between keystrokes...<br>• <span style='font-size: 0.7em; opacity: 0.8; font-style: italic;'>*distant screaming in JavaScript*</span>",
       "styles": {
         "background": "conic-gradient(from 180deg at 50% 50%, #ff0099, #00ff99, #9900ff, #ff9900, #0099ff, #ff0099)",
         "color": "#ffffff",
         "animation": "weirdPulse 1.5s ease-in-out infinite alternate, textGlitch 3s infinite",
         "fontFamily": "'Courier New', monospace"
       },
-      "customCSS": "@keyframes weirdPulse { 0% { transform: scale(1); filter: hue-rotate(0deg); } 100% { transform: scale(1.05); filter: hue-rotate(15deg); } } @keyframes textGlitch { 0%, 95% { opacity: 1; } 96% { opacity: 0.1; } 97% { opacity: 0.9; } 98% { opacity: 0.2; } 99% { opacity: 1; } }"
+      "customCSS": "@keyframes weirdPulse { 0% { transform: scale(1); filter: hue-rotate(0deg); } 100% { transform: scale(1.05); filter: hue-rotate(15deg); } @keyframes textGlitch { 0%, 100% { filter: hue-rotate(0deg); } 50% { filter: hue-rotate(180deg); } "
     },
     {
       "id": 10,
       "type": "content",
       "title": "8) Fragile + resilient... 🥚⚡",
-      "content": "• Every change can generate bugs 🐛💥<br>• You can make sweeping changes whenever you want 🌪️✨<br>• Context, isolation, microservices 🏝️🔒<br><br>• Like a house of cards in a hurricane 🃏🌪️<br>• Yet somehow it stands 🏠💪<br>• <span style='animation: fragileShake 1s infinite;'>*trembles with each keystroke*</span><br>• <code style='background: rgba(0,0,0,0.3); padding: 2px;'>try { everything(); } catch { rebuild(); }</code><br>• <small style='opacity: 0.6;'>Schrödinger's codebase: simultaneously broken and working</small>",
+      "content": "• Every change can generate bugs 🐛💥<br>• You can make sweeping changes whenever you want 🌪️✨<br>• Context, isolation, microservices 🏝️🔒<br><br>• Like a house of cards in a hurricane 🃏🌪️<br>• Yet somehow it stands 🏠💪<br>• <span style='animation: fragileShake 1s infinite;'>*trembles with each keystroke*</span><br>• <code style='background: rgba(0,0,0,0.3); padding: 2px;'>try { everything(); } catch { rebuild(); }</code><br>• <small style='opacity: 0.8;'>Schrödinger's codebase: simultaneously broken and working</small>",
       "styles": {
         "background": "linear-gradient(45deg, #ff0099, #493240, #ff0099, #493240), radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 2px)",
         "backgroundSize": "400% 400%, 30px 30px",
@@ -131,13 +131,13 @@
         "animation": "gradientShift 3s ease infinite, fragileFloat 2s ease-in-out infinite alternate",
         "fontFamily": "'Courier New', monospace"
       },
-      "customCSS": "@keyframes gradientShift { 0%, 100% { background-position: 0% 50%, 0px 0px; } 50% { background-position: 100% 50%, 15px 15px; } } @keyframes fragileFloat { 0% { transform: translateY(0px); filter: blur(0px); } 100% { transform: translateY(-5px); filter: blur(0.2px); } } @keyframes fragileShake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-1px); } 75% { transform: translateX(1px); } }"
+      "customCSS": "@keyframes gradientShift { 0%, 100% { background-position: 0% 50%, 0px 0px; } 50% { background-position: 100% 50%, 15px 15px; } @keyframes fragileFloat { 0% { transform: translateY(0px); filter: blur(0px); } 100% { transform: translateY(-5px); filter: blur(0.2px); } @keyframes fragileShake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-1px); } 75% { transform: translateX(1px); }"
     },
     {
       "id": 11,
       "type": "content",
       "title": "9) Exponential Greenfields",
-      "content": "• Untested weird ideas sprouting like 🍄 after rain<br>• New voices whispering through the 🌿 undergrowth<br>• Navigate the 🌊 tsunami of recursive algorithms<br>• It writes utility scripts and deletes them 🗂️🗑️<br><br>• <span style='font-size: 2em;'>🌱→🌿→🌳→🌲→🏔️→🌍→🌌</span><br>• Growth beyond comprehension 📈∞<br>• <small style='opacity: 0.7;'>*the fields are watching*</small><br>• <span style='color: #00ff00; animation: typewriter 4s steps(30) infinite;'>console.log('life finds a way');</span>",
+      "content": "• Untested weird ideas sprouting like 🍄 after rain<br>• New voices whispering through the 🌿 undergrowth<br>• Navigate the 🌊 tsunami of recursive algorithms<br>• It writes utility scripts and deletes them 🗂️🗑️<br><br>• <span style='font-size: 2em;'>🌱→🌿→🌳→🌲→🏔️→🌍→🌌</span><br>• Growth beyond comprehension 📈∞<br>• <small style='opacity: 0.7;'>*the fields are watching*</small><br>• <span style='color: #00ff00; color: #ffffff; font-weight: bold;'>console.log('life finds a way');</span>",
       "styles": {
         "background": "radial-gradient(ellipse at center, #001100 0%, #003300 20%, #006600 40%, #00aa00 60%, #00ff00 80%, #ffffff 100%), url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"20\" cy=\"20\" r=\"2\" fill=\"%2300ff00\" opacity=\"0.3\"/><circle cx=\"80\" cy=\"30\" r=\"1\" fill=\"%2300ff00\" opacity=\"0.2\"/><circle cx=\"60\" cy=\"70\" r=\"3\" fill=\"%2300ff00\" opacity=\"0.4\"/><circle cx=\"30\" cy=\"80\" r=\"1\" fill=\"%2300ff00\" opacity=\"0.3\"/></svg>')",
         "backgroundBlendMode": "multiply",
@@ -145,13 +145,13 @@
         "animation": "organicGrowth 5s ease-in-out infinite, floatingParticles 8s linear infinite",
         "fontFamily": "'Courier New', 'Georgia', monospace"
       },
-      "customCSS": "@keyframes organicGrowth { 0%, 100% { transform: scale(1); filter: hue-rotate(0deg) saturate(1); } 25% { transform: scale(1.02); filter: hue-rotate(10deg) saturate(1.1); } 50% { transform: scale(0.98); filter: hue-rotate(-5deg) saturate(0.9); } 75% { transform: scale(1.01); filter: hue-rotate(15deg) saturate(1.2); } } @keyframes floatingParticles { 0% { background-position: 0% 0%; } 100% { background-position: 100% 100%; } } @keyframes typewriter { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0.3; } }"
+      "customCSS": "@keyframes organicGrowth { 0%, 100% { transform: scale(1); filter: hue-rotate(0deg) saturate(1.1); } 25% { transform: scale(1.02); filter: hue-rotate(10deg) saturate(1.2); } 50% { transform: scale(0.98); filter: hue-rotate(-5deg) saturate(1.1); } 75% { transform: scale(1.01); filter: hue-rotate(15deg) saturate(1.2); } } 25% { transform: scale(1.02); filter: hue-rotate(10deg) saturate(1.1); } 50% { transform: scale(0.98); filter: hue-rotate(-5deg) saturate(0.9); } 75% { transform: scale(1.01); filter: hue-rotate(15deg) saturate(1.2); } @keyframes floatingParticles { 0% { background-position: 0% 0%; } 100% { background-position: 100% 100%; } @keyframes typewriter { 0%, 100% { color: #00ff00; } 50% { color: #80ff80; } 51%, }"
     },
     {
       "id": 12,
       "type": "content",
       "title": "10) Shïp ïẗ NÖW! 🚢⚡💨",
-      "content": "• Test with your friends 👥🧪<br>• Timebox ⏰📦<br>• This is for testing, no coming soon 🚫⏳<br><br>• YEET IT INTO THE VOID 🌌🚀<br>• Perfect is the enemy of shipped 📦⚔️✨<br>• <span style='animation: urgentBlink 0.5s infinite;'>LAUNCH LAUNCH LAUNCH</span><br>• <code style='background: rgba(255,0,0,0.3); padding: 2px;'>git push origin --force</code><br>• <small style='opacity: 0.7; animation: panic 2s infinite;'>*nervous sweating intensifies*</small>",
+      "content": "• Test with your friends 👥🧪<br>• Timebox ⏰📦<br>• This is for testing, no coming soon 🚫⏳<br><br>• YEET IT INTO THE VOID 🌌🚀<br>• Perfect is the enemy of shipped 📦⚔️✨<br>• <span style='color: #ffffff; font-weight: bold;'>LAUNCH LAUNCH LAUNCH</span><br>• <code style='background: rgba(255,0,0,0.3); padding: 2px;'>git push origin --force</code><br>• <small style='opacity: 0.7; color: #ffffff; font-weight: bold;'>*nervous sweating intensifies*</small>",
       "styles": {
         "background": "conic-gradient(from 180deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), repeating-linear-gradient(45deg, rgba(255,255,255,0.2) 0px, transparent 10px, rgba(255,255,255,0.2) 20px, transparent 30px)",
         "backgroundBlendMode": "overlay",
@@ -159,13 +159,13 @@
         "animation": "subtleBlur 4s ease-in-out infinite alternate, shipmentUrgency 1s ease-in-out infinite",
         "fontFamily": "'Impact', 'Arial Black', sans-serif"
       },
-      "customCSS": "@keyframes subtleBlur { from { filter: blur(0px) brightness(1.2); } to { filter: blur(1px) brightness(1.8); } } @keyframes shipmentUrgency { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.02); } } @keyframes urgentBlink { 0%, 50% { opacity: 1; color: #ff006e; } 51%, 100% { opacity: 0.3; color: #ffbe0b; } } @keyframes panic { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-2px); } 75% { transform: translateX(2px); } }"
+      "customCSS": "@keyframes subtleBlur { from { filter: blur(0px) brightness(1.2); } to { filter: blur(1px) brightness(1.8); } @keyframes shipmentUrgency { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.02); } @keyframes urgentBlink { 0%, 50% { color: #ff006e; } 51%, 100% { color: #ffbe0b; } 51%, } @keyframes panic { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-2px); } 75% { transform: translateX(2px); }"
     },
     {
       "id": 13,
       "type": "content",
       "title": "Tḭmëlëss Prḭncḭplës, Amplḭfḭëd ∞⚡🌀",
-      "content": "Whether you're composing music 🎵, writing code 💻, or painting 🎨—the fundamentals never change. AI just makes them more powerful. 🚀<br><br>• The ancient patterns echo through silicon 🏛️💾<br>• <span style='animation: timelessFlicker 3s infinite;'>Golden ratio still golden ✨ Φ = (1+√5)/2</span><br>• Beauty transcends medium 🌈♾️<br>• <small style='opacity: 0.8; font-style: italic;'>*whispers of Da Vinci in the algorithms*</small>",
+      "content": "Whether you're composing music 🎵, writing code 💻, or painting 🎨—the fundamentals never change. AI just makes them more powerful. 🚀<br><br>• The ancient patterns echo through silicon 🏛️💾<br>• <span style='color: #ffffff; font-weight: bold;'>Golden ratio still golden ✨ Φ = (1+√5)/2</span><br>• Beauty transcends medium 🌈♾️<br>• <small style='opacity: 0.8; font-style: italic;'>*whispers of Da Vinci in the algorithms*</small>",
       "styles": {
         "background": "repeating-linear-gradient(45deg, #ff006e 0px, #8338ec 10px, #3a86ff 20px, #06ffa5 30px, #ffbe0b 40px), conic-gradient(from 0deg, rgba(255,255,255,0.1), transparent)",
         "backgroundBlendMode": "overlay",
@@ -173,13 +173,13 @@
         "animation": "stripeMove 2s linear infinite, textBounce 1s ease-in-out infinite alternate, timelessGlow 4s ease-in-out infinite",
         "fontFamily": "'Times New Roman', serif"
       },
-      "customCSS": "@keyframes stripeMove { from { background-position: 0 0, 0% 50%; } to { background-position: 50px 0, 100% 50%; } } @keyframes textBounce { from { transform: translateY(0); } to { transform: translateY(-20px); } } @keyframes timelessGlow { 0%, 100% { filter: hue-rotate(0deg) saturate(1); } 50% { filter: hue-rotate(60deg) saturate(1.5); } } @keyframes timelessFlicker { 0%, 80% { opacity: 1; } 81%, 85% { opacity: 0.3; } 86%, 100% { opacity: 1; } }"
+      "customCSS": "@keyframes stripeMove { from { background-position: 0 0, 0% 50%; } to { background-position: 50px 0, 100% 50%; } @keyframes textBounce { from { transform: translateY(0); } to { transform: translateY(-20px); } @keyframes timelessGlow { 0%, 100% { filter: hue-rotate(0deg) saturate(1.1); } 50% { filter: hue-rotate(60deg) saturate(1.2); } } 50% { filter: hue-rotate(60deg) saturate(1.5); } @keyframes timelessFlicker { 0%, 100% { color: #ffffff; } 50% { color: #ffff80; } 81%, 86%, }"
     },
     {
       "id": 14,
       "type": "content",
       "title": "Tḧë Crëätḭvë Pärẗnërsḧḭp 🤝🎭🤖",
-      "content": "AI doesn't replace creativity—it amplifies it. 🔊✨ Whether you're designing interfaces, composing melodies, or solving algorithms, the magic happens in collaboration. 🪄🌟<br><br>• Human soul + Silicon synapses = ∞ 🧠⚡<br>• Two minds, one dream 💭🌌<br>• <span style='animation: partnershipDance 2s ease-in-out infinite alternate;'>*dancing in digital harmony*</span><br>• Output debug info and custom admin controls 🐛⚙️<br>• <small style='opacity: 0.7;'>Together we are more than the sum of our tokens</small>",
+      "content": "AI doesn't replace creativity—it amplifies it. 🔊✨ Whether you're designing interfaces, composing melodies, or solving algorithms, the magic happens in collaboration. 🪄🌟<br><br>• Human soul + Silicon synapses = ∞ 🧠⚡<br>• Two minds, one dream 💭🌌<br>• <span style='color: #ffffff; font-weight: bold;'>*dancing in digital harmony*</span><br>• Output debug info and custom admin controls 🐛⚙️<br>• <small style='opacity: 0.7;'>Together we are more than the sum of our tokens</small>",
       "styles": {
         "background": "radial-gradient(circle at 20% 20%, #ff006e 0%, transparent 50%), radial-gradient(circle at 80% 80%, #8338ec 0%, transparent 50%), radial-gradient(circle at 40% 40%, #3a86ff 0%, transparent 50%), linear-gradient(45deg, #06ffa5, #ffbe0b), repeating-conic-gradient(from 0deg, rgba(255,255,255,0.1) 0deg, transparent 30deg)",
         "backgroundBlendMode": "overlay",
@@ -187,13 +187,13 @@
         "animation": "psychedelic 6s ease-in-out infinite, textGlow 2s ease-in-out infinite alternate, creativeFlow 4s ease-in-out infinite",
         "fontFamily": "'Comic Sans MS', cursive"
       },
-      "customCSS": "@keyframes psychedelic { 0%, 100% { filter: hue-rotate(0deg) saturate(1) brightness(1); } 25% { filter: hue-rotate(90deg) saturate(2) brightness(1.2); } 50% { filter: hue-rotate(180deg) saturate(3) brightness(0.8); } 75% { filter: hue-rotate(270deg) saturate(2) brightness(1.5); } } @keyframes textGlow { from { opacity: 0.9; } to { opacity: 1; } } @keyframes creativeFlow { 0%, 100% { transform: skewX(0deg); } 50% { transform: skewX(2deg); } } @keyframes partnershipDance { 0% { color: #ff006e; transform: translateX(0); } 100% { color: #3a86ff; transform: translateX(10px); } }"
+      "customCSS": "@keyframes psychedelic { 0%, 100% { filter: hue-rotate(0deg) saturate(1.2) brightness(1.1); } 25% { filter: hue-rotate(90deg) saturate(1.3) brightness(1.1); } 50% { filter: hue-rotate(180deg) saturate(1.2) brightness(1.1); } 75% { filter: hue-rotate(270deg) saturate(1.3) brightness(1.1); } } 25% { filter: hue-rotate(90deg) saturate(2) brightness(1.2); } 50% { filter: hue-rotate(180deg) saturate(3) brightness(0.8); } 75% { filter: hue-rotate(270deg) saturate(2) brightness(1.5); } } @keyframes textGlow { from { color: #ffffff; } to { color: #ffff80; } } @keyframes creativeFlow { 0%, 100% { transform: skewX(0deg); } 50% { transform: skewX(2deg); } } @keyframes partnershipDance { 0% { color: #ff006e; transform: translateX(0); } 100% { color: #3a86ff; transform: translateX(10px); } }"
     },
     {
       "id": 15,
       "type": "content",
       "title": "Embräcë ẗḧë Bëäṳẗḭfṳl Cḧäös 🌪🎨💀",
-      "content": "Art thrives in uncertainty. 🎭❓ Code evolves through iteration. 💻🔄 Both find beauty in experimentation, bold choices, and fearless creation. 🚀✨<br><br>• Order from chaos, chaos from order ⚖️🌀<br>• Broken pixels make beautiful glitches 📺💥<br>• <span style='animation: chaosShimmer 1.5s infinite;'>ERROR 404: PERFECTION NOT FOUND</span><br>• <code style='background: rgba(255,0,255,0.3); padding: 2px;'>embrace(chaos).then(art => magic)</code><br>• <small style='opacity: 0.8; animation: chaosWisper 3s infinite;'>*the muse feeds on beautiful disasters*</small>",
+      "content": "Art thrives in uncertainty. 🎭❓ Code evolves through iteration. 💻🔄 Both find beauty in experimentation, bold choices, and fearless creation. 🚀✨<br><br>• Order from chaos, chaos from order ⚖️🌀<br>• Broken pixels make beautiful glitches 📺💥<br>• <span style='color: #ffffff; font-weight: bold;'>ERROR 404: PERFECTION NOT FOUND</span><br>• <code style='background: rgba(255,0,255,0.3); padding: 2px;'>embrace(chaos).then(art => magic)</code><br>• <small style='opacity: 0.8; color: #ffffff; font-weight: bold;'>*the muse feeds on beautiful disasters*</small>",
       "styles": {
         "background": "conic-gradient(from 0deg at 50% 50%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px), repeating-linear-gradient(45deg, rgba(0,0,0,0.1) 0px, transparent 10px)",
         "backgroundSize": "100% 100%, 20px 20px, 30px 30px",
@@ -201,7 +201,7 @@
         "animation": "megaPulse 2s ease-in-out infinite, gentleSway 4s ease-in-out infinite",
         "fontFamily": "'Impact', sans-serif"
       },
-      "customCSS": "@keyframes megaPulse { 0%, 100% { filter: brightness(1) contrast(1); } 50% { filter: brightness(2) contrast(2); } } @keyframes gentleSway { 0%, 100% { transform: translateX(0) scale(1); } 25% { transform: translateX(3px) scale(1.01); } 75% { transform: translateX(-3px) scale(0.99); } } @keyframes chaosShimmer { 0%, 70% { opacity: 1; color: #ff006e; } 71%, 75% { opacity: 0.3; color: #3a86ff; } 76%, 100% { opacity: 1; color: #06ffa5; } } @keyframes chaosWisper { 0%, 60% { opacity: 0.8; } 61%, 65% { opacity: 0.2; } 66%, 100% { opacity: 0.8; } }"
+      "customCSS": "@keyframes megaPulse { 0%, 100% { filter: brightness(1) contrast(1); } 50% { filter: brightness(2) contrast(2); } @keyframes gentleSway { 0%, 100% { transform: translateX(0) scale(1); } 25% { transform: translateX(3px) scale(1.01); } 75% { transform: translateX(-3px) scale(0.99); } @keyframes chaosShimmer { 0%, 70% { color: #ff006e; } 71%, 75% { color: #3a86ff; } 76%, 100% { color: #06ffa5; } 71%, 76%, } @keyframes chaosWisper { 0%, 100% { color: #ffffff; } 50% { color: #ff80ff; } 61%, 66%, }"
     },
     {
       "id": 16,
@@ -214,15 +214,15 @@
         "color": "#ffffff",
         "animation": "softGlow 1s ease-in-out infinite alternate, gentleBounce 3s ease-in-out infinite",
         "fontFamily": "'Papyrus', fantasy",
-        "filter": "brightness(1.5) contrast(2) saturate(3)"
+        "filter": "brightness(1.1) contrast(1.1) saturate(1.2)"
       },
-      "customCSS": "@keyframes softGlow { from { filter: brightness(1.5) contrast(2) saturate(3); } to { filter: brightness(2) contrast(2.5) saturate(4); } } @keyframes gentleBounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } } @keyframes magicRotation { 0% { background-position: 0% 50%, 0px 0px; } 100% { background-position: 100% 50%, 40px 40px; } } @keyframes magicSparkle { 0%, 50% { color: #ffbe0b; } 51%, 100% { color: #ff006e; } }"
+      "customCSS": "@keyframes softGlow { from { filter: brightness(1.1) contrast(1.1) saturate(1.2); } to { filter: brightness(1.2) contrast(1.2) saturate(1.3); } } to { filter: brightness(2) contrast(2.5) saturate(4); } @keyframes gentleBounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } @keyframes magicRotation { 0% { background-position: 0% 50%, 0px 0px; } 100% { background-position: 100% 50%, 40px 40px; } @keyframes magicSparkle { 0%, 50% { color: #ffbe0b; } 51%, 100% { color: #ff006e; }"
     },
     {
       "id": 17,
       "type": "content",
       "title": "From Vḭsḭon to Rëälḭtÿ 👁➡🌍",
-      "content": "Ideas flow faster than ever—whether it's a song 🎵, an app 📱, or a visual masterpiece 🎨. The real skill is knowing when your creation is ready to share with the world. 🚀<br><br>• Vision dissolves into possibility 👁️💫<br>• Reality crystallizes from chaos 🌀💎<br>• <span style='animation: visionFlux 2s infinite;'>∞ IDEAS → 1 REALITY → ∞ IMPACT</span><br>• <code style='background: rgba(255,20,147,0.3); padding: 2px;'>while(dreaming) { build(); ship(); repeat(); }</code><br>• <small style='opacity: 0.7; font-style: italic;'>*the space between thought and form*</small>",
+      "content": "Ideas flow faster than ever—whether it's a song 🎵, an app 📱, or a visual masterpiece 🎨. The real skill is knowing when your creation is ready to share with the world. 🚀<br><br>• Vision dissolves into possibility 👁️💫<br>• Reality crystallizes from chaos 🌀💎<br>• <span style='color: #ff006e; font-weight: bold;'>∞ IDEAS → 1 REALITY → ∞ IMPACT</span><br>• <code style='background: rgba(255,20,147,0.3); padding: 2px;'>while(dreaming) { build(); ship(); repeat(); }</code><br>• <small style='opacity: 0.7; font-style: italic;'>*the space between thought and form*</small>",
       "styles": {
         "background": "repeating-conic-gradient(from 0deg at 20% 30%, #ff006e 0deg, #8338ec 60deg, #3a86ff 120deg, #06ffa5 180deg, #ffbe0b 240deg, #ff0080 300deg), radial-gradient(circle, rgba(255,255,255,0.2) 1px, transparent 2px)",
         "backgroundSize": "50px 50px, 100px 100px, 150px 150px, 25px 25px",
@@ -232,7 +232,7 @@
         "fontFamily": "'Trebuchet MS', sans-serif",
         "filter": "hue-rotate(0deg) saturate(2)"
       },
-      "customCSS": "@keyframes chaosGrid { 0% { background-position: 0 0, 25px 25px, 50px 50px, 0 0; } 25% { background-position: 25px 0, 0 25px, 25px 75px, 12px 12px; } 50% { background-position: 50px 25px, 25px 50px, 0 25px, 25px 0; } 75% { background-position: 25px 50px, 50px 25px, 75px 0, 37px 37px; } 100% { background-position: 0 0, 25px 25px, 50px 50px, 0 0; } } @keyframes colorMadness { from { filter: hue-rotate(0deg) saturate(2) brightness(1.2); } to { filter: hue-rotate(360deg) saturate(4) brightness(1.8); } } @keyframes scaleWild { 0%, 100% { transform: scale(1); } 33% { transform: scale(1.1); } 66% { transform: scale(0.95); } } @keyframes visionWarp { 0%, 100% { transform: perspective(1000px); } 50% { transform: perspective(1000px); } } @keyframes visionFlux { 0%, 60% { opacity: 1; color: #ff006e; } 61%, 80% { opacity: 0.5; color: #3a86ff; } 81%, 100% { opacity: 1; color: #06ffa5; } }"
+      "customCSS": "@keyframes chaosGrid { 0% { background-position: 0 0, 25px 25px, 50px 50px, 0 0; } 25% { background-position: 25px 0, 0 25px, 25px 75px, 12px 12px; } 50% { background-position: 50px 25px, 25px 50px, 0 25px, 25px 0; } 75% { background-position: 25px 50px, 50px 25px, 75px 0, 37px 37px; } 100% { background-position: 0 0, 25px 25px, 50px 50px, 0 0; } @keyframes colorMadness { from { filter: hue-rotate(0deg) saturate(1.2) brightness(1.1); } to { filter: hue-rotate(360deg) saturate(1.4) brightness(1.2); } } to { filter: hue-rotate(360deg) saturate(4) brightness(1.8); } @keyframes scaleWild { 0%, 100% { transform: scale(1); } 33% { transform: scale(1.1); } 66% { transform: scale(0.95); } @keyframes visionWarp { 0%, 100% { transform: perspective(1000px); } 50% { transform: perspective(1000px); } @keyframes visionFlux { 0%, 60% { color: #ff006e; } 61%, 80% { color: #3a86ff; } 81%, 100% { color: #06ffa5; } }"
     },
     {
       "id": 18,
@@ -248,7 +248,7 @@
         "fontWeight": "600",
         "fontFamily": "'Impact', sans-serif"
       },
-      "customCSS": "@keyframes explosiveChaos { 0% { background-position: 0 0, 100px 50px, 200px 100px, 50px 150px, 300px 0, 0 0, 0 0; transform: scale(1); } 25% { background-position: 50px 25px, 150px 75px, 0 200px, 250px 50px, 100px 200px, 100px 100px, 10px 10px; transform: scale(1.05); } 50% { background-position: 100px 50px, 0 100px, 300px 0, 150px 200px, 200px 100px, 200px 200px, 20px 0; transform: scale(0.98); } 75% { background-position: 150px 75px, 250px 25px, 100px 300px, 0 100px, 50px 150px, 300px 300px, 30px 10px; transform: scale(1.02); } 100% { background-position: 0 0, 100px 50px, 200px 100px, 50px 150px, 300px 0, 0 0, 0 0; transform: scale(1); } } @keyframes glitchEffect { 0%, 100% { filter: hue-rotate(0deg) saturate(2) brightness(1.2) contrast(1.1); } 10% { filter: hue-rotate(90deg) saturate(3) brightness(1.5) contrast(1.3); } 20% { filter: hue-rotate(180deg) saturate(1.5) brightness(0.9) contrast(1.5); } 30% { filter: hue-rotate(270deg) saturate(4) brightness(1.8) contrast(0.8); } 40% { filter: hue-rotate(360deg) saturate(2.5) brightness(1.1) contrast(1.2); } } @keyframes colorExplosion { from { filter: brightness(1.2) contrast(1.1) saturate(2); } to { filter: brightness(2.2) contrast(2) saturate(5); } } @keyframes deathOfPerfection { 0%, 70% { opacity: 1; color: #ff006e; } 71%, 85% { opacity: 0.3; color: #000000; } 86%, 100% { opacity: 1; color: #ff006e; } } @keyframes resurrect { 0%, 50% { opacity: 0.8; } 51%, 60% { opacity: 0.3; } 61%, 100% { opacity: 0.8; } }"
+      "customCSS": "@keyframes explosiveChaos { 0% { background-position: 0 0, 100px 50px, 200px 100px, 50px 150px, 300px 0, 0 0, 0 0; transform: scale(1); } 25% { background-position: 50px 25px, 150px 75px, 0 200px, 250px 50px, 100px 200px, 100px 100px, 10px 10px; transform: scale(1.05); } 50% { background-position: 100px 50px, 0 100px, 300px 0, 150px 200px, 200px 100px, 200px 200px, 20px 0; transform: scale(0.98); } 75% { background-position: 150px 75px, 250px 25px, 100px 300px, 0 100px, 50px 150px, 300px 300px, 30px 10px; transform: scale(1.02); } 100% { background-position: 0 0, 100px 50px, 200px 100px, 50px 150px, 300px 0, 0 0, 0 0; transform: scale(1); } @keyframes glitchEffect { 0%, 100% { filter: hue-rotate(0deg) saturate(1.2) brightness(1.1) contrast(1.1); } 20% { filter: hue-rotate(72deg) saturate(1.3) brightness(1.2) contrast(1.2); } 40% { filter: hue-rotate(144deg) saturate(1.2) brightness(1.1) contrast(1.1); } 60% { filter: hue-rotate(216deg) saturate(1.3) brightness(1.2) contrast(1.2); } 80% { filter: hue-rotate(288deg) saturate(1.2) brightness(1.1) contrast(1.1); } } 10% { filter: hue-rotate(90deg) saturate(3) brightness(1.5) contrast(1.3); } 20% { filter: hue-rotate(180deg) saturate(1.5) brightness(0.9) contrast(1.5); } 30% { filter: hue-rotate(270deg) saturate(4) brightness(1.8) contrast(0.8); } 40% { filter: hue-rotate(360deg) saturate(2.5) brightness(1.1) contrast(1.2); } @keyframes colorExplosion { from { filter: brightness(1.1) contrast(1.1) saturate(1.2); } to { filter: brightness(1.3) contrast(1.3) saturate(1.4); } } to { filter: brightness(2.2) contrast(2) saturate(5); } @keyframes deathOfPerfection { 0%, 71%, 86%, } @keyframes resurrect { 0%, 51%, 61%, }"
     },
     {
       "id": 19,
@@ -263,9 +263,9 @@
         "fontSize": "1.2em",
         "fontWeight": "bold",
         "fontFamily": "'Impact', 'Arial Black', sans-serif",
-        "filter": "hue-rotate(0deg) saturate(3) brightness(1.5)"
+        "filter": "brightness(1.1) contrast(1.1) saturate(1.2)"
       },
-      "customCSS": "@keyframes ultimateChaos { 0% { background-position: 0 0, 50px 25px, 100px 50px, 0 0; transform: scale(1) skew(0deg); } 16% { background-position: 20px 10px, 80px 60px, 150px 20px, 20px 20px; transform: scale(1.03) skew(1deg); } 33% { background-position: 40px 20px, 10px 90px, 200px 80px, 40px 10px; transform: scale(0.97) skew(-1deg); } 50% { background-position: 60px 30px, 120px 20px, 50px 150px, 60px 30px; transform: scale(1.01) skew(0.5deg); } 66% { background-position: 80px 40px, 30px 100px, 180px 10px, 80px 50px; transform: scale(0.99) skew(-0.5deg); } 83% { background-position: 100px 50px, 90px 40px, 120px 120px, 100px 70px; transform: scale(1.02) skew(0.8deg); } 100% { background-position: 0 0, 50px 25px, 100px 50px, 0 0; transform: scale(1) skew(0deg); } } @keyframes megaGlitch { 0%, 100% { filter: hue-rotate(0deg) saturate(3) brightness(1.5) contrast(1.2); } 20% { filter: hue-rotate(72deg) saturate(5) brightness(2.2) contrast(2); } 40% { filter: hue-rotate(144deg) saturate(1) brightness(0.8) contrast(3); } 60% { filter: hue-rotate(216deg) saturate(4) brightness(1.8) contrast(0.5); } 80% { filter: hue-rotate(288deg) saturate(2) brightness(2.5) contrast(1.8); } } @keyframes finalExplosion { from { transform: scale(1); filter: brightness(1.5) contrast(1.2) saturate(3); } to { transform: scale(1.08); filter: brightness(3) contrast(3) saturate(6); } } @keyframes urgentShake { 0%, 100% { transform: translateX(0) translateY(0); } 25% { transform: translateX(-2px) translateY(1px); } 75% { transform: translateX(2px) translateY(-1px); } } @keyframes urgentPulse { 0%, 50% { opacity: 1; color: #ff006e; transform: scale(1); } 51%, 100% { opacity: 0.7; color: #ffbe0b; transform: scale(1.1); } } @keyframes codeUrgency { 0%, 60% { background: rgba(255,69,0,0.5); } 61%, 100% { background: rgba(255,20,147,0.8); } } @keyframes bounceInsane { 0%, 50% { transform: translateY(0) scale(1); } 51%, 100% { transform: translateY(-10px) scale(1.1); } } @keyframes whisperUrgent { 0%, 70% { opacity: 0.9; } 71%, 85% { opacity: 0.3; } 86%, 100% { opacity: 0.9; } }"
+      "customCSS": "@keyframes ultimateChaos { 0% { background-position: 0 0, 50px 25px, 100px 50px, 0 0; transform: scale(1) skew(0deg); } 16% { background-position: 20px 10px, 80px 60px, 150px 20px, 20px 20px; transform: scale(1.03) skew(1deg); } 33% { background-position: 40px 20px, 10px 90px, 200px 80px, 40px 10px; transform: scale(0.97) skew(-1deg); } 50% { background-position: 60px 30px, 120px 20px, 50px 150px, 60px 30px; transform: scale(1.01) skew(0.5deg); } 66% { background-position: 80px 40px, 30px 100px, 180px 10px, 80px 50px; transform: scale(0.99) skew(-0.5deg); } 83% { background-position: 100px 50px, 90px 40px, 120px 120px, 100px 70px; transform: scale(1.02) skew(0.8deg); } 100% { background-position: 0 0, 50px 25px, 100px 50px, 0 0; transform: scale(1) skew(0deg); } @keyframes megaGlitch { 0%, 100% { filter: hue-rotate(0deg) saturate(3) brightness(1.5) contrast(1.2); } 20% { filter: hue-rotate(72deg) saturate(5) brightness(2.2) contrast(2); } 40% { filter: hue-rotate(144deg) saturate(1) brightness(0.8) contrast(3); } 60% { filter: hue-rotate(216deg) saturate(4) brightness(1.8) contrast(0.5); } 80% { filter: hue-rotate(288deg) saturate(2) brightness(2.5) contrast(1.8); } @keyframes finalExplosion { from { transform: scale(1); filter: brightness(1.5) contrast(1.2) saturate(3); } to { transform: scale(1.08); filter: brightness(3) contrast(3) saturate(6); } @keyframes urgentShake { 0%, 100% { transform: translateX(0) translateY(0); } 25% { transform: translateX(-2px) translateY(1px); } 75% { transform: translateX(2px) translateY(-1px); } @keyframes urgentPulse { 0%, 51%, } @keyframes codeUrgency { 0%, 60% { background: rgba(255,69,0,0.5); } 61%, 100% { background: rgba(255,20,147,0.8); } @keyframes bounceInsane { 0%, 50% { transform: translateY(0) scale(1); } 51%, 100% { transform: translateY(-10px) scale(1.1); } @keyframes whisperUrgent { 0%, 71%, 86%, }"
     },
     {
       "id": 20,
@@ -283,7 +283,7 @@
         "fontFamily": "'Comic Sans MS', 'Impact', fantasy",
         "textAlign": "center"
       },
-      "customCSS": "@keyframes finalGlow { from { filter: brightness(1.3) contrast(1.2) saturate(1.5); } to { filter: brightness(2) contrast(1.8) saturate(2.5); } } @keyframes vibesForever { 0%, 100% { transform: scale(1); } 25% { transform: scale(1.05); } 75% { transform: scale(0.95); } } @keyframes vibesPulse { 0%, 50% { transform: scale(1); opacity: 1; } 51%, 100% { transform: scale(1.2); opacity: 0.8; } } @keyframes infiniteVibes { 0%, 100% { opacity: 1; color: #ff006e; transform: translateY(0); } 33% { opacity: 0.8; color: #3a86ff; transform: translateY(-10px); } 66% { opacity: 0.9; color: #06ffa5; transform: translateY(5px); } } @keyframes whisperEnd { 0%, 70% { opacity: 0.8; } 71%, 85% { opacity: 0.3; } 86%, 100% { opacity: 0.8; } }"
+      "customCSS": "@keyframes finalGlow { from { filter: brightness(1.3) contrast(1.2) saturate(1.5); } to { filter: brightness(2) contrast(1.8) saturate(2.5); } } @keyframes vibesForever { 0%, 100% { transform: scale(1); } 25% { transform: scale(1.05); } 75% { transform: scale(0.95); } } @keyframes vibesPulse { 0%, 50% { transform: scale(1); } 51%, 100% { transform: scale(1.2); } } @keyframes infiniteVibes { 0%, 100% { color: #ff006e; transform: translateY(0); } 33% { color: #3a86ff; transform: translateY(-10px); } 66% { color: #06ffa5; transform: translateY(5px); } } @keyframes whisperEnd { 0%, 100% { color: #ffffff; } 50% { color: #ff80ff; } }"
     }
   ]
 }
