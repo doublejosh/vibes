@@ -7,8 +7,8 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>Vibes Presentation</title>
-    <link rel="stylesheet" href="styles/main.css?v=20250808">
-    <link rel="stylesheet" href="styles/slides.css?v=20250808">
+    <link rel="stylesheet" href="styles/main.css?v=20250810b">
+    <link rel="stylesheet" href="styles/slides.css?v=20250810b">
 </head>
 <body>
     <div id="presentation-container">
@@ -26,6 +26,16 @@
             <button id="next-slide" aria-label="Next slide">›</button>
             <button id="prompts-btn" aria-label="View prompts">prompts</button>
         </nav>
+
+        <!-- Fixed prompt suggestions - left and right sides -->
+        <div id="prompt-suggestions">
+            <div class="prompt-item prompt-left" id="prompt-suggestion-1">
+                <span class="prompt-text">Loading prompt...</span>
+            </div>
+            <div class="prompt-item prompt-right" id="prompt-suggestion-2">
+                <span class="prompt-text">Loading prompt...</span>
+            </div>
+        </div>
 
         <!-- Progress bar -->
         <div id="progress-bar">
@@ -54,9 +64,9 @@
     </div>
 
     <!-- Scripts -->
-    <script src="scripts/presentation.js?v=20250808"></script>
-    <script src="scripts/navigation.js?v=20250808"></script>
-    <script src="scripts/prompts-modal.js?v=20250808"></script>
+    <script src="scripts/presentation.js?v=20250810"></script>
+    <script src="scripts/navigation.js?v=20250810"></script>
+    <script src="scripts/prompts-modal.js?v=20250810"></script>
     <script>
         // Initialize presentation when page loads
         document.addEventListener('DOMContentLoaded', function() {

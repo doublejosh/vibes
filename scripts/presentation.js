@@ -12,6 +12,9 @@ const PresentationApp = {
             this.setupEventListeners();
             this.showSlide(1);
             this.updateProgress();
+            
+            // Initialize prompt suggestions
+            await PromptSuggestions.init();
         } catch (error) {
             console.error('Failed to initialize presentation:', error);
             this.showError('Failed to load presentation content.');
@@ -128,6 +131,11 @@ const PresentationApp = {
         this.renderSlide(slide);
         this.updateNavigation();
         this.updateProgress();
+        
+        // Update prompt suggestions for the new slide
+        if (typeof PromptSuggestions !== 'undefined' && PromptSuggestions.updateSuggestions) {
+            PromptSuggestions.updateSuggestions(slideNumber);
+        }
     },
     
     renderSlide(slide) {
@@ -349,5 +357,141 @@ const PresentationApp = {
                 <p>Please check the console for more details.</p>
             </div>
         `;
+    }
+};
+
+// Prompt suggestions functionality
+const PromptSuggestions = {
+    prompts: [],
+    shownPrompts: new Set(),
+    currentSlideKeywords: [],
+    
+    async init() {
+        try {
+            await this.loadPrompts();
+            this.setupClickHandlers();
+            this.updateSuggestions(1); // Initialize with first slide
+        } catch (error) {
+            console.error('Failed to initialize prompt suggestions:', error);
+        }
+    },
+    
+    async loadPrompts() {
+        try {
+            const response = await fetch('PROMPTS.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            this.prompts = data.prompts;
+        } catch (error) {
+            console.error('Error loading prompts:', error);
+            throw error;
+        }
+    },
+    
+    setupClickHandlers() {
+        document.getElementById('prompt-suggestion-1').addEventListener('click', () => {
+            this.onPromptClick(1);
+        });
+        
+        document.getElementById('prompt-suggestion-2').addEventListener('click', () => {
+            this.onPromptClick(2);
+        });
+    },
+    
+    onPromptClick(promptIndex) {
+        // Open the prompts modal when a suggestion is clicked
+        const promptsModal = document.getElementById('prompts-modal');
+        if (promptsModal) {
+            promptsModal.classList.remove('hidden');
+        }
+    },
+    
+    updateSuggestions(slideNumber) {
+        // Get slide-specific keywords or use random prompts
+        const suggestions = this.getRelevantPrompts(slideNumber);
+        
+        const prompt1 = document.getElementById('prompt-suggestion-1');
+        const prompt2 = document.getElementById('prompt-suggestion-2');
+        
+        if (suggestions.length >= 1) {
+            prompt1.querySelector('.prompt-text').textContent = suggestions[0].prompt;
+            prompt1.dataset.promptId = suggestions[0].id;
+        }
+        
+        if (suggestions.length >= 2) {
+            prompt2.querySelector('.prompt-text').textContent = suggestions[1].prompt;
+            prompt2.dataset.promptId = suggestions[1].id;
+        }
+    },
+    
+    getRelevantPrompts(slideNumber) {
+        const slideKeywords = this.getSlideKeywords(slideNumber);
+        let relevantPrompts = [];
+        
+        // First, try to find prompts with relevant keywords
+        if (slideKeywords.length > 0) {
+            relevantPrompts = this.prompts.filter(prompt => 
+                slideKeywords.some(keyword => 
+                    prompt.prompt.toLowerCase().includes(keyword.toLowerCase())
+                ) && !this.shownPrompts.has(prompt.id)
+            );
+        }
+        
+        // If no relevant prompts found, get random unshown prompts
+        if (relevantPrompts.length < 2) {
+            const unshownPrompts = this.prompts.filter(prompt => 
+                !this.shownPrompts.has(prompt.id)
+            );
+            
+            // Add random prompts to fill the gap
+            while (relevantPrompts.length < 2 && unshownPrompts.length > 0) {
+                const randomIndex = Math.floor(Math.random() * unshownPrompts.length);
+                const randomPrompt = unshownPrompts.splice(randomIndex, 1)[0];
+                
+                if (!relevantPrompts.find(p => p.id === randomPrompt.id)) {
+                    relevantPrompts.push(randomPrompt);
+                }
+            }
+        }
+        
+        // Mark these prompts as shown
+        relevantPrompts.forEach(prompt => this.shownPrompts.add(prompt.id));
+        
+        // Reset shown prompts if we've shown them all
+        if (this.shownPrompts.size >= this.prompts.length) {
+            this.shownPrompts.clear();
+        }
+        
+        return relevantPrompts.slice(0, 2);
+    },
+    
+    getSlideKeywords(slideNumber) {
+        // Define keywords for different slides
+        const slideKeywordMap = {
+            1: ['project', 'setup', 'html', 'index'],
+            2: ['prompts', 'track', 'file'],
+            3: ['content', 'slides', 'json'],
+            4: ['navigation', 'buttons', 'interface'],
+            5: ['styling', 'css', 'design'],
+            6: ['responsive', 'mobile', 'layout'],
+            7: ['animations', 'effects', 'transitions'],
+            8: ['background', 'gradients', 'visual'],
+            9: ['typography', 'fonts', 'text'],
+            10: ['images', 'media', 'assets'],
+            11: ['interactive', 'javascript', 'functionality'],
+            12: ['modal', 'popup', 'overlay'],
+            13: ['performance', 'optimization', 'loading'],
+            14: ['accessibility', 'a11y', 'usability'],
+            15: ['testing', 'debugging', 'validation'],
+            16: ['deployment', 'hosting', 'production'],
+            17: ['documentation', 'readme', 'comments'],
+            18: ['version', 'git', 'control'],
+            19: ['refactor', 'improve', 'cleanup'],
+            20: ['conclusion', 'summary', 'final']
+        };
+        
+        return slideKeywordMap[slideNumber] || [];
     }
 };

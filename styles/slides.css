@@ -30,6 +30,13 @@
     overflow: hidden;
 }
 
+/* Ensure no rounded corners on mobile */
+@media (max-width: 768px) {
+    .slide {
+        border-radius: 0;
+    }
+}
+
 /* Content container for improved readability */
 .slide .slide-content {
     width: 66.67%; /* Middle 2/3 of screen */
@@ -45,6 +52,67 @@
         inset 0 1px 0 rgba(255, 255, 255, 0.6);
     position: relative;
     z-index: 10;
+}
+
+/* Mobile: Make content card scrollable with simplified styling */
+@media (max-width: 768px) {
+    .slide .slide-content {
+        width: 90%;
+        max-width: none;
+        min-width: unset;
+        padding: 20px;
+        margin: 20px auto;
+        box-sizing: border-box;
+        max-height: calc(100vh - 160px); /* Account for navigation space */
+        overflow-y: auto;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: none; /* Remove backdrop filter to prevent cut-off */
+        
+        /* Simplified mobile styling - remove border-radius to avoid double corners */
+        border-radius: 0;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        
+        /* Ensure scrolling works properly */
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Simplified text styling for mobile */
+    .slide .slide-content h1,
+    .slide .slide-content h2,
+    .slide .slide-content h3,
+    .slide .slide-content p,
+    .slide .slide-content .content {
+        color: #333 !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+        text-shadow: none !important;
+        font-weight: normal !important;
+        line-height: 1.4;
+    }
+    
+    .slide .slide-content h1 {
+        font-size: 1.8em !important;
+        font-weight: 600 !important;
+        margin-bottom: 16px;
+    }
+    
+    .slide .slide-content h2 {
+        font-size: 1.4em !important;
+        font-weight: 500 !important;
+        margin-bottom: 12px;
+    }
+    
+    .slide .slide-content h3 {
+        font-size: 1.2em !important;
+        font-weight: 500 !important;
+        margin-bottom: 10px;
+    }
+    
+    .slide .slide-content p,
+    .slide .slide-content .content {
+        font-size: 1em !important;
+        margin-bottom: 12px;
+    }
 }
 
 /* Clean text styling without shadows */

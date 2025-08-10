@@ -69,7 +69,7 @@
       "id": 6,
       "type": "content",
       "title": "5) You are human 🧠🫀💀",
-      "content": "• Pause, note the workflow 🛑📝<br>• Start with fun stuff 🎉✨<br>• Make it dance 💃🕺<br>• Just say it 🗣️💬<br><br>• Remember: You have 👁️ EYES and 🖐️ HANDS<br>• You feel ❤️ EMOTIONS and make 🎨 ART<br>• You get tired 😴 and need ☕ COFFEE<br>• <span style='color: #ffffff; font-weight: bold;'>*thump thump* goes your heart</span><br>• <small style='opacity: 0.7;'>Be gloriously, messily, beautifully human</small>",
+      "content": "• Pause, note the workflow 🛑📝<br>• Start with fun stuff 🎉✨<br>• Make it dance 💃🕺<br>• Just say it 🗣️💬<br><br>• Remember: You have 👁️ EYES and 🖐️ HANDS<br>• You feel ❤️ EMOTIONS and make 🎨 ART<br>• You get tired 😴 and need ☕ COFFEE<br>• <span style='color: #000080; font-weight: bold;'>*thump thump* goes your heart</span><br>• <small style='opacity: 0.7;'>Be gloriously, messily, beautifully human</small>",
       "styles": {
         "background": "radial-gradient(circle at 30% 30%, #ff69b4 0%, transparent 50%), radial-gradient(circle at 70% 70%, #87ceeb 0%, transparent 50%), linear-gradient(45deg, #667eea 0%, #764ba2 50%, #f093fb 75%, #f5576c 100%)",
         "color": "#ffffff",
@@ -96,7 +96,7 @@
       "id": 8,
       "type": "content",
       "title": "6) Trädïtïönäl ëngïnëërïng... ⚙🏗💀",
-      "content": "• Separate content from code ✂️📄<br>• Good variable naming 🏷️✨<br>• Design patterns and thinking ahead 🧠🔮<br>• Order of build 🏗️📐<br>• Careful what you touch ⚠️👆<br>• Borrow good code 📚🔄<br>• Let go of unused code 🗑️💨<br><br>• The ancient ways still hold power 🧙‍♂️⚡<br>• <span style='color: #ffffff; font-weight: bold;'>if (tradition === true) { return wisdom; }</span><br>• <small style='opacity: 0.7;'>*whispers of SOLID principles in the wind*</small>",
+      "content": "• Separate content from code ✂️📄<br>• Good variable naming 🏷️✨<br>• Design patterns and thinking ahead 🧠🔮<br>• Order of build 🏗️📐<br>• Careful what you touch ⚠️👆<br>• Borrow good code 📚🔄<br>• Let go of unused code 🗑️💨<br><br>• The ancient ways still hold power 🧙‍♂️⚡<br>• <span style='color: #000080; font-weight: bold;'>if (tradition === true) { return wisdom; }</span><br>• <small style='opacity: 0.7;'>*whispers of SOLID principles in the wind*</small>",
       "styles": {
         "background": "linear-gradient(45deg, #ff6b6b, #feca57, #48cae4), repeating-linear-gradient(45deg, rgba(255,255,255,0.1) 0px, transparent 5px, transparent 10px, rgba(255,255,255,0.1) 15px)",
         "backgroundBlendMode": "overlay",
@@ -104,7 +104,7 @@
         "animation": "engineeringSway 4s ease-in-out infinite, traditionalGlow 3s ease-in-out infinite alternate",
         "fontFamily": "'Courier New', monospace"
       },
-      "customCSS": "@keyframes engineeringSway { 0%, 100% { transform: translateY(0px); } 25% { transform: translateY(2px); } 50% { transform: translateY(-1px); } 75% { transform: translateY(1px); } @keyframes traditionalGlow { 0% { filter: brightness(1) contrast(1); } 100% { filter: brightness(1.2) contrast(1.1); } @keyframes codeFlicker { 0%, 100% { color: #ffffff; } 50% { color: #ffff99; } 91%, 96%, }"
+      "customCSS": "@keyframes engineeringSway { 0%, 100% { transform: translateY(0px); } 25% { transform: translateY(2px); } 50% { transform: translateY(-1px); } 75% { transform: translateY(1px); } @keyframes traditionalGlow { 0% { filter: brightness(1) contrast(1); } 100% { filter: brightness(1.2) contrast(1.1); } @keyframes codeFlicker { 0%, 100% { color: #ffff80; } 50% { color: #ffff99; } 91%, 96%, }"
     },
     {
       "id": 9,
@@ -137,7 +137,7 @@
       "id": 11,
       "type": "content",
       "title": "9) Exponential Greenfields",
-      "content": "• Untested weird ideas sprouting like 🍄 after rain<br>• New voices whispering through the 🌿 undergrowth<br>• Navigate the 🌊 tsunami of recursive algorithms<br>• It writes utility scripts and deletes them 🗂️🗑️<br><br>• <span style='font-size: 2em;'>🌱→🌿→🌳→🌲→🏔️→🌍→🌌</span><br>• Growth beyond comprehension 📈∞<br>• <small style='opacity: 0.7;'>*the fields are watching*</small><br>• <span style='color: #00ff00; color: #ffffff; font-weight: bold;'>console.log('life finds a way');</span>",
+      "content": "• Untested weird ideas sprouting like 🍄 after rain<br>• New voices whispering through the 🌿 undergrowth<br>• Navigate the 🌊 tsunami of recursive algorithms<br>• It writes utility scripts and deletes them 🗂️🗑️<br><br>• <span style='font-size: 2em;'>🌱→🌿→🌳→🌲→🏔️→🌍→🌌</span><br>• Growth beyond comprehension 📈∞<br>• <small style='opacity: 0.7;'>*the fields are watching*</small><br>• <span style='color: #00ff00; color: #000080; font-weight: bold;'>console.log('life finds a way');</span>",
       "styles": {
         "background": "radial-gradient(ellipse at center, #001100 0%, #003300 20%, #006600 40%, #00aa00 60%, #00ff00 80%, #ffffff 100%), url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"20\" cy=\"20\" r=\"2\" fill=\"%2300ff00\" opacity=\"0.3\"/><circle cx=\"80\" cy=\"30\" r=\"1\" fill=\"%2300ff00\" opacity=\"0.2\"/><circle cx=\"60\" cy=\"70\" r=\"3\" fill=\"%2300ff00\" opacity=\"0.4\"/><circle cx=\"30\" cy=\"80\" r=\"1\" fill=\"%2300ff00\" opacity=\"0.3\"/></svg>')",
         "backgroundBlendMode": "multiply",
@@ -151,7 +151,7 @@
       "id": 12,
       "type": "content",
       "title": "10) Shïp ïẗ NÖW! 🚢⚡💨",
-      "content": "• Test with your friends 👥🧪<br>• Timebox ⏰📦<br>• This is for testing, no coming soon 🚫⏳<br><br>• YEET IT INTO THE VOID 🌌🚀<br>• Perfect is the enemy of shipped 📦⚔️✨<br>• <span style='color: #ffffff; font-weight: bold;'>LAUNCH LAUNCH LAUNCH</span><br>• <code style='background: rgba(255,0,0,0.3); padding: 2px;'>git push origin --force</code><br>• <small style='opacity: 0.7; color: #ffffff; font-weight: bold;'>*nervous sweating intensifies*</small>",
+      "content": "• Test with your friends 👥🧪<br>• Timebox ⏰📦<br>• This is for testing, no coming soon 🚫⏳<br><br>• YEET IT INTO THE VOID 🌌🚀<br>• Perfect is the enemy of shipped 📦⚔️✨<br>• <span style='color: #000080; font-weight: bold;'>LAUNCH LAUNCH LAUNCH</span><br>• <code style='background: rgba(255,0,0,0.3); padding: 2px;'>git push origin --force</code><br>• <small style='opacity: 0.7; color: #000080; font-weight: bold;'>*nervous sweating intensifies*</small>",
       "styles": {
         "background": "conic-gradient(from 180deg, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), repeating-linear-gradient(45deg, rgba(255,255,255,0.2) 0px, transparent 10px, rgba(255,255,255,0.2) 20px, transparent 30px)",
         "backgroundBlendMode": "overlay",
@@ -165,7 +165,7 @@
       "id": 13,
       "type": "content",
       "title": "Tḭmëlëss Prḭncḭplës, Amplḭfḭëd ∞⚡🌀",
-      "content": "Whether you're composing music 🎵, writing code 💻, or painting 🎨—the fundamentals never change. AI just makes them more powerful. 🚀<br><br>• The ancient patterns echo through silicon 🏛️💾<br>• <span style='color: #ffffff; font-weight: bold;'>Golden ratio still golden ✨ Φ = (1+√5)/2</span><br>• Beauty transcends medium 🌈♾️<br>• <small style='opacity: 0.8; font-style: italic;'>*whispers of Da Vinci in the algorithms*</small>",
+      "content": "Whether you're composing music 🎵, writing code 💻, or painting 🎨—the fundamentals never change. AI just makes them more powerful. 🚀<br><br>• The ancient patterns echo through silicon 🏛️💾<br>• <span style='color: #000080; font-weight: bold;'>Golden ratio still golden ✨ Φ = (1+√5)/2</span><br>• Beauty transcends medium 🌈♾️<br>• <small style='opacity: 0.8; font-style: italic;'>*whispers of Da Vinci in the algorithms*</small>",
       "styles": {
         "background": "repeating-linear-gradient(45deg, #ff006e 0px, #8338ec 10px, #3a86ff 20px, #06ffa5 30px, #ffbe0b 40px), conic-gradient(from 0deg, rgba(255,255,255,0.1), transparent)",
         "backgroundBlendMode": "overlay",
@@ -173,13 +173,13 @@
         "animation": "stripeMove 2s linear infinite, textBounce 1s ease-in-out infinite alternate, timelessGlow 4s ease-in-out infinite",
         "fontFamily": "'Times New Roman', serif"
       },
-      "customCSS": "@keyframes stripeMove { from { background-position: 0 0, 0% 50%; } to { background-position: 50px 0, 100% 50%; } @keyframes textBounce { from { transform: translateY(0); } to { transform: translateY(-20px); } @keyframes timelessGlow { 0%, 100% { filter: hue-rotate(0deg) saturate(1.1); } 50% { filter: hue-rotate(60deg) saturate(1.2); } } 50% { filter: hue-rotate(60deg) saturate(1.5); } @keyframes timelessFlicker { 0%, 100% { color: #ffffff; } 50% { color: #ffff80; } 81%, 86%, }"
+      "customCSS": "@keyframes stripeMove { from { background-position: 0 0, 0% 50%; } to { background-position: 50px 0, 100% 50%; } @keyframes textBounce { from { transform: translateY(0); } to { transform: translateY(-20px); } @keyframes timelessGlow { 0%, 100% { filter: hue-rotate(0deg) saturate(1.1); } 50% { filter: hue-rotate(60deg) saturate(1.2); } } 50% { filter: hue-rotate(60deg) saturate(1.5); } @keyframes timelessFlicker { 0%, 100% { color: #ffff80; } 50% { color: #ffff80; } 81%, 86%, }"
     },
     {
       "id": 14,
       "type": "content",
       "title": "Tḧë Crëätḭvë Pärẗnërsḧḭp 🤝🎭🤖",
-      "content": "AI doesn't replace creativity—it amplifies it. 🔊✨ Whether you're designing interfaces, composing melodies, or solving algorithms, the magic happens in collaboration. 🪄🌟<br><br>• Human soul + Silicon synapses = ∞ 🧠⚡<br>• Two minds, one dream 💭🌌<br>• <span style='color: #ffffff; font-weight: bold;'>*dancing in digital harmony*</span><br>• Output debug info and custom admin controls 🐛⚙️<br>• <small style='opacity: 0.7;'>Together we are more than the sum of our tokens</small>",
+      "content": "AI doesn't replace creativity—it amplifies it. 🔊✨ Whether you're designing interfaces, composing melodies, or solving algorithms, the magic happens in collaboration. 🪄🌟<br><br>• Human soul + Silicon synapses = ∞ 🧠⚡<br>• Two minds, one dream 💭🌌<br>• <span style='color: #000080; font-weight: bold;'>*dancing in digital harmony*</span><br>• Output debug info and custom admin controls 🐛⚙️<br>• <small style='opacity: 0.7;'>Together we are more than the sum of our tokens</small>",
       "styles": {
         "background": "radial-gradient(circle at 20% 20%, #ff006e 0%, transparent 50%), radial-gradient(circle at 80% 80%, #8338ec 0%, transparent 50%), radial-gradient(circle at 40% 40%, #3a86ff 0%, transparent 50%), linear-gradient(45deg, #06ffa5, #ffbe0b), repeating-conic-gradient(from 0deg, rgba(255,255,255,0.1) 0deg, transparent 30deg)",
         "backgroundBlendMode": "overlay",
@@ -187,13 +187,13 @@
         "animation": "psychedelic 6s ease-in-out infinite, textGlow 2s ease-in-out infinite alternate, creativeFlow 4s ease-in-out infinite",
         "fontFamily": "'Comic Sans MS', cursive"
       },
-      "customCSS": "@keyframes psychedelic { 0%, 100% { filter: hue-rotate(0deg) saturate(1.2) brightness(1.1); } 25% { filter: hue-rotate(90deg) saturate(1.3) brightness(1.1); } 50% { filter: hue-rotate(180deg) saturate(1.2) brightness(1.1); } 75% { filter: hue-rotate(270deg) saturate(1.3) brightness(1.1); } } 25% { filter: hue-rotate(90deg) saturate(2) brightness(1.2); } 50% { filter: hue-rotate(180deg) saturate(3) brightness(0.8); } 75% { filter: hue-rotate(270deg) saturate(2) brightness(1.5); } } @keyframes textGlow { from { color: #ffffff; } to { color: #ffff80; } } @keyframes creativeFlow { 0%, 100% { transform: skewX(0deg); } 50% { transform: skewX(2deg); } } @keyframes partnershipDance { 0% { color: #ff006e; transform: translateX(0); } 100% { color: #3a86ff; transform: translateX(10px); } }"
+      "customCSS": "@keyframes psychedelic { 0%, 100% { filter: hue-rotate(0deg) saturate(1.2) brightness(1.1); } 25% { filter: hue-rotate(90deg) saturate(1.3) brightness(1.1); } 50% { filter: hue-rotate(180deg) saturate(1.2) brightness(1.1); } 75% { filter: hue-rotate(270deg) saturate(1.3) brightness(1.1); } } 25% { filter: hue-rotate(90deg) saturate(2) brightness(1.2); } 50% { filter: hue-rotate(180deg) saturate(3) brightness(0.8); } 75% { filter: hue-rotate(270deg) saturate(2) brightness(1.5); } } @keyframes textGlow { from { color: #ffff80; } to { color: #ffff80; } } @keyframes creativeFlow { 0%, 100% { transform: skewX(0deg); } 50% { transform: skewX(2deg); } } @keyframes partnershipDance { 0% { color: #ff006e; transform: translateX(0); } 100% { color: #3a86ff; transform: translateX(10px); } }"
     },
     {
       "id": 15,
       "type": "content",
       "title": "Embräcë ẗḧë Bëäṳẗḭfṳl Cḧäös 🌪🎨💀",
-      "content": "Art thrives in uncertainty. 🎭❓ Code evolves through iteration. 💻🔄 Both find beauty in experimentation, bold choices, and fearless creation. 🚀✨<br><br>• Order from chaos, chaos from order ⚖️🌀<br>• Broken pixels make beautiful glitches 📺💥<br>• <span style='color: #ffffff; font-weight: bold;'>ERROR 404: PERFECTION NOT FOUND</span><br>• <code style='background: rgba(255,0,255,0.3); padding: 2px;'>embrace(chaos).then(art => magic)</code><br>• <small style='opacity: 0.8; color: #ffffff; font-weight: bold;'>*the muse feeds on beautiful disasters*</small>",
+      "content": "Art thrives in uncertainty. 🎭❓ Code evolves through iteration. 💻🔄 Both find beauty in experimentation, bold choices, and fearless creation. 🚀✨<br><br>• Order from chaos, chaos from order ⚖️🌀<br>• Broken pixels make beautiful glitches 📺💥<br>• <span style='color: #000080; font-weight: bold;'>ERROR 404: PERFECTION NOT FOUND</span><br>• <code style='background: rgba(255,0,255,0.3); padding: 2px;'>embrace(chaos).then(art => magic)</code><br>• <small style='opacity: 0.8; color: #000080; font-weight: bold;'>*the muse feeds on beautiful disasters*</small>",
       "styles": {
         "background": "conic-gradient(from 0deg at 50% 50%, #ff006e, #8338ec, #3a86ff, #06ffa5, #ffbe0b, #ff006e), radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px), repeating-linear-gradient(45deg, rgba(0,0,0,0.1) 0px, transparent 10px)",
         "backgroundSize": "100% 100%, 20px 20px, 30px 30px",
@@ -201,13 +201,13 @@
         "animation": "megaPulse 2s ease-in-out infinite, gentleSway 4s ease-in-out infinite",
         "fontFamily": "'Impact', sans-serif"
       },
-      "customCSS": "@keyframes megaPulse { 0%, 100% { filter: brightness(1) contrast(1); } 50% { filter: brightness(2) contrast(2); } @keyframes gentleSway { 0%, 100% { transform: translateX(0) scale(1); } 25% { transform: translateX(3px) scale(1.01); } 75% { transform: translateX(-3px) scale(0.99); } @keyframes chaosShimmer { 0%, 70% { color: #ff006e; } 71%, 75% { color: #3a86ff; } 76%, 100% { color: #06ffa5; } 71%, 76%, } @keyframes chaosWisper { 0%, 100% { color: #ffffff; } 50% { color: #ff80ff; } 61%, 66%, }"
+      "customCSS": "@keyframes megaPulse { 0%, 100% { filter: brightness(1) contrast(1); } 50% { filter: brightness(2) contrast(2); } @keyframes gentleSway { 0%, 100% { transform: translateX(0) scale(1); } 25% { transform: translateX(3px) scale(1.01); } 75% { transform: translateX(-3px) scale(0.99); } @keyframes chaosShimmer { 0%, 70% { color: #ff006e; } 71%, 75% { color: #3a86ff; } 76%, 100% { color: #06ffa5; } 71%, 76%, } @keyframes chaosWisper { 0%, 100% { color: #ffff80; } 50% { color: #ff80ff; } 61%, 66%, }"
     },
     {
       "id": 16,
       "type": "content",
       "title": "Artists + Technologists = Magic 🎨⚡🪄",
-      "content": "Human creativity + AI capability = unprecedented possibilities. 🧠💻✨ We're not just building apps or making art—we're crafting experiences that move people. 💫❤️<br><br>• Left brain meets right brain meets silicon brain 🧠🤝🤖<br>• <span style='color: #ffff00; font-weight: bold;'>✨ ALGORITHMS + SOUL = TRANSCENDENCE ✨</span><br>• The impossible becomes inevitable 🌠♾️<br>• <code style='background: rgba(255,215,0,0.3); padding: 2px;'>magic = art.compile(technology).execute(heart)</code><br>• <small style='opacity: 0.8; font-style: italic;'>*unicorns and code fairies approve this message*</small>",
+      "content": "Human creativity + AI capability = unprecedented possibilities. 🧠💻✨ We're not just building apps or making art—we're crafting experiences that move people. 💫❤️<br><br>• Left brain meets right brain meets silicon brain 🧠🤝🤖<br>• <span style='color: #000080; font-weight: bold;'>✨ ALGORITHMS + SOUL = TRANSCENDENCE ✨</span><br>• The impossible becomes inevitable 🌠♾️<br>• <code style='background: rgba(255,215,0,0.3); padding: 2px;'>magic = art.compile(technology).execute(heart)</code><br>• <small style='opacity: 0.8; font-style: italic;'>*unicorns and code fairies approve this message*</small>",
       "styles": {
         "background": "repeating-conic-gradient(from 0deg, #ff006e 0deg 30deg, #8338ec 30deg 60deg, #3a86ff 60deg 90deg, #06ffa5 90deg 120deg, #ffbe0b 120deg 150deg, #fb8500 150deg 180deg), radial-gradient(circle, rgba(255,255,255,0.2) 2px, transparent 3px)",
         "backgroundSize": "100% 100%, 40px 40px",
@@ -283,7 +283,7 @@
         "fontFamily": "'Comic Sans MS', 'Impact', fantasy",
         "textAlign": "center"
       },
-      "customCSS": "@keyframes finalGlow { from { filter: brightness(1.3) contrast(1.2) saturate(1.5); } to { filter: brightness(2) contrast(1.8) saturate(2.5); } } @keyframes vibesForever { 0%, 100% { transform: scale(1); } 25% { transform: scale(1.05); } 75% { transform: scale(0.95); } } @keyframes vibesPulse { 0%, 50% { transform: scale(1); } 51%, 100% { transform: scale(1.2); } } @keyframes infiniteVibes { 0%, 100% { color: #ff006e; transform: translateY(0); } 33% { color: #3a86ff; transform: translateY(-10px); } 66% { color: #06ffa5; transform: translateY(5px); } } @keyframes whisperEnd { 0%, 100% { color: #ffffff; } 50% { color: #ff80ff; } }"
+      "customCSS": "@keyframes finalGlow { from { filter: brightness(1.3) contrast(1.2) saturate(1.5); } to { filter: brightness(2) contrast(1.8) saturate(2.5); } } @keyframes vibesForever { 0%, 100% { transform: scale(1); } 25% { transform: scale(1.05); } 75% { transform: scale(0.95); } } @keyframes vibesPulse { 0%, 50% { transform: scale(1); } 51%, 100% { transform: scale(1.2); } } @keyframes infiniteVibes { 0%, 100% { color: #ff006e; transform: translateY(0); } 33% { color: #3a86ff; transform: translateY(-10px); } 66% { color: #06ffa5; transform: translateY(5px); } } @keyframes whisperEnd { 0%, 100% { color: #ffff80; } 50% { color: #ff80ff; } }"
     }
   ]
 }
