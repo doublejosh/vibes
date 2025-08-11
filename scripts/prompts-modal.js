@@ -39,6 +39,9 @@ const PromptsModal = {
         
         // Load prompts data
         this.loadPrompts();
+        
+        // Expose globally for access from other scripts
+        window.PromptsModal = this;
     },
 
     async loadPrompts() {
@@ -63,6 +66,74 @@ const PromptsModal = {
         this.render();
         this.modal.classList.remove('hidden');
         document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        
+        // Reset scroll position to top when opening normally
+        setTimeout(() => {
+            if (this.promptsList) {
+                this.promptsList.scrollTop = 0;
+            }
+        }, 50);
+    },
+
+    openAndScrollTo(promptId) {
+        console.log('🎯 Opening prompts modal and scrolling to prompt:', promptId);
+        this.render();
+        this.modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        
+        // Wait for render to complete, then scroll to prompt
+        if (promptId) {
+            // Reset scroll position first to ensure consistent behavior
+            setTimeout(() => {
+                if (this.promptsList) {
+                    this.promptsList.scrollTop = 0;
+                }
+                // Then scroll to the target prompt
+                setTimeout(() => {
+                    this.scrollToPrompt(promptId);
+                }, 50);
+            }, 50);
+        }
+    },
+
+    scrollToPrompt(promptId) {
+        const promptElement = document.querySelector(`[data-prompt-id="${promptId}"]`);
+        if (promptElement && this.promptsList) {
+            console.log('📍 Scrolling to prompt element:', promptId);
+            
+            // Get the element's position relative to the container
+            const elementOffsetTop = promptElement.offsetTop;
+            const containerHeight = this.promptsList.clientHeight;
+            const elementHeight = promptElement.offsetHeight;
+            
+            // Calculate scroll position to center the element in view
+            const scrollTop = Math.max(0, elementOffsetTop - (containerHeight / 2) + (elementHeight / 2));
+            
+            console.log('📊 Scroll calculation:', {
+                elementOffsetTop,
+                containerHeight,
+                elementHeight,
+                calculatedScrollTop: scrollTop
+            });
+            
+            // Scroll to the calculated position
+            this.promptsList.scrollTo({
+                top: scrollTop,
+                behavior: 'smooth'
+            });
+            
+            // Highlight the prompt briefly
+            promptElement.style.background = 'rgba(102, 126, 234, 0.2)';
+            promptElement.style.transition = 'background 0.3s ease';
+            setTimeout(() => {
+                promptElement.style.background = '';
+                setTimeout(() => {
+                    promptElement.style.transition = '';
+                }, 300);
+            }, 2000);
+        } else {
+            console.log('❌ Prompt element not found:', promptId);
+        }
     },
 
     close() {
@@ -77,7 +148,7 @@ const PromptsModal = {
         }
 
         const promptsHTML = this.prompts.map(prompt => `
-            <div class="modal-prompt-item">
+            <div class="modal-prompt-item" data-prompt-id="${prompt.id}">
                 <div class="prompt-header">
                     <span class="prompt-id">#${prompt.id}</span>
                 </div>

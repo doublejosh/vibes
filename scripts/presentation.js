@@ -435,17 +435,22 @@ const PromptSuggestions = {
         document.getElementById('prompt-suggestion-1').addEventListener('click', () => {
             this.onPromptClick(1);
         });
-        
-        document.getElementById('prompt-suggestion-2').addEventListener('click', () => {
-            this.onPromptClick(2);
-        });
     },
     
     onPromptClick(promptIndex) {
-        // Open the prompts modal when a suggestion is clicked
-        const promptsModal = document.getElementById('prompts-modal');
-        if (promptsModal) {
-            promptsModal.classList.remove('hidden');
+        // Get the prompt ID from the clicked suggestion
+        const promptElement = document.getElementById('prompt-suggestion-1');
+        const promptId = promptElement ? promptElement.dataset.promptId : null;
+        
+        // Open the prompts modal and scroll to the specific prompt
+        if (window.PromptsModal) {
+            window.PromptsModal.openAndScrollTo(promptId);
+        } else {
+            // Fallback: just open the modal
+            const promptsModal = document.getElementById('prompts-modal');
+            if (promptsModal) {
+                promptsModal.classList.remove('hidden');
+            }
         }
     },
     
@@ -454,16 +459,10 @@ const PromptSuggestions = {
         const suggestions = this.getRelevantPrompts(slideNumber);
         
         const prompt1 = document.getElementById('prompt-suggestion-1');
-        const prompt2 = document.getElementById('prompt-suggestion-2');
         
         if (suggestions.length >= 1) {
             prompt1.querySelector('.prompt-text').textContent = suggestions[0].prompt;
             prompt1.dataset.promptId = suggestions[0].id;
-        }
-        
-        if (suggestions.length >= 2) {
-            prompt2.querySelector('.prompt-text').textContent = suggestions[1].prompt;
-            prompt2.dataset.promptId = suggestions[1].id;
         }
     },
     
@@ -481,13 +480,13 @@ const PromptSuggestions = {
         }
         
         // If no relevant prompts found, get random unshown prompts
-        if (relevantPrompts.length < 2) {
+        if (relevantPrompts.length < 1) {
             const unshownPrompts = this.prompts.filter(prompt => 
                 !this.shownPrompts.has(prompt.id)
             );
             
             // Add random prompts to fill the gap
-            while (relevantPrompts.length < 2 && unshownPrompts.length > 0) {
+            while (relevantPrompts.length < 1 && unshownPrompts.length > 0) {
                 const randomIndex = Math.floor(Math.random() * unshownPrompts.length);
                 const randomPrompt = unshownPrompts.splice(randomIndex, 1)[0];
                 
@@ -505,7 +504,7 @@ const PromptSuggestions = {
             this.shownPrompts.clear();
         }
         
-        return relevantPrompts.slice(0, 2);
+        return relevantPrompts.slice(0, 1);
     },
     
     getSlideKeywords(slideNumber) {
