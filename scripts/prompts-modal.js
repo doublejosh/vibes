@@ -72,12 +72,12 @@ const PromptsModal = {
 
     render() {
         if (!this.prompts.length) {
-            this.promptsList.innerHTML = '<div class="prompt-item">Loading prompts...</div>';
+            this.promptsList.innerHTML = '<div class="modal-prompt-item">Loading prompts...</div>';
             return;
         }
 
         const promptsHTML = this.prompts.map(prompt => `
-            <div class="prompt-item">
+            <div class="modal-prompt-item">
                 <div class="prompt-header">
                     <span class="prompt-id">#${prompt.id}</span>
                 </div>

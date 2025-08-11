@@ -58,3 +58,8 @@
 - Test with your friends.
 - Timebox
 - This is for testing, no coming soon
+
+11) Watch it like a hawk.
+- Open the console.
+- Confirm what it says.
+- Don't be afraid to wipe changes or start a new chat.

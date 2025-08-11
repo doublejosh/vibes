@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <script src="scripts/presentation.js?v=1754876057"></script>
+    <script src="scripts/navigation.js?v=1754876057"></script>
+    <script src="scripts/prompts-modal.js?v=1754876057"></script>
+    <script src="scripts/docs-modal.js?v=1754876057"></script>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>Vibes Presentation</title>
-    <link rel="stylesheet" href="styles/main.css?v=20250810b">
-    <link rel="stylesheet" href="styles/slides.css?v=20250810b">
+    <link rel="stylesheet" href="styles/main.css?v=1754876297&nocache=true">
+    <link rel="stylesheet" href="styles/slides.css?v=1754876297&nocache=true">
 </head>
 <body>
     <div id="presentation-container">
@@ -24,7 +28,10 @@
             <button id="prev-slide" aria-label="Previous slide">‹</button>
             <span id="slide-counter">1 / 20</span>
             <button id="next-slide" aria-label="Next slide">›</button>
+            <button id="styles-toggle" aria-label="Toggle custom styles" title="Toggle custom styles on/off">styles</button>
             <button id="prompts-btn" aria-label="View prompts">prompts</button>
+            <button id="readme-btn" aria-label="View README">readme</button>
+            <button id="points-btn" aria-label="View POINTS">points</button>
         </nav>
 
         <!-- Fixed prompt suggestions - left and right sides -->
@@ -56,6 +63,36 @@
                 </div>
             </div>
         </div>
+
+        <!-- README Modal -->
+        <div id="readme-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Project README</h2>
+                    <button class="close-btn" data-modal="readme-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="readme-content" class="markdown-content">
+                        <!-- README content will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- POINTS Modal -->
+        <div id="points-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Development Points</h2>
+                    <button class="close-btn" data-modal="points-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="points-content" class="markdown-content">
+                        <!-- POINTS content will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Loading indicator -->
@@ -64,9 +101,10 @@
     </div>
 
     <!-- Scripts -->
-    <script src="scripts/presentation.js?v=20250810"></script>
-    <script src="scripts/navigation.js?v=20250810"></script>
-    <script src="scripts/prompts-modal.js?v=20250810"></script>
+    <script src="scripts/presentation.js?v=1754876057"></script>
+    <script src="scripts/navigation.js?v=1754876057"></script>
+    <script src="scripts/prompts-modal.js?v=1754876057"></script>
+    <script src="scripts/docs-modal.js?v=1754876057"></script>
     <script>
         // Initialize presentation when page loads
         document.addEventListener('DOMContentLoaded', function() {

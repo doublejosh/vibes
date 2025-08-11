@@ -4,6 +4,7 @@ const PresentationApp = {
     totalSlides: 20,
     slides: [],
     styleSheet: null,
+    customStylesEnabled: true, // Default to enabled
     
     async init() {
         try {
@@ -202,8 +203,8 @@ const PresentationApp = {
             existingInfo.remove();
         }
         
-        // Add new animation info if slide has custom animations
-        if (slide.customCSS) {
+        // Add new animation info if slide has custom animations and custom styles are enabled
+        if (this.customStylesEnabled && slide.customCSS) {
             const animationNames = this.extractAnimationNames(slide.customCSS);
             if (animationNames.length > 0) {
                 const animationDiv = document.createElement('div');
@@ -248,10 +249,25 @@ const PresentationApp = {
     },
     
     applySlideStyles(slide) {
-        if (!slide.styles || !this.styleSheet) return;
+        console.log('applySlideStyles called for slide:', slide.id);
+        console.log('customStylesEnabled:', this.customStylesEnabled);
+        console.log('slide.styles:', slide.styles);
+        console.log('slide.customCSS exists:', !!slide.customCSS);
+        
+        if (!this.styleSheet) {
+            console.error('styleSheet not found!');
+            return;
+        }
         
         // Clear previous slide styles
         this.styleSheet.textContent = '';
+        console.log('Cleared previous styles');
+        
+        // Only apply styles if custom styles are enabled
+        if (!this.customStylesEnabled || !slide.styles) {
+            console.log('Custom styles disabled or no styles to apply');
+            return;
+        }
         
         // Convert styles object to CSS
         let cssRules = '';
@@ -267,15 +283,18 @@ const PresentationApp = {
         
         if (styleDeclarations) {
             cssRules += `${slideSelector} {\n${styleDeclarations}}\n`;
+            console.log('Built style declarations');
         }
         
         // Add any custom CSS classes if defined
         if (slide.customCSS) {
             cssRules += `\n${slide.customCSS}\n`;
+            console.log('Added custom CSS');
         }
         
         // Apply the styles
         this.styleSheet.textContent = cssRules;
+        console.log('Applied CSS rules:', cssRules);
         
         // Apply progressive styles (styles that accumulate)
         this.applyProgressiveStyles(slide);
@@ -331,6 +350,28 @@ const PresentationApp = {
         } else {
             document.exitFullscreen();
         }
+    },
+    
+    toggleCustomStyles(enabled) {
+        console.log(`toggleCustomStyles called with enabled: ${enabled}`);
+        console.log(`Current customStylesEnabled: ${this.customStylesEnabled}`);
+        
+        this.customStylesEnabled = enabled;
+        console.log(`Set customStylesEnabled to: ${this.customStylesEnabled}`);
+        
+        // Re-apply styles for current slide
+        const currentSlide = this.slides.find(slide => slide.id === this.currentSlide);
+        console.log('Current slide:', currentSlide);
+        
+        if (currentSlide) {
+            console.log('Re-applying styles for current slide');
+            this.applySlideStyles(currentSlide);
+            
+            // Update animation info
+            this.updateAnimationInfo(currentSlide);
+        }
+        
+        console.log(`Custom styles ${enabled ? 'enabled' : 'disabled'}`);
     },
     
     extractAnimationNames(customCSS) {
