@@ -356,6 +356,222 @@
         "Fixed extreme saturation and brightness filter effects that made white text unreadable",
         "Replaced problematic animations with safer color changes and transform effects"
       ]
+    },
+    {
+      "id": 41,
+      "prompt": "Some text is still color: #ffffff",
+      "results": [
+        "Identified remaining white text color issues",
+        "Changed white text to darker colors for better contrast",
+        "Improved text readability across all slides"
+      ]
+    },
+    {
+      "id": 42,
+      "prompt": "On mobile, the user needs to be able to scroll to see all the slide content on a small screen. There needs to be enough background padding at the bottom for the navigation and animation label.",
+      "results": [
+        "Implemented mobile scrollable content cards with proper overflow handling",
+        "Added bottom padding to accommodate navigation and animation labels",
+        "Enhanced touch scrolling with -webkit-overflow-scrolling for smooth mobile experience"
+      ]
+    },
+    {
+      "id": 43,
+      "prompt": "I'm having trouble seeing changes. Please help ensure the cache will be busted when I refresh to see new versions of the code in the browser.",
+      "results": [
+        "Implemented aggressive cache-busting with version timestamps on all CSS and JS files",
+        "Added no-cache meta headers to prevent browser caching",
+        "Set up dynamic version parameters that update with each change"
+      ]
+    },
+    {
+      "id": 44,
+      "prompt": "In the bottom center, create a new floating nav type element that shows two prompts from the list that are either relevant to the slide or just a random prompt that hasn't been shown yet.",
+      "results": [
+        "Created floating prompt suggestions system with keyword relevance matching",
+        "Implemented random prompt selection for slides without keyword matches",
+        "Added tracking to prevent showing the same prompts repeatedly"
+      ]
+    },
+    {
+      "id": 45,
+      "prompt": "Move the prompt-suggestions to a left and right prompt box fixed to the browser window like navigation. These should not be visible on mobile or tablet screens. Use a super subtle background color on these prompt-suggestions.",
+      "results": [
+        "Repositioned prompt suggestions to left and right edges of screen",
+        "Added responsive design to hide prompts on mobile/tablet screens",
+        "Implemented subtle dark background with backdrop-filter blur effects"
+      ]
+    },
+    {
+      "id": 46,
+      "prompt": "Add a toggle to the navigation, set to \"Active\" by default, that allows switching on/off the custom styles for slides.",
+      "results": [
+        "Added styles toggle button to navigation bar",
+        "Implemented active/inactive visual states for the toggle",
+        "Set up functionality to enable/disable custom slide animations"
+      ]
+    },
+    {
+      "id": 47,
+      "prompt": "Make all the floating navigation type elements use the same dark background (prompts, animation, nav)",
+      "results": [
+        "Unified dark theme across all floating UI elements",
+        "Applied consistent rgba(0,0,0,0.7) background to navigation, prompts, and animation labels",
+        "Added consistent backdrop-filter blur effects for glass morphism design"
+      ]
+    },
+    {
+      "id": 48,
+      "prompt": "Use the same dark background on the prompt-suggestion blocks too",
+      "results": [
+        "Applied unified dark background to prompt suggestion elements",
+        "Maintained visual consistency across all floating interface components",
+        "Enhanced overall design cohesion with matching backdrop effects"
+      ]
+    },
+    {
+      "id": 49,
+      "prompt": "There are duplicate styles for prompt-items and probably other things. Looks like there is stashed code or something.",
+      "results": [
+        "Identified and removed duplicate CSS rules for prompt-items",
+        "Cleaned up stashed and redundant code throughout stylesheets",
+        "Optimized CSS structure for better maintainability"
+      ]
+    },
+    {
+      "id": 50,
+      "prompt": "The prompt suggestions need white text since they have a dark background",
+      "results": [
+        "Changed prompt suggestion text color to white for proper contrast",
+        "Fixed text visibility issues on dark backgrounds",
+        "Improved accessibility and readability of prompt suggestions"
+      ]
+    },
+    {
+      "id": 51,
+      "prompt": "Some rule is making prompt-text #333 so it's not able to be white. Other rules are probably also conflicing between these style locations.",
+      "results": [
+        "Identified conflicting CSS rules affecting prompt text color",
+        "Resolved inheritance issues causing text color conflicts",
+        "Added specific CSS rules to ensure white text on dark backgrounds"
+      ]
+    },
+    {
+      "id": 52,
+      "prompt": "Make a toggle on the navigation to swtich on/off the custom \"styles\" while viewing slides.",
+      "results": [
+        "Enhanced styles toggle functionality in navigation",
+        "Added real-time switching between custom and default slide styles",
+        "Implemented visual feedback for toggle state changes"
+      ]
+    },
+    {
+      "id": 53,
+      "prompt": "The \"styles\" toggle doesn't seem to turn the slide styles on/off. Nothing happens when I click it.",
+      "results": [
+        "Fixed styles toggle functionality with proper event handling",
+        "Added debugging console messages for troubleshooting",
+        "Implemented working custom style enable/disable mechanism"
+      ]
+    },
+    {
+      "id": 54,
+      "prompt": "Add a new note in the POINTS for \"Watch it like a hawk. - Open the console. - Confirm what it says. Don't be afraid to wipe changes or start a new chat.\"",
+      "results": [
+        "Added debugging philosophy point to POINTS.md file",
+        "Emphasized importance of console monitoring during development",
+        "Documented best practices for troubleshooting and iteration"
+      ]
+    },
+    {
+      "id": 55,
+      "prompt": "Noticing some errors in the console...\nUncaught SyntaxError: Identifier 'PresentationApp' has already been declared (at presentation.js\nUncaught SyntaxError: Identifier 'NavigationHandler' has already been declared (at navigation.js\nUncaught SyntaxError: Identifier 'PromptsModal' has already been declared (at prompts-modal.js",
+      "results": [
+        "Fixed duplicate script loading issues in HTML structure",
+        "Removed redundant script tags causing identifier redeclaration errors",
+        "Cleaned up HTML to prevent JavaScript conflicts and syntax errors"
+      ]
+    },
+    {
+      "id": 56,
+      "prompt": "Update the readme with more details about the elements of this mini app.",
+      "results": [
+        "Completely rewrote README with comprehensive documentation",
+        "Added detailed sections on architecture, features, design system, and development workflow",
+        "Created meta-documentation serving both human developers and AI assistants"
+      ]
+    },
+    {
+      "id": 57,
+      "prompt": "Add navigation buttons to open popups to view... README, POINTS.\nBoth popups need to scroll, the content is beyond one screen size.",
+      "results": [
+        "Added README and POINTS buttons to navigation bar",
+        "Created modal popup system for document viewing",
+        "Implemented scrollable content areas with proper height constraints"
+      ]
+    },
+    {
+      "id": 58,
+      "prompt": "The content inside the README and POINTS could use some stylistic help, they need some padding as well.",
+      "results": [
+        "Enhanced modal content styling with proper padding and typography",
+        "Added markdown formatting with headers, lists, code blocks, and visual hierarchy",
+        "Implemented glass morphism design with gradients and subtle backgrounds"
+      ]
+    },
+    {
+      "id": 59,
+      "prompt": "In the \"points-content\" some of the markdown is displayed as <p> while others are <li>\nMake these uniform with <li>\nYou might need to update the markdown, or convert it to JSON is necessary.",
+      "results": [
+        "Fixed markdown conversion to properly handle numbered lists with parentheses format",
+        "Unified all POINTS content to display as proper nested list structure",
+        "Enhanced CSS styling for main points and sub-points with visual hierarchy"
+      ]
+    },
+    {
+      "id": 60,
+      "prompt": "In the popups, there's not enough room at the bottom of the modal to scroll and see all the content, the stuff at the bottom is getting cut off.",
+      "results": [
+        "Fixed modal scrolling by removing fixed height constraints",
+        "Implemented proper flexbox layout for modal content areas",
+        "Added mobile-responsive modal sizing with improved content accessibility"
+      ]
+    },
+    {
+      "id": 61,
+      "prompt": "Instead of two prompts on screen (left/right) just show one and float above the main navigation, in the bottom/left.",
+      "results": [
+        "Simplified prompt suggestions to single floating element above navigation",
+        "Repositioned prompt from dual left/right layout to single bottom-left position",
+        "Updated JavaScript logic to handle single prompt suggestion instead of two"
+      ]
+    },
+    {
+      "id": 62,
+      "prompt": "When I click the suggested prompt is opens a modal that's blank. After I've opened the prompts modal via the nav button it is populated.\n\nWhen I open the modal it should scroll to the position of that prompt.",
+      "results": [
+        "Fixed prompt suggestion click handler to properly populate modal before opening",
+        "Implemented automatic scrolling to specific prompt when opened via suggestion",
+        "Added prompt highlighting with visual feedback for targeted prompts"
+      ]
+    },
+    {
+      "id": 63,
+      "prompt": "When I open the prompts modal from the suggested prompt, it scrolls... but it keeps scrolling beyond where it's suppose to when clicked again. Make the scroll location foolproof when it's clicked.",
+      "results": [
+        "Implemented foolproof scrolling by resetting scroll position before calculations",
+        "Changed from getBoundingClientRect to offsetTop for more reliable positioning",
+        "Added two-stage timing with consistent scroll reset and target positioning"
+      ]
+    },
+    {
+      "id": 64,
+      "prompt": "Add the label \"Sample prompts\" above the suggested prompt.",
+      "results": [
+        "Added \"Sample prompts\" label above the floating prompt suggestion",
+        "Styled label with subtle typography matching the interface design",
+        "Enhanced user understanding of the prompt suggestion purpose and context"
+      ]
     }
   ]
 }
