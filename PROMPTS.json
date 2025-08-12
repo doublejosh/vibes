@@ -566,7 +566,7 @@
     },
     {
       "id": 64,
-      "prompt": "Add the label \"Sample prompts\" above the suggested prompt.",
+      "prompt": "Add the label \"Sample prompts\" above the suggested prompt, in the box so it's readable on all the slide backgrounds.",
       "results": [
         "Added \"Sample prompts\" label above the floating prompt suggestion",
         "Styled label with subtle typography matching the interface design",
