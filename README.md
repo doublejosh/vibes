@@ -1,5 +1,7 @@
 # Vibes Presentation
 
+**[🔗 View on GitHub](https://github.com/doublejosh/vibes)**
+
 A dynamic 20-slide presentation showcasing "Vibe Coding: AI-assisted development" - built collaboratively with HTML, CSS, JavaScript, and Claude Sonnet 3.5. This project demonstrates modern web development workflows, interactive features, and the creative partnership between human developers and AI.
 
 ## 🚀 Getting Started
@@ -191,10 +193,6 @@ This project demonstrates:
 
 This README itself serves as a **meta-document** - documentation that evolves with the project, serving both human developers and AI assistants in understanding the codebase structure, functionality, and development philosophy.
 
-## 🔗 Repository
-
-View the full source code and contribute to this project:
-**[https://github.com/doublejosh/vibes](https://github.com/doublejosh/vibes)**
 
 ---
 
