@@ -191,6 +191,11 @@ This project demonstrates:
 
 This README itself serves as a **meta-document** - documentation that evolves with the project, serving both human developers and AI assistants in understanding the codebase structure, functionality, and development philosophy.
 
+## 🔗 Repository
+
+View the full source code and contribute to this project:
+**[https://github.com/doublejosh/vibes](https://github.com/doublejosh/vibes)**
+
 ---
 
 *Built with curiosity, iteration, and the power of human-AI collaboration. 🤖❤️👨‍💻*
