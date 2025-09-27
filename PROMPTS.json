@@ -572,6 +572,15 @@
         "Styled label with subtle typography matching the interface design",
         "Enhanced user understanding of the prompt suggestion purpose and context"
       ]
+    },
+    {
+      "id": 65,
+      "prompt": "Change the weird characrters used in slide titles, swap those back to 'normal' alpha letters. Update slides.json",
+      "results": [
+        "Replaced unusual characters in slide titles with standard alphanumeric text",
+        "Updated slides.json to reflect new readable titles",
+        "Improved overall accessibility and clarity of slide headings"
+      ]
     }
   ]
 }
